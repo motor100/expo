@@ -1,0 +1,99 @@
+// USER VARIABLES SECTION
+
+$blackcolor: #000; // Black Color
+$whitecolor: #fff; // White Color
+$backgroundcolor: #161716; // Background Color
+$accentcolor: #E5B48A; // Accent Color (Gold)
+$lightgreycolor: #8B8B8B; // Light Grey Color
+$darkgreycolor: #515151; // Dark Grey Color
+
+$fontsize: 16px; // Font Size
+$lineheight: 1.5; // Document Line Height
+$userfont: 'manrope', sans-serif; // User Font Family
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 24px;
+$gutter: $grid-gutter-width;
+
+// IMPORT SECTION
+
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+// Обязательные
+// @import "../node_modules/bootstrap/scss/functions";
+
+// Обязательные
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/variables-dark";
+// @import "../node_modules/bootstrap/scss/maps";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+
+// Дополнительные компоненты
+// @import "../node_modules/bootstrap/scss/containers";
+// @import "../node_modules/bootstrap/scss/grid";
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format('woff2');
+  }
+}
+
+// Ubuntu font
+// @include font('ubuntu-light', normal, 400, '../../public/fonts/ubuntu-light.woff2');
+// @include font('ubuntu', normal, 400, '../../public/fonts/ubuntu-regular.woff2');
+// @include font('ubuntu-medium', normal, 400, '../../public/fonts/ubuntu-medium.woff2');
+// @include font('ubuntu-bold', normal, 400, '../../public/fonts/ubuntu-bold.woff2');
+
+// Gabarito font
+// @include font('gabarito', normal, 400, '../../public/fonts/gabarito-regular.woff2');
+// @include font('gabarito-medium', normal, 400, '../../public/fonts/gabarito-medium.woff2');
+// @include font('gabarito-semibold', normal, 400, '../../public/fonts/gabarito-semibold.woff2');
+// @include font('gabarito-bold', normal, 400, '../../public/fonts/gabarito-bold.woff2');
+
+// Manrope font
+@include font('manrope-light', normal, 400, '../../public/fonts/manrope-light.woff2');
+@include font('manrope', normal, 400, '../../public/fonts/manrope-regular.woff2');
+@include font('manrope-medium', normal, 400, '../../public/fonts/manrope-medium.woff2');
+@include font('manrope-semibold', normal, 400, '../../public/fonts/manrope-semibold.woff2');
+@include font('manrope-bold', normal, 400, '../../public/fonts/manrope-bold.woff2');
+
+// Open Sans font
+@include font('opensans', normal, 400, '../../public/fonts/opensans-regular.woff2');
+@include font('opensans-medium', normal, 400, '../../public/fonts/opensans-medium.woff2');
+@include font('opensans-semibold', normal, 400, '../../public/fonts/opensans-semibold.woff2');
+@include font('opensans-bold', normal, 400, '../../public/fonts/opensans-bold.woff2');
+
+
+
+// GENERAL DOCUMENT STYLES
+
+// ::placeholder
+//   color: #7f7f7f
+
+* {
+  box-sizing: border-box;
+}
+
+input, textarea {
+  outline: none;
+}
+
+html {
+  font-size: $fontsize;
+}
+
+body {
+  font-family: $userfont;
+  line-height: $lineheight;
+  color: $whitecolor;
+  min-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+}
