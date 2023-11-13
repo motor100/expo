@@ -272,41 +272,15 @@
   <div id="callback-modal" class="modal-window callback-modal">
     <div class="modal-wrapper">
       <div class="modal-area">
-        <div class="modal-close">
-          <div class="close"></div>
+        <div class="container">
+          <div class="modal-close-wrapper">
+            <div class="modal-close">
+              <div class="close"></div>
+            </div>
+          </div>
         </div>
-        <div class="modal-title">Оставить заявку</div>
-        <form id="callback-modal-form" class="form" method="post">
-          <div class="form-group">
-            <label for="name-callback-modal" class="label">Имя <span class="accentcolor">*</span></label>
-            <input type="text" name="name" id="name-callback-modal" class="input-field js-name-callback-modal" required minlength="3" maxlength="20">
-          </div>
-          <div class="form-group">
-            <label for="email-callback-modal" class="label">E-mail <span class="accentcolor">*</span></label>
-            <input type="email" name="email" id="email-callback-modal" class="input-field js-email-callback-modal" required minlength="3" maxlength="50">
-          </div>
-          <div class="form-group">
-            <label for="phone-callback-modal" class="label">Телефон <span class="accentcolor">*</span></label>
-            <input type="text" name="phone" id="phone-callback-modal" class="input-field js-phone-callback-modal js-input-phone-mask" required size="18">
-          </div>
-          <div class="form-group">
-            <label for="message-callback-modal" class="label">Сообщение</label>
-            <textarea name="message" id="message-callback-modal" class="input-field textarea" minlength="3" maxlength="100"></textarea>
-          </div>
-          <div class="checkbox-wrapper">
-            <input type="checkbox" name="checkbox-agree" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-agree-callback-modal" checked required>
-            <label for="checkbox-agree-callback-modal" class="custom-checkbox-label"></label>
-            <span class="checkbox-text">Согласен на обработку персональных данных</span>
-          </div>
-          <div class="checkbox-wrapper mb25">
-            <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
-            <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
-            <span class="checkbox-text">Ознакомлен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
-          </div>
-
-          @csrf
-          <button type="button" id="callback-submit-btn" class="primary-btn modal-submit-btn btn-415">ОТПРАВИТЬ СООБЩЕНИЕ</button>
-        </form>
+        
+        @include('ticket')
       </div>
     </div>
   </div>

@@ -249,7 +249,7 @@ p {
 
     .phone-wrapper {
       display: flex;
-      padding: 9px 0 0 0;
+      padding: 12px 0 0 0;
       justify-content: flex-end;
     }
     .phone-img {
@@ -284,8 +284,7 @@ p {
       }
     }
     .become-a-member-btn {
-      padding-left: 18px;
-      padding-right: 18px;
+      padding: 18px 38px;
     }
     .main-slider-wrapper {
       position: absolute;
@@ -1484,8 +1483,6 @@ p {
   }
 }
 
-
-
 // Главная секция
 .main-section {
   height: 700px;
@@ -1809,7 +1806,7 @@ p {
   }
 }
 
-
+// callback section
 .callback-section {
   .callback {
     position: relative;
@@ -1964,7 +1961,6 @@ p {
   }
 }
 
-
 .footer {
   padding: 60px 0 30px 0;
   background-color: $blackcolor;
@@ -2050,7 +2046,6 @@ p {
   }
 }
 
-
 // modal
 .modal-window {
   display: none;
@@ -2069,7 +2064,7 @@ p {
     left: 0;
     right: 0;
     top: 10px;
-    padding: 0 12px;
+    padding: 0;
     opacity: 0;
     visibility: hidden;
     transition: all .3s;
@@ -2080,36 +2075,37 @@ p {
   }
   .modal-area {
     position: relative;
-    max-width: 650px;
     margin: 0 auto;
-    padding: 25px 90px;
-    border-radius: 5px;
-    background-color: #fff;
+    padding: 65px 0;
+    background-color: $blackcolor;
     overflow: hidden;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  }
+  .modal-close-wrapper {
+    position: relative;
   }
   .modal-close {
     position: absolute;
-    top: 35px;
-    right: 25px;
+    top: -55px;
+    right: 0;
     cursor: pointer;
   }
   .close {
     position: relative;
-    width: 21px;
-    height: 21px;
-    border-radius: 3px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: $lightgreycolor;
   }
   .close:before,
   .close:after { 
     content: "";
     position: absolute;
-    top: 0;
-    left: 9px;
-    width: 2px;
+    left: 20px;
+    top: 10px;
+    width: 3px;
     height: 20px;
     border-radius: 2px;
-    // background-color: $greycolor;
+    background-color: $whitecolor;
     transition: background-color .3s;
   }
   .close:before {

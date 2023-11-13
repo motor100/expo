@@ -15,7 +15,7 @@
       <div class="main-title">Выставка <span class="accentcolor">элитной</span><br>зарубежной недвижимости</div>
       <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br>недвижимости в <span class="text-bold">Европе и Азии</span></div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
+        <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
         <a href="/for-participants" class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</a>
       </div>
     </div>

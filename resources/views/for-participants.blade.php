@@ -266,8 +266,11 @@
     </div>
   </div>
 
+  
+
   <div class="ticket-section section">
-    <div class="labels">
+    @include('ticket')
+    <!-- <div class="labels">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -326,7 +329,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="rezult-section section">

@@ -73,3 +73,51 @@ if (typeof(menuItem) != "undefined" && menuItem !== null) {
   asideItemLink[menuItem].classList.add('active');
 }
 
+
+// Окна
+const modalWindow = document.querySelectorAll('.modal-window');
+const callbackBtns = document.querySelectorAll('.js-callback-btn');
+const callbackModal = document.querySelector('#callback-modal');
+const modalCloseBtn = document.querySelector('.modal-window .modal-close');
+
+function modalWindowOpen(win) {
+  // Закрытие мобильного меню
+  // closeMobileMenu();
+  // Открытие окна
+  body.classList.add('overflow-hidden');
+  win.classList.add('active');
+  setTimeout(() => {
+    win.childNodes[1].classList.add('active');
+  }, 200);
+}
+
+function modalWindowClose(win) {
+  body.classList.remove('overflow-hidden');
+  win.childNodes[1].classList.remove('active');
+  setTimeout(() => {
+    win.classList.remove('active');
+  }, 300);
+}
+
+callbackBtns.forEach((item) => {
+  item.onclick = () => {
+    modalWindowOpen(callbackModal);
+  }
+});
+
+modalCloseBtn.onclick = () => {
+  modalWindowClose(callbackModal);
+}
+
+// Закрытие окна если клик за его пределами
+for (let i = 0; i < modalWindow.length; i++) {
+  modalWindow[i].onclick = function(event) {
+    let classList = event.target.classList;
+    for (let j = 0; j < classList.length; j++) {
+      if (classList[j] == "modal-wrapper" || classList[j] == "modal-window" || classList[j] == "ticket-wrapper") {
+        modalWindowClose(modalWindow[i])
+      }
+    }
+  }
+}
+
