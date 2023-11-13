@@ -12,7 +12,7 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title">Выставка <span class="accentcolor">элитной</span><br>зарубежной недвижимости</div>
+      <div class="main-title _anim-items _anim-no-hide">Выставка <span class="accentcolor">элитной</span><br>зарубежной недвижимости</div>
       <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br>недвижимости в <span class="text-bold">Европе и Азии</span></div>
       <div class="action-btns">
         <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
@@ -38,7 +38,7 @@
 
   <div id="advantages-section" class="advantages-section section">
     <div class="container">
-      <div class="section-title">Преимущества<br><span class="accentcolor">выставки-конференции</span></div>
+      <div class="section-title _anim-items _anim-no-hide">Преимущества<br><span class="accentcolor">выставки-конференции</span></div>
       <div class="flex-container">
         <div class="left">
           <div class="left-item">
@@ -88,7 +88,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <div class="section-title">Участники<br><span class="accentcolor">выставки</span></div>
+            <div class="section-title _anim-items _anim-no-hide">Участники<br><span class="accentcolor">выставки</span></div>
             <div class="participants-description">
               <div class="participants-description-item">
                 <div class="participants-description-title-wrapper">
@@ -332,7 +332,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="section-title"><span class="accentcolor">Мы гордимся</span></div>
+            <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Мы гордимся</span></div>
             <div class="section-title__text">что имеем поддержку и сотрудничаем<br> с <span class="accent">ведущими информационными партнёрами</span>,<br> которые продвигают и поддерживают нашу выставку</div>
           </div>
           <div class="col-md-6">

@@ -8,7 +8,7 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title">Выставка недвижимости <span class="accentcolor">в Москве<br>12 октября 2023</span></div>
+      <div class="main-title _anim-items _anim-no-hide">Выставка недвижимости <span class="accentcolor">в Москве<br>12 октября 2023</span></div>
       <div class="main-text">Москва, Ritz Carlton Hotel </div>
       <button type="button" class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
     </div>
@@ -19,7 +19,7 @@
   <div class="advantages-section section">
     <div class="advantages-section-title-wrapper">
       <div class="container">
-        <div class="section-title">Преимущества<br><span class="accentcolor">выставки-конференции</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Преимущества<br><span class="accentcolor">выставки-конференции</span></div>
       </div>
     </div>
 

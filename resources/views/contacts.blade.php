@@ -8,7 +8,7 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title">Наши <span class="accentcolor">контакты</span></div>
+      <div class="main-title _anim-items _anim-no-hide">Наши <span class="accentcolor">контакты</span></div>
 
       <div class="main-contacts">
         <div class="main-contacts-office">Головной офис<br>«LPE Luxury Property Expo»</div>

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="section-title">АФИША<br>ВЫСТАВОК<br><span class="accentcolor">В РАЗНЫХ ГОРОДАХ</span></div>
+          <div class="section-title _anim-items _anim-no-hide">АФИША<br>ВЫСТАВОК<br><span class="accentcolor">В РАЗНЫХ ГОРОДАХ</span></div>
           <div class="cities-section-description">Здесь предоставлены постоянные участники наших мероприятий. Для того, чтобы посмотреть всех участников, перейдите по ссылке ниже.</div>
           <div class="cities-section-see-all">
             <a href="/poster">Смотреть афишу всех городов</a>

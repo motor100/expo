@@ -84,6 +84,13 @@ p {
   font-size: 56px;
   line-height: 1.2;
   text-transform: uppercase;
+  transform: translate(10%, 0);
+  opacity: 0;
+  transition: transform 0.5s ease 0.4s, opacity 0.5s ease 0.4s;
+}
+.section-title._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 .fake-section {
   height: 60px;
@@ -104,7 +111,7 @@ p {
   transition: background-color .3s;
 }
 .primary-btn:hover {
-  background-color: red;
+  background-color: #D77E32;
 }
 .secondary-btn {
   display: block;
@@ -121,7 +128,7 @@ p {
   transition: background-color .3s;
 }
 .secondary-btn:hover {
-  background-color: green;
+  background-color: #DEDEDE;
 }
 .preloader {
   position: fixed;
@@ -152,8 +159,18 @@ p {
   display: none;
   z-index: -1;
 }
+._anim__show {
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+._anim__show._active,
+._active ._anim__show {
+  transform: translate(0, 0);
+  opacity: 1;
+}
 
-
+// header
 .header {
   position: absolute;
   top: 0;
@@ -276,7 +293,6 @@ p {
 
   .main-section {
     position: relative;
-    // background: url(/resources/img/main-section-bg.png) center no-repeat;
     .main-text {
       margin: 0 0 80px 0;
       .text-bold {
@@ -1492,6 +1508,13 @@ p {
     font-size: 48px;
     line-height: 1.2;
     text-transform: uppercase;
+    transform: translate(10%, 0);
+    opacity: 0;
+    transition: transform 0.5s ease 0.4s, opacity 0.5s ease 0.4s;
+  }
+  .main-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
   .main-text {
     margin: 0 0 43px 0;

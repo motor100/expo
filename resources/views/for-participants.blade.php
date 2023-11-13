@@ -8,7 +8,7 @@
 
   <div class="main-section">
     <div class="container"> 
-      <div class="main-title"><span class="accentcolor">Стань ЭКСПОНЕНТОМ</span> премиальной<br>выставки недвижимости</div>
+      <div class="main-title _anim-items _anim-no-hide"><span class="accentcolor">Стань ЭКСПОНЕНТОМ</span> премиальной<br>выставки недвижимости</div>
       <div class="main-text">Оставь заявку прямо сейчас и <span class="accentcolor">мы отправим условия участия в течении 15 минут</span></div>
       <form class="form callback-form">
         <div class="flex-container">
@@ -33,7 +33,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="section-title">для экспонентов</div>
+            <div class="section-title _anim-items _anim-no-hide">для экспонентов</div>
             <div class="about">Что такое luxury property expo</div>
             <div class="text">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: <span class="accentcolor">Турции, ОАЭ, Кипра, США, России</span> и многих других стран.</div>
           </div>
@@ -119,7 +119,7 @@
   <div class="visitors-section section">
     <div class="section-title-wrapper">
       <div class="container">
-        <div class="section-title">Кто посещает<br>выставки <span class="accentcolor">luxury</span><br> property expo</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Кто посещает<br>выставки <span class="accentcolor">luxury</span><br> property expo</span></div>
       </div>
     </div>
 
@@ -174,7 +174,7 @@
   <div id="advertising-section" class="advertising-section section">
     <div class="section-title-wrapper">
       <div class="container">
-        <div class="section-title"><span class="accentcolor">Рекламная</span> кампания</div>
+        <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Рекламная</span> кампания</div>
         <div class="advertising-text">Эффективная методика привлечения покупателей.<br>Все современные возможности интернет рекламы:</div>
       </div>
     </div>
@@ -251,7 +251,7 @@
 
   <div class="stands-section section">
     <div class="container">
-      <div class="section-title">НА НАШЕЙ ВЫСТАВКЕ<br><span class="accentcolor">ПРЕМИАЛЬНЫЕ СТЕНДЫ УЧАСТНИКОВ</span></div>
+      <div class="section-title _anim-items _anim-no-hide">НА НАШЕЙ ВЫСТАВКЕ<br><span class="accentcolor">ПРЕМИАЛЬНЫЕ СТЕНДЫ УЧАСТНИКОВ</span></div>
       <div class="content">
         <div class="logo-fragment">
           <div class="logo-fragment-image">
@@ -266,76 +266,14 @@
     </div>
   </div>
 
-  
-
   <div class="ticket-section section">
     @include('ticket')
-    <!-- <div class="labels">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="labels-item">
-              <div class="labels-item__image">
-                <img src="/img/ticket-label-form.svg" alt="">
-              </div>
-              <div class="labels-item__title">Оставьте заявку на<br> участие в выставке</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="labels-item">
-              <div class="labels-item__image">
-                <img src="/img/ticket-label-get.svg" alt="">
-              </div>
-              <div class="labels-item__title">С вами свяжется VIP-<br>менеджер и расскажет про условия участия</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="labels-item">
-              <div class="labels-item__image">
-                <img src="/img/ticket-label-show.svg" alt="">
-              </div>
-              <div class="labels-item__title">Подпишем документы и<br> начнем готовить ваш<br> стенд к выставке</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ticket-wrapper">
-      <div class="container">
-        <div class="ticket">
-          <div class="ticket-text-string">выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция</div>
-          <div class="ticket-logo">
-            <img src="/img/logo.svg" alt="">
-          </div>
-          <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И<br><span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
-          <div class="ticket-right-text ticket-seats-counter">ОСТАЛОСЬ ВСЕГО<br><span class="accent"><span class="accentcolor">17</span> ИЗ 50 МЕСТ</span></div>
-          <form class="form callback-form">
-            <div class="flex-container">
-              <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Представьтесь">
-              <input type="text" name="phone" id="ticket-phone" class="input-field js-input-phone-mask" required placeholder="Телефон">
-              <input type="email" name="email" id="ticket-email" class="input-field" required placeholder="Email">
-              <button type="button" class="callback-submit-btn primary-btn">ПОЛУЧИТЬ</button>
-            </div>
-            <div class="checkbox-wrapper">
-              <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="ticket-checkbox" checked required>
-              <label for="ticket-checkbox" class="custom-checkbox-label"></label>
-              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
-            </div>
-          </form>
-          <div class="ticket-label">
-            <img src="/img/ticket-label.png" class="ticket-label-image" alt="">
-            <span class="ticket-label-text">электронный билет</span>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 
   <div class="rezult-section section">
     <div class="content-wrapper">
       <div class="container">
-        <div class="section-title">Мы уверены, что ваше участие<br>в нашей выставке окупится<br>благодаря нашей<br><span class="accentcolor">ориентированности на результаты</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие<br>в нашей выставке окупится<br>благодаря нашей<br><span class="accentcolor">ориентированности на результаты</span></div>
         <div class="content">
           <div class="good-deal">
             <img src="/img/rezult-good-deal.png" alt="">

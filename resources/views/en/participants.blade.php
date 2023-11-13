@@ -8,7 +8,7 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title">Встречайте <span class="accentcolor">лидеров рынка</span> -<br> познакомьтесь с застройщиками и компаниями-участниками!</div>
+      <div class="main-title _anim-items _anim-no-hide">Встречайте <span class="accentcolor">лидеров рынка</span> -<br> познакомьтесь с застройщиками и компаниями-участниками!</div>
       <div class="main-text">100% обеспеченность активами, прибыль каждые 3 месяца!</div>
       <div class="action-btns">
         <button class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
@@ -20,7 +20,7 @@
   <div id="participants-section" class="participants-section section">
     <div class="title-wrapper">
       <div class="container">
-        <div class="section-title">Участники<br><span class="accentcolor">выставки - конференции</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Участники<br><span class="accentcolor">выставки - конференции</span></div>
       </div>
     </div>
 
@@ -235,7 +235,7 @@
   <div class="projects-section section">
     <div class="title-wrapper">
       <div class="container">
-        <div class="section-title">Проекты<br><span class="accentcolor">выставок-конференций</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Проекты<br><span class="accentcolor">выставок-конференций</span></div>
       </div>
     </div>
 
