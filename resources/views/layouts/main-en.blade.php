@@ -16,6 +16,12 @@
 
 <body>
 
+  <div class="preloader">
+    <div class="preloader-image">
+      <img src="/img/loader.gif" alt="">
+    </div>
+  </div>
+
   <header class="header">
     <div class="header-top">
       <div class="container">

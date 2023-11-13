@@ -122,6 +122,35 @@ p {
 .secondary-btn:hover {
   background-color: green;
 }
+.preloader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $backgroundcolor;
+  z-index: 1000;
+}
+.preloader .preloader-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  transform: translate(-50%, -50%);
+}
+.preloader .preloader-image img {
+  width: 100%;
+}
+.preloader.loaded-hiding {
+  opacity: 0;
+  transition: opacity .5s;
+}
+.preloader.loaded {
+  display: none;
+  z-index: -1;
+}
 
 
 .header {

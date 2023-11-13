@@ -9,6 +9,19 @@ import IMask from 'imask';
 const body = document.querySelector('body');
 const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content'); // csrf token
 
+
+// Preloader
+const preloader = document.querySelector('.preloader');
+
+window.setTimeout(function () {
+  preloader.classList.add('loaded-hiding');
+}, 500);
+window.setTimeout(function () {
+  preloader.classList.add('loaded');
+  preloader.classList.remove('loaded-hiding');
+}, 1100);
+
+
 // Input mask
 function inputPhoneMask() {
   const elementPhone = document.querySelectorAll('.js-input-phone-mask');
