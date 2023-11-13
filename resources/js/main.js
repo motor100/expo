@@ -22,6 +22,20 @@ window.setTimeout(function () {
 }, 1100);
 
 
+// Main slider section
+const mainSliderWrapper = document.querySelector('.main-slider-wrapper')
+
+if (mainSliderWrapper) {
+  const mainSlider = new Swiper('.main-slider', {
+    effect: "fade",
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+  });
+}
+
+
 // Input mask
 function inputPhoneMask() {
   const elementPhone = document.querySelectorAll('.js-input-phone-mask');
@@ -43,17 +57,12 @@ const sliderSection = document.querySelector('.slider-section')
 
 if (sliderSection) {
   const snSlider = new Swiper('.sn-slider', {
-    // modules: [Navigation, Pagination],
     slidesPerView: 3,
     loop: true,
-    // centeredSlides: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    // pagination: {
-    //   el: ".swiper-pagination",
-    // },
   });
 }
 

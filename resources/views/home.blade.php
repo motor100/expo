@@ -16,7 +16,22 @@
       <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br>недвижимости в <span class="text-bold">Европе и Азии</span></div>
       <div class="action-btns">
         <button class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
-        <button class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</button>
+        <a href="/for-participants" class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</a>
+      </div>
+    </div>
+    <div class="main-slider-wrapper">
+      <div class="main-slider swiper">
+        <div class="swiper-wrapper">
+          <div class="sn-slider-item swiper-slide">
+            <img src="/img/main-section-bg.png" alt="">
+          </div>
+          <div class="sn-slider-item swiper-slide">
+            <img src="/img/for-participants-bg.png" alt="">
+          </div>
+          <div class="sn-slider-item swiper-slide">
+            <img src="/img/poster-bg.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>
