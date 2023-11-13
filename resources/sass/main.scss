@@ -72,9 +72,6 @@ p {
 .position-relative {
   position: relative;
 }
-// .bg-dark {
-//   background-color: $backgroundcolor;
-// }
 .accentcolor {
   color: $accentcolor;
 }
@@ -96,10 +93,34 @@ p {
   display: block;
   height: 58px;
   margin: 0;
-  padding: 0 40px;
+  padding: 0 38px;
+  border: none;
+  border-radius: 28px 0px 28px 0px;
+  background-color: $accentcolor;
+  font-family: "manrope-bold";
+  font-size: 16px;
+  color: $whitecolor;
+  text-transform: uppercase;
+  transition: background-color .3s;
+}
+.primary-btn:hover {
+  background-color: red;
+}
+.secondary-btn {
+  display: block;
+  height: 58px;
+  margin: 0;
+  padding: 0 38px;
   border: none;
   border-radius: 28px 0px 28px 0px;
   font-family: "manrope-bold";
+  font-size: 16px;
+  color: $blackcolor;
+  text-transform: uppercase;
+  transition: background-color .3s;
+}
+.secondary-btn:hover {
+  background-color: green;
 }
 
 
@@ -1439,15 +1460,9 @@ p {
   }
   .main-accent-btn {
     margin: 0 29px 0 0;
-    background-color: $accentcolor;
-    color: $whitecolor;
   }
   .action-btns {
     display: flex;
-  }
-  .become-a-member-btn {
-    background-color: $whitecolor;
-    color: $blackcolor;
   }
 }
 
@@ -1781,14 +1796,12 @@ p {
   }
   .messenger-btns .messenger-btn {
     margin: 0 40px 0 0;
-    background-color: $accentcolor;
   }
   .messenger-btns .messenger-btn .image {
     margin: 0 10px 0 0;
   }
   .messenger-btns .messenger-btn .text {
     font-family: "manrope-bold";
-    color: $whitecolor;
     vertical-align: middle;
   }
   .callback-logo-fragment {
@@ -1837,10 +1850,6 @@ p {
   }
   .callback-submit-btn {
     width: 210px;
-    background-color: $accentcolor;
-    font-size: 16px;
-    color: $whitecolor;
-    text-transform: uppercase;
   }
   .checkbox-wrapper {
     display: flex;
