@@ -6,7 +6,7 @@
           <div class="section-title">АФИША<br>ВЫСТАВОК<br><span class="accentcolor">В РАЗНЫХ ГОРОДАХ</span></div>
           <div class="cities-section-description">Здесь предоставлены постоянные участники наших мероприятий. Для того, чтобы посмотреть всех участников, перейдите по ссылке ниже.</div>
           <div class="cities-section-see-all">
-            <a href="#">Смотреть афишу всех городов</a>
+            <a href="/poster">Смотреть афишу всех городов</a>
           </div>
         </div>
         <div class="col-md-8">
@@ -14,77 +14,91 @@
             <div class="cities-item cities-item-left saint-petersburg">
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <img src="/img/saint-petersburg.png" alt="">
+                  <a href="/event" class="cities-item-image__link">
+                    <img src="/img/saint-petersburg.png" alt="">
+                  </a>
                 </div>
               </div>
               <div class="cities-item-content">
                 <div class="cities-item-title">Санкт-Петербург</div>
-                <div class="cities-item-date">30 марта 2023</div>
+                <a href="/event" class="cities-item-date">30 марта 2023</a>
               </div>
             </div>
             <div class="cities-item cities-item-right moscow">
               <div class="cities-item-content">
                 <div class="cities-item-title">Москва</div>
-                <div class="cities-item-date">29 марта 2023<br>Конгресс-Холл</div>
+                <a href="/event" class="cities-item-date">29 марта 2023<br>Конгресс-Холл</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <img src="/img/moscow.png" alt="">
+                  <a href="/event" class="cities-item-image__link">
+                    <img src="/img/moscow.png" alt="">
+                  </a>
                 </div>
               </div>
             </div>
             <div class="cities-item cities-item-right baku">
               <div class="cities-item-content">
                 <div class="cities-item-title">БАКУ</div>
-                <div class="cities-item-date">Coming soon</div>
+                <a href="#" class="cities-item-date">Coming soon</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <img src="/img/baku.png" alt="">
+                  <a href="#" class="cities-item-image__link">
+                    <img src="/img/baku.png" alt="">
+                  </a>
                 </div>
               </div>
             </div>
             <div class="cities-item cities-item-right istanbul">
               <div class="cities-item-content">
                 <div class="cities-item-title">СТАМБУЛ</div>
-                <div class="cities-item-date">Coming soon</div>
+                <a href="#" class="cities-item-date">Coming soon</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <img src="/img/istanbul.png" alt="">
+                  <a href="#" class="cities-item-image__link">
+                    <img src="/img/istanbul.png" alt="">
+                  </a>
                 </div>
               </div>
             </div>
             <div class="cities-item cities-item-left limassol">
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <img src="/img/limassol.png" alt="">
+                  <a href="#" class="cities-item-image__link">
+                    <img src="/img/limassol.png" alt="">
+                  </a>
                 </div>
               </div>
               <div class="cities-item-content">
                 <div class="cities-item-title">ЛИМАССОЛ</div>
-                <div class="cities-item-date">Coming soon</div>
+                <a href="#" class="cities-item-date">Coming soon</a>
               </div>
             </div>
             <div class="cities-item cities-item-right antalya">
               <div class="cities-item-content">
                 <div class="cities-item-title">Анталия</div>
-                <div class="cities-item-date">Coming soon</div>
+                <a href="#" class="cities-item-date">Coming soon</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <img src="/img/antalya.png" alt="">
+                  <a href="#" class="cities-item-image__link">
+                    <img src="/img/antalya.png" alt="">
+                  </a>
                 </div>
               </div>
             </div>
             <div class="cities-item cities-item-right dubai">
               <div class="cities-item-content">
                 <div class="cities-item-title">ДУБАй</div>
-                <div class="cities-item-date">Coming soon</div>
+                <a href="#" class="cities-item-date">Coming soon</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <img src="/img/dubai.png" alt="">
+                  <a href="#" class="cities-item-image__link">
+                    <img src="/img/dubai.png" alt="">
+                  </a>
                 </div>
               </div>
             </div>
