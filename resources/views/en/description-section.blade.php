@@ -1,4 +1,4 @@
-<div class="description-section section">
+<div id="description-section" class="description-section section">
   <div class="logo-wrapper">
     <div class="container">
       <div class="flex-container">

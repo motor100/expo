@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <div class="participants-section section">
+  <div id="participants-section" class="participants-section section">
     <div class="title-wrapper">
       <div class="container">
         <div class="section-title">Участники<br><span class="accentcolor">выставки - конференции</span></div>
@@ -232,7 +232,7 @@
     </div>
   </div>
 
-  <div class="projects-section section">
+  <div id="projects-section" class="projects-section section">
     <div class="title-wrapper">
       <div class="container">
         <div class="section-title">Проекты<br><span class="accentcolor">выставок-конференций</span></div>

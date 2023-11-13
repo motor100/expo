@@ -169,40 +169,40 @@
         <div class="footer-menu-item for-participant">
           <div class="footer-menu-item__title">Для участников</div>
           <div class="nav">
-            <a href="#" class="nav-item">Что такое Luxury Property Expo</a>
-            <a href="#" class="nav-item">Проекты и страны</a>
-            <a href="#" class="nav-item">Преимущества выставки</a>
-            <a href="#" class="nav-item">Участники</a>
+            <a href="/en/#description-section" class="nav-item">Что такое Luxury Property Expo</a>
+            <a href="/en/participants#projects-section" class="nav-item">Проекты и страны</a>
+            <a href="/en/#advantages-section" class="nav-item">Преимущества выставки</a>
+            <a href="/en/participants#participants-section" class="nav-item">Участники</a>
           </div>
         </div>
         <div class="footer-menu-item for-expo">
           <div class="footer-menu-item__title">Для экспонентов</div>
           <div class="nav">
-            <a href="#" class="nav-item">Что такое Luxury Property Expo</a>
-            <a href="#" class="nav-item">Участники</a>
-            <a href="#" class="nav-item">Рекламная кампания</a>
-            <a href="#" class="nav-item">Стать экспонентом</a>
+            <a href="/en/#description-section" class="nav-item">Что такое Luxury Property Expo</a>
+            <a href="/en/participants#participants-section" class="nav-item">Участники</a>
+            <a href="/en/for-participants#advertising-section" class="nav-item">Рекламная кампания</a>
+            <a href="/en/for-participants" class="nav-item">Стать экспонентом</a>
           </div>
         </div>
         <div class="footer-menu-item events">
           <div class="footer-menu-item__title">Афиша</div>
           <div class="nav">
-            <a href="#" class="nav-item">Москва</a>
-            <a href="#" class="nav-item">Анталия</a>
-            <a href="#" class="nav-item">Дубай</a>
-            <a href="#" class="nav-item">Лимассол</a>
-            <a href="#" class="nav-item">Баку</a>
-            <a href="#" class="nav-item">Санкт-Петербург</a>
+            <a href="/en/event" class="nav-item">Москва</a>
+            <a href="/en/event" class="nav-item">Анталия</a>
+            <a href="/en/event" class="nav-item">Дубай</a>
+            <a href="/en/event" class="nav-item">Лимассол</a>
+            <a href="/en/event" class="nav-item">Баку</a>
+            <a href="/en/event" class="nav-item">Санкт-Петербург</a>
           </div>
         </div>
         <div class="footer-menu-item info">
           <div class="footer-menu-item__title">Информация</div>
           <div class="nav">
-            <a href="#" class="nav-item">Халяль подробно</a>
-            <a href="#" class="nav-item">Наши партнеры</a>
-            <a href="#" class="nav-item">Частые вопросы</a>
+            <a href="/en/halal" class="nav-item">Халяль подробно</a>
+            <a href="/en/#partners-section" class="nav-item">Наши партнеры</a>
+            <a href="/en/faq" class="nav-item">Частые вопросы</a>
             <a href="#" class="nav-item">Личный кабинет</a>
-            <a href="#" class="nav-item">Контакты</a>
+            <a href="/en/contacts" class="nav-item">Контакты</a>
           </div>
         </div>
       </div>

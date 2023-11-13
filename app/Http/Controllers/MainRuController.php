@@ -36,4 +36,19 @@ class MainRuController extends Controller
     {
         return view('event');
     }
+
+    public function halal(): View
+    {
+        return view('halal');
+    }
+
+    public function faq(): View
+    {
+        return view('faq');
+    }
+
+    public function privacy_policy(): View
+    {
+        return view('privacy_policy');
+    }
 }

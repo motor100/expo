@@ -36,4 +36,19 @@ class MainTrController extends Controller
     {
         return view('tr.event');
     }
+
+    public function halal(): View
+    {
+        return view('tr.halal');
+    }
+
+    public function faq(): View
+    {
+        return view('tr.faq');
+    }
+
+    public function privacy_policy(): View
+    {
+        return view('tr.privacy_policy');
+    }
 }

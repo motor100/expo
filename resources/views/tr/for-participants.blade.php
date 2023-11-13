@@ -171,7 +171,7 @@
     </div>
   </div>
 
-  <div class="advertising-section section">
+  <div id="advertising-section" class="advertising-section section">
     <div class="section-title-wrapper">
       <div class="container">
         <div class="section-title"><span class="accentcolor">Рекламная</span> кампания</div>

@@ -36,4 +36,19 @@ class MainEnController extends Controller
     {
         return view('en.event');
     }
+
+    public function halal(): View
+    {
+        return view('en.halal');
+    }
+
+    public function faq(): View
+    {
+        return view('en.faq');
+    }
+
+    public function privacy_policy(): View
+    {
+        return view('en.privacy_policy');
+    }
 }
