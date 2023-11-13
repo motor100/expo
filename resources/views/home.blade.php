@@ -15,7 +15,9 @@
       <div class="main-title _anim-items _anim-no-hide">Выставка <span class="accentcolor">элитной</span><br>зарубежной недвижимости</div>
       <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br>недвижимости в <span class="text-bold">Европе и Азии</span></div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
+        <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ
+          <span class="flash lighting"></span>
+        </button>
         <a href="/for-participants" class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</a>
       </div>
     </div>
@@ -268,8 +270,9 @@
               <button type="button" class="callback-submit-btn primary-btn">Отправить</button>
             </div>
             <div class="checkbox-wrapper">
-              <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="ticket-checkbox" checked required>
-              <label for="ticket-checkbox" class="custom-checkbox-label"></label>
+              <label class="custom-checkbox-label">
+                <input type="checkbox" name="ticket-checkbox" id="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal"  checked required>
+              </label>
               <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
             </div>
           </form>

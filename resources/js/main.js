@@ -16,11 +16,11 @@ const preloader = document.querySelector('.preloader');
 if (preloader) {
   window.setTimeout(function () {
     preloader.classList.add('loaded-hiding');
-  }, 500);
+  }, 1500);
   window.setTimeout(function () {
     preloader.classList.add('loaded');
     preloader.classList.remove('loaded-hiding');
-  }, 1100);
+  }, 2600);
 }
 
 
