@@ -62,14 +62,12 @@
           <div class="col-md-1">
             <div class="lang-select">
               <div class="lang-select-text">
-              <a href="/">ru</a>
-            </div>
-              <div class="lang-select-text">
-              <a href="/en">en</a>
-            </div>
-              <div class="lang-select-text">
-              <a href="/tr">tr</a>
-            </div>
+                <a href="/tr" class="lang-select-link">tr</a>
+              </div>
+              <div class="lang-select-dropdown">
+                <a href="/" class="lang-select-link">ru</a>
+                <a href="/en" class="lang-select-link">en</a>
+              </div>
             </div>
           </div>
         </div>

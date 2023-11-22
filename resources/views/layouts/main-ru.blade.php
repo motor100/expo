@@ -15,7 +15,7 @@
 </head>
 
 <body>
-
+  <!-- 
   <div class="preloader">
     <div class="preloader-image">
       <svg width="758" height="148" viewBox="0 0 758 148" xmlns="http://www.w3.org/2000/svg">
@@ -28,6 +28,7 @@
       </svg>
     </div>
   </div>
+   -->
 
   <header class="header">
     <div class="header-top">
@@ -69,14 +70,12 @@
           <div class="col-md-1">
             <div class="lang-select">
               <div class="lang-select-text">
-              <a href="/">ru</a>
-            </div>
-              <div class="lang-select-text">
-              <a href="/en">en</a>
-            </div>
-              <div class="lang-select-text">
-              <a href="/tr">tr</a>
-            </div>
+                <a href="/" class="lang-select-link">ru</a>
+              </div>
+              <div class="lang-select-dropdown">
+                <a href="/en" class="lang-select-link">en</a>
+                <a href="/tr" class="lang-select-link">tr</a>
+              </div>
             </div>
           </div>
         </div>
