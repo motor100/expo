@@ -178,12 +178,24 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100px;
+  width: 758px;
   transform: translate(-50%, -50%);
 }
-.preloader .preloader-image img {
-  width: 100%;
+.preloader .preloader-image svg path {
+  fill: $whitecolor;
+  animation: fade 2s ease-in-out;
 }
+@keyframes fade {  
+  0% {
+    fill: $backgroundcolor;
+  }
+  100% {
+    fill: $whitecolor;
+  }
+}
+// .preloader .preloader-image img {
+//   width: 100%;
+// }
 .preloader.loaded-hiding {
   opacity: 0;
   transition: opacity .5s;
