@@ -38,7 +38,7 @@
     </div>
   </div>
 
-  <div id="advantages-section" class="advantages-section section d-lg-block">
+  <div id="advantages-section" class="advantages-section section">
     <div class="container-xl">
       <div class="section-title _anim-items _anim-no-hide">Преимущества<br><span class="accentcolor">выставки-конференции</span></div>
       <div class="flex-container">

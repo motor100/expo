@@ -382,7 +382,7 @@ p {
   }
 
   .advantages-section {
-    display: none;
+    // display: none;
     // .section-title {
     //   margin: 0 0 135px 0;
     // }
@@ -473,6 +473,10 @@ p {
         height: 35px;
       }
     }
+  }
+
+  .event-advantages-section {
+    display: none;
   }
 
   .participants-section {
@@ -1743,22 +1747,24 @@ p {
 .event-advantages-section {
   padding-bottom: 40px;
   .advantages-item {
-    position: relative;
+    // position: relative;
     display: flex;
     margin: 0 0 40px 0;
   }
   .left {
+    position: relative;
     width: 50%;
     padding: 40px;
     border-top: 1px solid #5A5A5A;
     border-bottom: 1px solid #5A5A5A;
     border-left: 1px solid #5A5A5A;
+    z-index: 1;
   }
-  .left-image {
+  .left-icon {
     width: 57px;
     margin: 0 0 20px 0;
   }
-  .left-image img {
+  .left-icon img {
     width: 100%;
   }
   .left-title {
@@ -1789,13 +1795,8 @@ p {
     position: relative;
     width: 50%;
   }
-  .right-image-wrapper {
-    // width: 100%;
-  }
   .right-image-wrapper img {
     width: 100%;
-    // height: 100%;
-    // object-fit: cover;
   }
   .right-rectangles {
     position: absolute;
@@ -1806,6 +1807,9 @@ p {
     height: 505px;
     margin: auto 0;
     z-index: 0;
+  }
+  .right-rectangles img {
+    width: 100%;
   }
   .international-exhibition-wrapper {
     padding-top: 0;
@@ -2403,8 +2407,6 @@ p {
 }
 
 
-
-
 @media only screen and (max-width : 1400px) {
   .main-section {
     height: 600px;
@@ -2433,6 +2435,28 @@ p {
     }
 
 
+  }
+
+  .event-advantages-section {
+    .left {
+      padding: 30px 40px 40px 40px;
+    }
+    .left-title {
+      font-size: 28px;
+    }
+    .last-left-text {
+      margin: 0;
+    }
+    .right-image-wrapper {
+      height: 100%;
+    }
+    .right-image-wrapper img {
+      height: 100%;
+      object-fit: cover;
+    }
+    .right-rectangles {
+      right: -40px;
+    }
   }
 
 
@@ -2488,6 +2512,42 @@ p {
     }
   }
 
+  .fake-section {
+    display: none;
+  }
+
+  .event-advantages-section {
+    .left {
+      padding: 25px 35px 35px 35px;
+    }
+    .left-icon {
+      width: 48px;
+      margin: 0 0 15px 0;
+    }
+    .left-title {
+      margin: 0 0 15px 0;
+      font-size: 26px;
+    }
+    .left-text {
+      margin: 0 0 30px 0;
+      font-size: 16px;
+    }
+    .last-left-text {
+      margin: 0;
+    }
+    .left-logo-fragment {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+    .right-rectangles {
+      width: 100px;
+      height: 361px;
+    }
+  }
+
 
 }
 
@@ -2535,8 +2595,10 @@ p {
   .section-title {
     font-size: 40px;
   }
+
   .home {
     .advantages-section {
+      display: none;
       // .flex-container {
       //   display: block;
       // }
@@ -2554,13 +2616,41 @@ p {
       //   margin: 0 0 20px 0;
       // }
     }
+    .event-advantages-section {
+      display: block;
+    }
+  }
+
+  .event-advantages-section {
+    .left {
+      width: 60%;
+      padding: 20px 30px 30px 30px;
+    }
+    .right {
+      width: 40%;
+    }
+    .left-icon {
+      width: 40px;
+    }
+    .left-title {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+    }
+    .left-logo-fragment {
+      display: none;
+    }
   }
 
 
 }
 
 @media only screen and (max-width : 768px) {
-  
+  .container,
+  .container-xl {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
 
   .hidden-mobile {
     display: none !important;
@@ -2570,6 +2660,51 @@ p {
     display: block;
   }
 
+
+
+  .event-advantages-section {
+    .advantages-item {
+      margin: 0 0 50px 0;
+    }
+    .left {
+      width: 100%;
+      border-right: 1px solid #5A5A5A;
+    }
+    // .last-left-text {
+    //   margin: 0 0 60px 0;
+    // }
+    .left-image-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .last-left-text {
+      margin: 0 0 60px 0;
+    }
+    .left-rectangles {
+      position: absolute;
+      bottom: -30px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 50%;
+    }
+    .left-rectangles img {
+      width: 100%;
+    }
+    .left-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .right {
+      display: none;
+    }
+  }
+
 }
 
 @media only screen and (max-width : 576px) {
@@ -2577,7 +2712,18 @@ p {
 }
 
 @media only screen and (max-width : 480px) {
- 
+
+ .event-advantages-section {
+    .left {
+      padding: 20px 15px 30px 15px;
+    }
+    .left-text {
+      font-size: 14px;
+    }
+    .last-left-text {
+      margin: 0 0 20px 0;
+    }
+  }
 }
 
 @media only screen and (max-width : 360px) {
