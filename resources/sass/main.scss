@@ -993,7 +993,76 @@ p {
     .content {
       display: flex;
       .good-deal {
+        position: relative;
         margin: 0 20px 0 0;
+        .good-deal-text {
+          position: absolute;
+          top: 40px;
+          left: 40px;
+        }
+        .good-deal-text__top {
+          margin: 0 0 30px 0;
+          font-size: 32px;
+          color: $lightgreycolor;
+        }
+        .good-deal-text__title {
+          display: flex;
+          margin: 0 0 30px 0;
+          align-items: center;
+          .number {
+            margin: 0 38px 0 0;
+            font-family: "opensans-bold";
+            font-size: 156px;
+            color: $accentcolor;
+            line-height: 1;
+          }
+          .text {
+            font-family: "opensans-medium";
+            font-size: 42px;
+            line-height: 1.2;
+            .accent {
+              font-family: "opensans-semibold";
+              color: $accentcolor;
+            }
+          }
+        }
+        .good-deal-text__subtitle {
+          font-family: "manrope-light";
+          font-size: 32px;
+        }
+        .good-deal-diagram {
+          position: absolute;
+          top: 430px;
+          left: 40px;
+          width: 755px;
+          height: 197px;
+        }
+        .good-deal-description {
+          position: absolute;
+          top: 650px;
+          left: 0;
+          display: flex;
+          width: 100%;
+        }
+        .good-deal-description-item {
+          display: flex;
+          .circle {
+            margin: 0 15px 0 0;
+          }
+          .text {
+            font-family: "opensans-medium";
+            font-size: 24px;
+          }
+          .accent {
+            font-family: "opensans-semibold";
+            color: $accentcolor;
+          }
+        }
+        .good-deal-description-item:first-child {
+          margin: 0 40px;
+        }
+
+
       }
     }
     .logo-fragment-wrapper {

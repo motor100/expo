@@ -335,7 +335,34 @@
         <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие<br>в нашей выставке окупится<br>благодаря нашей<br><span class="accentcolor">ориентированности на результаты</span></div>
         <div class="content">
           <div class="good-deal">
-            <img src="/img/rezult-good-deal.png" alt="">
+            <div class="good-deal-bg">
+              <img src="/img/good-deal-bg.png" alt="">
+            </div>
+            <div class="good-deal-text">
+              <div class="good-deal-text__top">В среднем, участники достигают</div>
+              <div class="good-deal-text__title">
+                <div class="number">2-6</div>
+                <div class="text"><span class="accent">успешных сделок</span><br>на выставке</div>
+              </div>
+              <div class="good-deal-text__subtitle">что обеспечивает <span class="accentcolor">высокую окупаемость<br>вашего участия</span></div>
+            </div>
+            <div class="good-deal-diagram">
+              <img src="/img/good-deal-diagram.svg" alt="">
+            </div>
+            <div class="good-deal-description">
+              <div class="good-deal-description-item">
+                <div class="circle">
+                  <img src="/img/good-deal-circle-accent.svg" alt="">
+                </div>
+                <div class="text">Выставка <span class="accent">Luxury Property Expo</span></div>
+              </div>
+              <div class="good-deal-description-item">
+                <div class="circle">
+                  <img src="/img/good-deal-circle-grey.svg" alt="">
+                </div>
+                <div class="text">Другие выставки</div>
+              </div>
+            </div>
           </div>
           <div class="image">
             <img src="/img/rezult-image.png" alt="">
