@@ -38,13 +38,13 @@
     </div>
   </div>
 
-  <div id="advantages-section" class="advantages-section section">
+  <div id="advantages-section" class="advantages-section section d-lg-block">
     <div class="container-xl">
       <div class="section-title _anim-items _anim-no-hide">Преимущества<br><span class="accentcolor">выставки-конференции</span></div>
       <div class="flex-container">
         <div class="left">
           <div class="left-item">
-            <div class="left-item__image">
+            <div class="left-item__icon">
               <img src="/img/advantages-house-like.svg" alt="">
             </div>
             <div class="left-item__content">
@@ -53,7 +53,7 @@
             </div>
           </div>
           <div class="left-item">
-            <div class="left-item__image">
+            <div class="left-item__icon">
               <img src="/img/advantages-house-close.svg" alt="">
             </div>
             <div class="left-item__content">
@@ -62,7 +62,7 @@
             </div>
           </div>
           <div class="left-item">
-            <div class="left-item__image">
+            <div class="left-item__icon">
               <img src="/img/advantages-house-live.svg" alt="">
             </div>
             <div class="left-item__content">
@@ -84,6 +84,8 @@
       </div>
     </div>
   </div>
+
+  @include('event-advantages-section')
 
   <div class="participants-section section">
     <div class="participants-content">

@@ -27,7 +27,7 @@
       <div class="flex-container">
         <div class="left">
           <div class="left-item">
-            <div class="left-item__image">
+            <div class="left-item__icon">
               <img src="/img/advantages-house-like.svg" alt="">
             </div>
             <div class="left-item__content">
@@ -36,7 +36,7 @@
             </div>
           </div>
           <div class="left-item">
-            <div class="left-item__image">
+            <div class="left-item__icon">
               <img src="/img/advantages-house-close.svg" alt="">
             </div>
             <div class="left-item__content">
@@ -45,7 +45,7 @@
             </div>
           </div>
           <div class="left-item">
-            <div class="left-item__image">
+            <div class="left-item__icon">
               <img src="/img/advantages-house-live.svg" alt="">
             </div>
             <div class="left-item__content">
