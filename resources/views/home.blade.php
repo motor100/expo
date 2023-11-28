@@ -11,9 +11,9 @@
 <div class="home">
 
   <div class="main-section">
-    <div class="container">
+    <div class="container-xl">
       <div class="main-title _anim-items _anim-no-hide">Выставка <span class="accentcolor">элитной</span><br>зарубежной недвижимости</div>
-      <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br>недвижимости в <span class="text-bold">Европе и Азии</span></div>
+      <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br> недвижимости в <span class="text-bold">Европе и Азии</span></div>
       <div class="action-btns">
         <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ
           <span class="flash lighting"></span>
@@ -39,7 +39,7 @@
   </div>
 
   <div id="advantages-section" class="advantages-section section">
-    <div class="container">
+    <div class="container-xl">
       <div class="section-title _anim-items _anim-no-hide">Преимущества<br><span class="accentcolor">выставки-конференции</span></div>
       <div class="flex-container">
         <div class="left">
@@ -87,7 +87,7 @@
 
   <div class="participants-section section">
     <div class="participants-content">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-7">
             <div class="section-title _anim-items _anim-no-hide">Участники<br><span class="accentcolor">выставки</span></div>
@@ -151,7 +151,7 @@
     </div>
 
     <div class="participants-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="participants-cards">
           <div class="participants-item">
             <div class="participants-item-content">
@@ -223,7 +223,7 @@
 
   <div class="ticket-section section">
     <div class="labels">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-4">
             <div class="labels-item">
@@ -254,7 +254,7 @@
     </div>
 
     <div class="ticket-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="ticket">
           <div class="ticket-text-string">выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция</div>
           <div class="ticket-logo">
@@ -289,7 +289,7 @@
   @include('cities-section')
 
   <div class="slider-section section">
-    <div class="container">
+    <div class="container-xl">
       <div class="sn-slider-wrapper">
         <div class="sn-slider swiper">
           <div class="swiper-wrapper">
@@ -332,7 +332,7 @@
 
   <div id="partners-section" class="partners-section section">
     <div class="title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Мы гордимся</span></div>
@@ -347,7 +347,7 @@
       </div>
     </div>
     <div class="partners">
-      <div class="container">
+      <div class="container-xl">
         <div class="partners-title">Вот некоторые из них:</div>
         <div class="row">
           <div class="col-md-4">
@@ -375,7 +375,7 @@
       </div>
     </div>
     <div class="partners-logo">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-3">
             <div class="partners-logo-item">
