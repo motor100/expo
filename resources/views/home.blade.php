@@ -24,13 +24,13 @@
     <div class="main-slider-wrapper">
       <div class="main-slider swiper">
         <div class="swiper-wrapper">
-          <div class="sn-slider-item swiper-slide">
+          <div class="main-slider-item swiper-slide">
             <img src="/img/main-section-bg.png" alt="">
           </div>
-          <div class="sn-slider-item swiper-slide">
+          <div class="main-slider-item swiper-slide">
             <img src="/img/for-participants-bg.png" alt="">
           </div>
-          <div class="sn-slider-item swiper-slide">
+          <div class="main-slider-item swiper-slide">
             <img src="/img/poster-bg.png" alt="">
           </div>
         </div>

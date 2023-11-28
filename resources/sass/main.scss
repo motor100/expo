@@ -296,7 +296,7 @@ p {
   .header-bottom {
     padding: 14px 0 0 0;
     .logo {
-      width: 150px;
+      max-width: 150px;
     }
     .logo img {
       width: 100%;
@@ -370,6 +370,14 @@ p {
       width: 100%;
       height: 100%;
       z-index: -1;
+    }
+    .main-slider {
+      height: 100%;
+    }
+    .main-slider-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
@@ -1061,8 +1069,6 @@ p {
         .good-deal-description-item:first-child {
           margin: 0 40px;
         }
-
-
       }
     }
     .logo-fragment-wrapper {
@@ -2404,14 +2410,73 @@ p {
 }
 
 @media only screen and (max-width : 1200px) {
-  
+  .container,
+  .container-xl {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .header {
+    .header-top {
+      .cities-menu-wrapper {
+        justify-content: flex-start;
+      }
+      .cities-menu .cities-menu-item {
+        margin: 0 15px;
+      }
+    }
+    .header-bottom {
+      .menu .menu-item {
+        margin: 0 16px;
+      }
+      .menu .menu-item:first-child {
+        margin-left: 0;
+      }
+      .menu .menu-item:last-child {
+        margin-right: 0;
+      }
+    } 
+  }
+
+
 }
 
 @media only screen and (max-width : 992px) {
-  
+  .header {
+    .header-top {
+      .cursor {
+        margin: 0 10px 0 0;
+      }
+      .cities-menu .cities-menu-item {
+        margin: 0 7px;
+      }
+    }
+    .header-bottom {
+      .top-menu {
+        padding: 3px 0 0 0;
+      }
+      .menu .menu-item {
+        margin: 0 8px;
+      }
+      .menu .menu-item .menu-item-link {
+        font-size: 16px;
+      }
+      .phone-wrapper {
+        padding: 3px 0 0 0;
+      }
+      .phone-img {
+        display: none;
+      }
+      .phone-text a {
+        font-size: 13px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width : 768px) {
+  
+
   .hidden-mobile {
     display: none !important;
   }

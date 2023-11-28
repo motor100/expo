@@ -32,7 +32,7 @@
 
   <header class="header">
     <div class="header-top">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-2">
             <div class="name">Международная выставка</div>
@@ -83,13 +83,13 @@
     </div>
 
     <div class="underline-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="underline"></div>
       </div>
     </div>
 
     <div class="header-bottom">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-2">
             <div class="logo">
@@ -146,7 +146,7 @@
 
 
   <footer class="footer">
-    <div class="container">
+    <div class="container-xl">
       <div class="footer-logo">
         <img src="/img/footer-logo.svg" alt="">
       </div>
@@ -278,7 +278,7 @@
   <div id="callback-modal" class="modal-window callback-modal">
     <div class="modal-wrapper">
       <div class="modal-area">
-        <div class="container">
+        <div class="container-xl">
           <div class="modal-close-wrapper">
             <div class="modal-close">
               <div class="close"></div>
@@ -287,7 +287,7 @@
         </div>
         
         <div class="labels">
-          <div class="container">
+          <div class="container-xl">
             <div class="row">
               <div class="col-md-4">
                 <div class="labels-item">
@@ -318,7 +318,7 @@
         </div>
 
         <div class="ticket-wrapper">
-          <div class="container">
+          <div class="container-xl">
             <div class="ticket">
               <div class="ticket-text-string">выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция</div>
               <div class="ticket-logo">
