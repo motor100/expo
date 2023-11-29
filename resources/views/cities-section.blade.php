@@ -1,6 +1,6 @@
 <div class="cities-section section">
   <div class="cities-section-content">
-    <div class="container">
+    <div class="container-xl">
       <div class="row">
         <div class="col-md-4">
           <div class="section-title _anim-items _anim-no-hide">АФИША<br>ВЫСТАВОК<br><span class="accentcolor">В РАЗНЫХ ГОРОДАХ</span></div>
@@ -11,19 +11,6 @@
         </div>
         <div class="col-md-8">
           <div class="cities">
-            <div class="cities-item cities-item-left saint-petersburg">
-              <div class="cities-item-circle">
-                <div class="cities-item-image">
-                  <a href="/event" class="cities-item-image__link">
-                    <img src="/img/saint-petersburg.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="cities-item-content">
-                <div class="cities-item-title">Санкт-Петербург</div>
-                <a href="/event" class="cities-item-date">30 марта 2023</a>
-              </div>
-            </div>
             <div class="cities-item cities-item-right moscow">
               <div class="cities-item-content">
                 <div class="cities-item-title">Москва</div>
@@ -35,6 +22,19 @@
                     <img src="/img/moscow.png" alt="">
                   </a>
                 </div>
+              </div>
+            </div>
+            <div class="cities-item cities-item-left saint-petersburg">
+              <div class="cities-item-circle">
+                <div class="cities-item-image">
+                  <a href="/event" class="cities-item-image__link">
+                    <img src="/img/saint-petersburg.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="cities-item-content">
+                <div class="cities-item-title">Санкт-Петербург</div>
+                <a href="/event" class="cities-item-date">30 марта 2023</a>
               </div>
             </div>
             <div class="cities-item cities-item-right baku">

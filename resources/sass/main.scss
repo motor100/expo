@@ -1636,7 +1636,6 @@ p {
 // cities section секция города
 .cities-section {
   position: relative;
-  // background: url(/resources/img/cities-section-bg.png) center no-repeat;
   .cities-section-content {
     position: relative;
     z-index: 1;
@@ -1647,6 +1646,9 @@ p {
   }
   .cities-section-description {
     margin: 0 0 40px 0;
+  }
+  .cities-section-see-all {
+    margin: 0 0 60px 0;
   }
   .cities {
     position: relative;
@@ -1669,6 +1671,7 @@ p {
     padding: 5px;
     border: 3px solid $accentcolor;
     border-radius: 50%;
+    flex-shrink: 0;
     box-shadow: 0px 0px 20px rgba(211, 170, 91, .4);
     transition: transform 1s;
   }
@@ -2554,6 +2557,32 @@ p {
     margin: 0 20px 33px 0;
   }
 
+  .cities-section {
+    .saint-petersburg {
+      left: 113px;
+    }
+    .moscow {
+      left: 159px;
+    }
+    .baku {
+      left: 314px;
+    }
+    .istanbul {
+      left: 0;
+    }
+    .limassol {
+      left: 311px;
+    }
+    .antalya {
+      left: 21px;
+    }
+    .dubai {
+      left: 502px;
+    }
+  }
+
+
+
 
 }
 
@@ -2714,6 +2743,16 @@ p {
     .flex-container {
       width: 475px;
       flex-wrap: wrap;
+    }
+  }
+
+  .cities-section {
+    .cities-item-circle {
+      width: 120px;
+      height: 120px;
+    }
+    .dubai {
+      left: 350px;
     }
   }
 
@@ -2910,6 +2949,39 @@ p {
     }
   }
 
+  .cities-section {
+    .cities-item-circle {
+      width: 100px;
+      height: 100px;
+    }
+    .cities-item-title {
+      font-size: 16px;
+    }
+    .cities-item-date {
+      font-size: 14px;
+    }
+    .baku {
+      top: 450px;
+      left: 230px;
+    }
+    .istanbul {
+      top: 374px;
+    }
+
+    .limassol {
+      top: 640px;
+      left: 230px;
+    }
+    .antalya {
+      top: 554px;
+      left: 21px;
+    }
+    .dubai {
+      left: 182px;
+    }
+
+  }
+
 
 
 
@@ -3077,8 +3149,23 @@ p {
       width: 100%;
       margin: 0 0 23px 0;
     }
-  
+  }
 
+  .cities-section {
+    .section-title {
+      padding-top: 0;
+    }
+    .cities {
+      height: auto;
+    }
+    .cities-item {
+      position: static;
+      width: max-content;
+      margin: 0 0 30px 0;
+    }
+    .cities-item-right {
+      margin-left: auto;
+    }
   }
   
 
