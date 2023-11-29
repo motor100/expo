@@ -1209,13 +1209,6 @@ p {
       margin: 0 0 100px 0;
     }
   }
-  .left-title {
-    font-family: 'manrope-semibold';
-    font-size: 32px;
-    color: $accentcolor;
-    line-height: 1.3;
-    text-transform: uppercase;
-  }
 }
 
 // participants участники
@@ -1769,6 +1762,11 @@ p {
   }
   .left-title {
     margin: 0 0 20px 0;
+    font-family: 'manrope-semibold';
+    font-size: 32px;
+    color: $accentcolor;
+    line-height: 1.3;
+    text-transform: uppercase;
   }
   .left-text {
     margin: 0 0 40px 0;
@@ -1823,6 +1821,26 @@ p {
         font-family: 'manrope-bold';
       }
     }
+    .left-image-wrapper {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .left-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .left-logo {
+      display: none;
+    }
+    .left-logo img {
+      width: 100%;
+    }
     .right {
       position: relative;
     }
@@ -1835,6 +1853,9 @@ p {
       width: 318px;
       height: 297px;
       margin: auto;
+    }
+    .right-logo img {
+      width: 100%;
     }
   }
 }
@@ -2637,8 +2658,17 @@ p {
       font-size: 22px;
     }
     .left-logo-fragment {
-      display: none;
+      // display: none;
+      width: 250px;
+      height: 234px;
     }
+    .international-exhibition-wrapper {
+      .right-logo {
+        width: 250px;
+        height: 234px;
+      }
+    }
+    
   }
 
 
@@ -2659,8 +2689,6 @@ p {
   .hidden-desktop {
     display: block;
   }
-
-
 
   .event-advantages-section {
     .advantages-item {
@@ -2703,6 +2731,23 @@ p {
     .right {
       display: none;
     }
+    .international-exhibition-wrapper {
+      .left-image-wrapper {
+        display: block;
+      }
+      .international-exhibition-left-text {
+        margin: 0 0 50px 0;
+      }
+      .left-logo-fragment {
+        top: 50px;
+        margin: 0 auto;
+      }
+      .left-logo {
+        display: block;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
   }
 
 }
@@ -2713,7 +2758,7 @@ p {
 
 @media only screen and (max-width : 480px) {
 
- .event-advantages-section {
+  .event-advantages-section {
     .left {
       padding: 20px 15px 30px 15px;
     }
@@ -2722,6 +2767,11 @@ p {
     }
     .last-left-text {
       margin: 0 0 20px 0;
+    }
+    .international-exhibition-wrapper {
+      .left-logo {
+        width: 80%;
+      }
     }
   }
 }

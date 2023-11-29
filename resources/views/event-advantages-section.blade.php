@@ -106,6 +106,12 @@
             <div class="left-logo-fragment">
               <img src="/img/event-left-logo-fragment.svg" class="image" alt="">
             </div>
+            <div class="left-image-wrapper">
+              <img src="/img/international-exhibition-right-image.png" alt="">
+            </div>
+            <div class="left-logo">
+              <img src="/img/description-logo.svg" alt="">
+            </div>
           </div>
           <div class="right">
             <div class="right-image-wrapper">
