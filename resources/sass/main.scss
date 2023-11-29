@@ -1670,7 +1670,10 @@ p {
     border: 3px solid $accentcolor;
     border-radius: 50%;
     box-shadow: 0px 0px 20px rgba(211, 170, 91, .4);
-    // box-shadow: 0px 0px 20px rgba(211, 170, 91, 0.40))
+    transition: transform 1s;
+  }
+  .cities-item-circle:hover {
+    transform: scale(1.05);
   }
   .cities-item-left .cities-item-circle {
     margin: 0 20px 0 0;
