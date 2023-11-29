@@ -340,7 +340,7 @@
                 </div>
               </form>
               <div class="ticket-label">
-                <img src="/img/ticket-label.png" class="ticket-label-image" alt="">
+                <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
                 <span class="ticket-label-text">электронный билет</span>
               </div>
             </div>

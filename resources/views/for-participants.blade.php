@@ -279,7 +279,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="labels-item">
+            <div class="labels-item middle-labels-item">
               <div class="labels-item__image">
                 <img src="/img/ticket-label-get.svg" alt="">
               </div>

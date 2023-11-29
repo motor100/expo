@@ -237,15 +237,15 @@
               <div class="labels-item__image">
                 <img src="/img/ticket-label-form.svg" alt="">
               </div>
-              <div class="labels-item__title">Заполните<br>форму</div>
+              <div class="labels-item__title">Заполните <br>форму</div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="labels-item">
+            <div class="labels-item middle-labels-item">
               <div class="labels-item__image">
                 <img src="/img/ticket-label-get.svg" alt="">
               </div>
-              <div class="labels-item__title">Получите электронный<br>билет</div>
+              <div class="labels-item__title">Получите электронный <br>билет</div>
             </div>
           </div>
           <div class="col-md-4">
@@ -253,7 +253,7 @@
               <div class="labels-item__image">
                 <img src="/img/ticket-label-show.svg" alt="">
               </div>
-              <div class="labels-item__title">Покажите билет при<br>входе на выставку<br><span class="accent">28-29 октября</span></div>
+              <div class="labels-item__title">Покажите билет при <br>входе на выставку <br><span class="accent">28-29 октября</span></div>
             </div>
           </div>
         </div>
@@ -277,15 +277,15 @@
               <button type="button" class="callback-submit-btn primary-btn">Отправить</button>
             </div>
             <div class="checkbox-wrapper">
-              <label class="custom-checkbox-label">
-                <input type="checkbox" name="ticket-checkbox" id="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal"  checked required>
-              </label>
+              <input type="checkbox" name="ticket-checkbox" id="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal"  checked required>
+              <label for="ticket-checkbox" class="custom-checkbox-label"></label>
               <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
             </div>
           </form>
           <div class="ticket-counter">Осталось всего<br> <span class="accentcolor">281</span> из 1000 мест</div>
           <div class="ticket-label">
-            <img src="/img/ticket-label.png" class="ticket-label-image" alt="">
+            <img src="/img/ticket-label-desktop.png" class="ticket-label-image ticket-label-desktop-image hidden-mobile" alt="">
+            <img src="/img/ticket-label-mobile.png" class="ticket-label-image ticket-label-mobile-image hidden-desktop" alt="">
             <span class="ticket-label-text">электронный билет</span>
           </div>
         </div>
