@@ -91,8 +91,8 @@
     <div class="participants-content">
       <div class="container-xl">
         <div class="row">
-          <div class="col-md-7">
-            <div class="section-title _anim-items _anim-no-hide">Участники<br><span class="accentcolor">выставки</span></div>
+          <div class="col-xl-7 col-lg-8">
+            <div class="section-title _anim-items _anim-no-hide">Участники <br><span class="accentcolor">выставки</span></div>
             <div class="participants-description">
               <div class="participants-description-item">
                 <div class="participants-description-title-wrapper">
@@ -112,12 +112,17 @@
                 </div>
                 <div class="participants-description-item__text">Самые уникальные проекты со всего мира в одном месте</div>
               </div>
-
+              <div class="participants-description-horizontal-rectangles">
+                <img src="/img/participants-description-horizontal-rectangles.png" alt="">
+              </div>
+              <div class="participants-description-vertikal-rectangles hidden-desktop">
+                <img src="/img/participants-description-vertikal-rectangles.png" alt="">
+              </div>
             </div>
             <div class="participants-description-underline"></div>
           </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-4">
+          <div class="col-xl-1 d-xl-block d-none"></div>
+          <div class="col-xl-4 col-lg-4">
             <div class="participants-counters">
               <div class="participants-counters-item">
                 <div class="participants-counters-item__image">
@@ -134,7 +139,7 @@
                 </div>
                 <div class="participants-counters-content">
                   <div class="participants-counters-item__title">15</div>
-                  <div class="participants-counters-item__text">стран, принимают участие</div>
+                  <div class="participants-counters-item__text">стран принимают участие</div>
                 </div>
               </div>
               <div class="participants-counters-item">

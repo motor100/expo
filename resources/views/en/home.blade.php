@@ -115,7 +115,7 @@
                 </div>
                 <div class="participants-counters-content">
                   <div class="participants-counters-item__title">15</div>
-                  <div class="participants-counters-item__text">стран, принимают участие</div>
+                  <div class="participants-counters-item__text">стран принимают участие</div>
                 </div>
               </div>
               <div class="participants-counters-item">
