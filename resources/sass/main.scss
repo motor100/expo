@@ -659,14 +659,18 @@ p {
     }
     .sn-slider-logo-fragment {
       position: absolute;
+      width: 149px;
       z-index: 10;
+    }
+    .sn-slider-logo-fragment img {
+      width: 100%;
     }
     .sn-slider-logo-fragment-bottom {
       left: 260px;
       bottom: -70px;
     }
     .sn-slider-logo-fragment-top {
-      left: 810px;
+      right: 340px;
       bottom: 30px;
     }
     .slider-section-bg {
@@ -2503,6 +2507,12 @@ p {
         }
       }
     }
+
+    .slider-section {
+      .sn-slider-item {
+        height: 430px;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -2584,6 +2594,8 @@ p {
 
 
 
+
+
 }
 
 @media only screen and (max-width : 1200px) {
@@ -2659,6 +2671,21 @@ p {
         }
       }
     }
+
+    .slider-section {
+      .slider-section {
+        .sn-slider-item {
+          height: 400px;
+        }
+      }
+      .sn-slider-logo-fragment {
+        width: 129px;
+      }
+      .sn-slider-logo-fragment-top {
+        right: 100px;
+      }
+    }
+    
   }
 
   .fake-section {
@@ -2866,6 +2893,29 @@ p {
         }
       }
     }
+
+    .slider-section {
+      .slider-section {
+        .sn-slider-item {
+          height: 370px;
+        }
+      }
+      .sn-slider-logo-fragment {
+        width: 100px;
+      }
+      .sn-slider-logo-fragment-bottom {
+        left: 130px;
+        bottom: -20px;
+      }
+      .slider-section-bg {
+        width: 1015px;
+        height: 296px;
+      }
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+        font-size: 30px;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -3030,6 +3080,43 @@ p {
         width:100%;
       }
     }
+
+    .slider-section {
+      .container-xl {
+        padding: 0;
+      }
+      .sn-slider {
+        width: 100%;
+      }
+      .sn-slider-item {
+        width: 50%;
+        height: 350px;
+      }
+      .sn-slider-logo-fragment {
+        width: 70px;
+      }
+      .sn-slider-logo-fragment-bottom {
+        left: 20px;
+      }
+      .sn-slider-logo-fragment-top {
+        right: 20px;
+        bottom: auto;
+        top: -20px;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #fff;
+      }
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+        font-size: 24px;
+      }
+    }
+
+    
   }
 
   .event-advantages-section {
@@ -3212,6 +3299,24 @@ p {
       .participants-wrapper .participants-cards .participants-last-item {
         width: 296px;
         margin: 10px 0;
+      }
+    }
+
+    .slider-section {
+      .sn-slider-item {
+        height: 250px;
+      }
+      .slider-section-bg {
+        bottom: 115px;
+      }
+      .sn-slider-logo-fragment {
+        width: 50px;
+      }
+      .sn-slider-logo-fragment-bottom {
+        bottom: -10px;
+      }
+      .sn-slider-logo-fragment-top {
+        top: -10px;
       }
     }
   }

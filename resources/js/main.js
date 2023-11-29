@@ -59,7 +59,16 @@ const sliderSection = document.querySelector('.slider-section')
 
 if (sliderSection) {
   const snSlider = new Swiper('.sn-slider', {
-    slidesPerView: 3,
+    slidesPerView: 'auto',
+    spaceBetween: 10,
+    centeredSlides: true,
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+        centeredSlides: false,
+      },
+    },
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
