@@ -11,12 +11,29 @@
 <div class="home">
 
   <div class="main-section">
-    <div class="container">
+    <div class="container-xl">
       <div class="main-title _anim-items _anim-no-hide">Выставка <span class="accentcolor">элитной</span><br>зарубежной недвижимости</div>
-      <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br>недвижимости в <span class="text-bold">Европе и Азии</span></div>
+      <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br> недвижимости в <span class="text-bold">Европе и Азии</span></div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
-        <button class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</button>
+        <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ
+          <span class="flash lighting"></span>
+        </button>
+        <a href="/for-participants" class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</a>
+      </div>
+    </div>
+    <div class="main-slider-wrapper">
+      <div class="main-slider swiper">
+        <div class="swiper-wrapper">
+          <div class="main-slider-item swiper-slide">
+            <img src="/img/main-section-bg.png" alt="">
+          </div>
+          <div class="main-slider-item swiper-slide">
+            <img src="/img/for-participants-bg.png" alt="">
+          </div>
+          <div class="main-slider-item swiper-slide">
+            <img src="/img/poster-bg.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>

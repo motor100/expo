@@ -16,11 +16,7 @@
 
 <body>
 
-  <div class="preloader">
-    <div class="preloader-image">
-      <img src="/img/loader.gif" alt="">
-    </div>
-  </div>
+  <!-- @include('preloader') -->
 
   <header class="header">
     <div class="header-top">

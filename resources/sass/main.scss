@@ -286,6 +286,9 @@ p {
       opacity: 1;
       visibility: visible;
     }
+    .lang-select-dropdown .lang-select-link:hover {
+      text-decoration: underline;
+    }
   }
   .underline-wrapper {
     .underline {
