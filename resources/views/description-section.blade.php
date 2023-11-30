@@ -1,16 +1,16 @@
 <div id="description-section" class="description-section section">
   <div class="logo-wrapper">
-    <div class="container">
+    <div class="container-xl">
       <div class="flex-container">
         <div class="logo">
           <img src="/img/description-logo.svg" alt="">
         </div>
-        <div class="text">это место, где <span class="accentcolor">вы найдете ответы на все ваши<br>вопросы</span> связанные с недвижимостью и релокацией</div>
+        <div class="text">это место, где <span class="accentcolor">вы найдете ответы на все ваши вопросы</span> связанные с недвижимостью и релокацией</div>
       </div>
     </div>
   </div>
   <div class="descriptions">
-    <div class="container">
+    <div class="container-xl">
       <div class="row">
         <div class="col-md-6">
           <div class="descriptions-item">

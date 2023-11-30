@@ -1591,13 +1591,15 @@ p {
       align-items: center;
     }
     .logo {
-      width: 318px;
+      width: 294px;
       margin: 0 40px 0 0;
+      flex-shrink: 0;
     }
     .logo img {
       width: 100%;
     }
     .text {
+      padding: 0 100px 0 0;
       font-size: 32px;
       line-height: 1.2;
     }
@@ -2594,9 +2596,21 @@ p {
     }
   }
 
-
-
-
+  .description-section {
+    .logo-wrapper .logo {
+      width: 254px;
+    }
+    .logo-wrapper .text {
+      padding: 0;
+      font-size: 30px;
+    }
+    .descriptions .descriptions-item-image {
+      width: 200px;
+    }
+    .descriptions .descriptions-item-title {
+      font-size: 22px;
+    }
+  }
 
 
 }
@@ -2786,10 +2800,30 @@ p {
     }
   }
 
+  .description-section {
+    .logo-wrapper .logo {
+      width: 214px;
+    }
+    .logo-wrapper .text {
+      font-size: 26px;
+    }
+    .descriptions .descriptions-item-image {
+      width: 180px;
+    }
+    .descriptions .descriptions-item-title {
+      font-size: 20px;
+    }
+  }
+
+
 
 }
 
 @media only screen and (max-width : 992px) {
+  .section {
+    padding: 40px 0;
+  }
+
   .header {
     .header-top {
       .cursor {
@@ -2898,6 +2932,7 @@ p {
     }
 
     .slider-section {
+      padding-bottom: 90px;
       .slider-section {
         .sn-slider-item {
           height: 370px;
@@ -3032,8 +3067,27 @@ p {
     .dubai {
       left: 182px;
     }
-
   }
+
+  .description-section {
+    .logo-wrapper .logo {
+      width: 184px;
+    }
+    .logo-wrapper .text {
+      font-size: 24px;
+    }
+    .descriptions .ml60 {
+      margin-left: 0;
+    }
+    .descriptions .descriptions-item-image {
+      width: 150px;
+      margin: 0 10px 0 0;
+    }
+    .descriptions .descriptions-item-title {
+      font-size: 17px;
+    }
+  }
+  
 
 
 
@@ -3046,7 +3100,6 @@ p {
     padding-right: 12px;
     padding-left: 12px;
   }
-
 
   .hidden-mobile {
     display: none !important;
@@ -3118,8 +3171,6 @@ p {
         font-size: 24px;
       }
     }
-
-    
   }
 
   .event-advantages-section {
@@ -3258,7 +3309,14 @@ p {
     }
   }
   
-
+  .description-section {
+    .logo-wrapper .logo {
+      width: 134px;
+    }
+    .logo-wrapper .text {
+      font-size: 22px;
+    }
+  }
   
 
 }
@@ -3346,8 +3404,28 @@ p {
     }
   }
 
+  .description-section {
+    .logo-wrapper .logo {
+      width: 105px;
+    }
+    .logo-wrapper .text {
+      font-size: 18px;
+    }
+    .descriptions .descriptions-item-text {
+      text-align: center;
+    }
+  }
+
 }
 
 @media only screen and (max-width : 360px) {
-
+  .description-section {
+    .descriptions .descriptions-item-image {
+      width: 130px;
+      margin: 0 5px 0 0;
+    }
+    .descriptions .descriptions-item-title {
+      font-size: 16px;
+    }
+  }
 }
