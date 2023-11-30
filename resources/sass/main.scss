@@ -2193,6 +2193,9 @@ p {
   .footer-logo img {
     width: 100%;
   }
+  .footer-contacts-mobile {
+    display: none;
+  }
   .footer-menu {
     display: flex;
     margin: 0 0 60px 0;
@@ -2200,47 +2203,50 @@ p {
   .footer-menu-contacts {
     width: 30%;
   }
-  .footer-menu-item.for-participant {
+  .footer-menu-item {
+    padding: 0 10px 0 0;
+  }
+  .for-participant {
     width: 25%;
   }
-  .footer-menu-item.for-expo {
+  .for-expo {
     width: 25%;
   }
-  .footer-menu-item.events {
+  .events {
     width: 15%;
   }
-  .footer-menu-item.info {
+  .info {
     width: 15%;
   }
-  .footer-menu-contacts .phone a {
+  .phone a {
     font-family: "opensans-bold";
     font-size: 36px;
     color: $accentcolor;
     line-height: 1.1;
   }
-  .footer-menu-contacts .email {
+  .email {
     margin: 0 0 40px 0;
   }
-  .footer-menu-contacts .email a {
+  .email a {
     font-family: "opensans";
     font-size: 14px;
     color: $whitecolor;
   }
-  .footer-menu-contacts .address {
+  .address {
     font-family: "opensans";
     font-size: 18px;
     color: $accentcolor;
   }
-  .footer-menu-contacts .working-time {
+  .working-time {
     margin: 0 0 60px 0;
     font-family: "opensans";
     font-size: 12px;
   }
-  .footer-menu-contacts .socials .social-item {
+  .socials .social-item {
     display: inline-block;
     width: 24px;
   }
-  .footer-menu-contacts .socials .social-item img {
+  .socials .social-item img {
     width: 100%;
   }
   .footer-menu-item__title {
@@ -2893,7 +2899,31 @@ p {
     .callback-man {
       left: 620px;
     }
+  }
 
+  .footer {
+    .phone a {
+      font-size: 34px;
+    }
+    .footer-menu-contacts {
+      display: none;
+    }
+    .footer-contacts-mobile {
+      display: block;
+      margin: 0 0 50px 0;
+    }
+    .for-participant {
+      width: 30%;
+    }
+    .for-expo {
+      width: 25%;
+    }
+    .events {
+      width: 20%;
+    }
+    .info {
+      width: 25%;
+    }
   }
 
 }
@@ -3218,6 +3248,21 @@ p {
       z-index: 1;
     }
   }
+
+  .footer {
+    .phone a {
+      font-size: 31px;
+    }
+    .footer-menu-item__title {
+      font-size: 18px;
+    }
+    .footer-bottom {
+      text-align: center;
+    }
+    .footer-bottom-item {
+      margin: 0 0 20px 0;
+    }
+  }
   
 
 
@@ -3469,6 +3514,25 @@ p {
     }
     .callback-answer {
       font-size: 24px;
+    }
+  }
+
+  .footer {
+    .footer-contacts-mobile {
+      margin: 0 0 70px 0;
+    }
+    .email {
+      margin: 0 0 20px 0;
+    }
+    .working-time {
+      margin: 0 0 20px 0;
+    }
+    .footer-menu {
+      flex-wrap: wrap;
+    }
+    .footer-menu-item {
+      width: 50%;
+      margin: 0 0 50px 0;
     }
   }
 

@@ -138,6 +138,50 @@
       <div class="footer-logo">
         <img src="/img/footer-logo.svg" alt="">
       </div>
+
+      <div class="footer-contacts-mobile">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="contacts">
+              <div class="phone">
+                <a href="tel:+78002700700">8 800 2700 700</a>
+              </div>
+              <div class="email">
+                <a href="mailto:support@luxpropertyexpo.com">support@luxpropertyexpo.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5">
+            <div class="address-wrapper">
+              <div class="address">Москва, Столярный переулок</div>
+              <div class="working-time">Мы работаем с 08:00 до 20:00</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3">
+            <div class="socials">
+              <a href="" class="social-item">
+                <img src="/img/footer-telegram.svg" alt="">
+              </a>
+              <a href="" class="social-item">
+                <img src="/img/footer-whatsapp.svg" alt="">
+              </a>
+              <a href="" class="social-item">
+                <img src="/img/footer-facebook.svg" alt="">
+              </a>
+              <a href="" class="social-item">
+                <img src="/img/footer-youtube.svg" alt="">
+              </a>
+              <a href="" class="social-item">
+                <img src="/img/footer-twitter.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
       <div class="footer-menu">
         <div class="footer-menu-contacts">
           <div class="phone">
@@ -208,15 +252,17 @@
       </div>
       <div class="footer-bottom">
         <div class="row">
-          <div class="col-md-3">
-            <div class="copyright">© 2023 SA ORGANIZATION GROUP</div>
+          <div class="col-lg-3">
+            <div class="footer-bottom-item copyright">© 2023 SA ORGANIZATION GROUP</div>
           </div>
-          <div class="col-md-6">
-            <div class="privacy-policy">
+          <div class="col-lg-6">
+            <div class="footer-bottom-item privacy-policy">
               <a href="/privacy-policy">Политика конфиденциальности</a>
             </div>
           </div>
-          <div class="col-md-3"></div>
+          <div class="col-lg-3">
+            <div class="footer-bottom-item developer"></div>
+          </div>
         </div>
       </div>
     </div>
