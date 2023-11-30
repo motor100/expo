@@ -22,15 +22,19 @@
     <div class="header-top">
       <div class="container-xl">
         <div class="row">
-          <div class="col-md-2">
-            <div class="name">Международная выставка</div>
+          <div class="col-md-2 col-2">
+            <div class="name hidden-mobile">Международная выставка</div>
+            <div class="logo-mobile hidden-desktop">
+              <img src="/img/logo-mobile.svg" alt="">
+            </div>
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9 col-8">
             <div class="cities-menu-wrapper">
               <div class="cursor">
                 <img src="/img/header-cursor.svg" alt="">
               </div>
-              <div class="cities-menu">
+              <div class="city-mobile hidden-desktop">Москва</div>
+              <div class="cities-menu hidden-mobile">
                 <div class="cities-menu-item">
                   <a href="/event" class="cities-menu-item__link">Москва</a>
                 </div>
@@ -56,7 +60,7 @@
             </div>
           </div>
           <div class="col-md-1">
-            <div class="lang-select">
+            <div class="lang-select hidden-mobile">
               <div class="lang-select-text">
                 <a href="/" class="lang-select-link">ru</a>
               </div>
@@ -79,15 +83,16 @@
     <div class="header-bottom">
       <div class="container-xl">
         <div class="row">
-          <div class="col-md-2">
-            <div class="logo">
+          <div class="col-md-2 col-6">
+            <div class="logo hidden-mobile">
               <a href="/">
                 <img src="/img/logo.svg" alt="">
               </a>
             </div>
+            <div class="name hidden-desktop">Международная выставка</div>
           </div>
-          <div class="col-md-8">
-            <div class="top-menu">
+          <div class="col-md-8 d-md-block d-none">
+            <div class="top-menu hidden-mobile">
               <ul class="menu">
                 <li class="menu-item">
                   <a href="/" class="menu-item-link">Главная</a>
@@ -107,7 +112,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
             <div class="phone-wrapper">
               <div class="phone-img">
                 <img src="/img/header-phone.svg" alt="">

@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="descriptions-item ml60">
+          <div class="descriptions-item description-item-last ml60">
             <div class="descriptions-item-content">
               <div class="descriptions-item-image">
                 <img src="/img/description-section-img4.png" alt="">
