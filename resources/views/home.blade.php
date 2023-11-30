@@ -343,7 +343,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Мы гордимся</span></div>
-            <div class="section-title__text">что имеем поддержку и сотрудничаем<br> с <span class="accent">ведущими информационными партнёрами</span>,<br> которые продвигают и поддерживают нашу выставку</div>
+            <div class="section-title__text">что имеем поддержку и сотрудничаем<br> с <span class="accent">ведущими информационными партнёрами</span>, которые продвигают и поддерживают нашу выставку</div>
           </div>
           <div class="col-md-6">
             <div class="section-title__image">
@@ -357,21 +357,21 @@
       <div class="container-xl">
         <div class="partners-title">Вот некоторые из них:</div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="partners-item">
               <div class="partners-item-number">01</div>
               <div class="vertikal-line"></div>
               <div class="partners-item-title">Журнал<br> <span class="accentcolor">«Недвижимость и строительство»</span></div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="partners-item">
               <div class="partners-item-number">02</div>
               <div class="vertikal-line"></div>
               <div class="partners-item-title">Портал<br> <span class="accentcolor">«Недвижимость Today»</span></div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="partners-item">
               <div class="partners-item-number">03</div>
               <div class="vertikal-line"></div>
@@ -384,42 +384,42 @@
     <div class="partners-logo">
       <div class="container-xl">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
