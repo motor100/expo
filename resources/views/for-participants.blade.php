@@ -7,8 +7,8 @@
 <div class="for-participants">
 
   <div class="main-section">
-    <div class="container"> 
-      <div class="main-title _anim-items _anim-no-hide"><span class="accentcolor">Стань ЭКСПОНЕНТОМ</span> премиальной<br>выставки недвижимости</div>
+    <div class="container-xl">
+      <div class="main-title _anim-items _anim-no-hide"><span class="accentcolor">Стань ЭКСПОНЕНТОМ</span> премиальной <br>выставки недвижимости</div>
       <div class="main-text">Оставь заявку прямо сейчас и <span class="accentcolor">мы отправим условия участия в течении 15 минут</span></div>
       <form class="form callback-form">
         <div class="flex-container">
@@ -30,7 +30,7 @@
 
   <div class="for-participants-section section">
     <div class="title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="section-title _anim-items _anim-no-hide">для экспонентов</div>
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="labels">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="labels-item">
@@ -100,7 +100,7 @@
       </div>
     </div>
     <div class="for-participants-text">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="for-participants-text-item">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: Испании, Греции, Португалии, Таиланда, Кира, ОАЭ и многих других стран.</div>
@@ -118,13 +118,13 @@
 
   <div class="visitors-section section">
     <div class="section-title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide">Кто посещает<br>выставки <span class="accentcolor">luxury</span><br> property expo</span></div>
       </div>
     </div>
 
     <div class="visitors-list-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="visitors-list">
@@ -163,7 +163,7 @@
     </div>
 
     <div class="visitors-section-bg-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="visitors-section-bg">
           <img src="/img/for-participants-visitors-bg.png" class="visitors-section-bg-image" alt="">
         </div>
@@ -173,14 +173,14 @@
 
   <div id="advertising-section" class="advertising-section section">
     <div class="section-title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Рекламная</span> кампания</div>
         <div class="advertising-text">Эффективная методика привлечения покупателей.<br>Все современные возможности интернет рекламы:</div>
       </div>
     </div>
     
     <div class="advertising-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="advertising">
@@ -233,7 +233,7 @@
     </div>
 
     <div class="logo-fragment-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="logo-fragment-bg">
           <img src="/img/advertising-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
         </div>
@@ -241,7 +241,7 @@
     </div>
 
     <div class="magazine-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="magazine-bg">
           <img src="/img/advertising-magazine.png" class="magazine-bg-image" alt="">
         </div>
@@ -250,7 +250,7 @@
   </div>
 
   <div class="stands-section section">
-    <div class="container">
+    <div class="container-xl">
       <div class="section-title _anim-items _anim-no-hide">НА НАШЕЙ ВЫСТАВКЕ<br><span class="accentcolor">ПРЕМИАЛЬНЫЕ СТЕНДЫ УЧАСТНИКОВ</span></div>
       <div class="content">
         <div class="logo-fragment">
@@ -268,7 +268,7 @@
 
   <div class="ticket-section section">
     <div class="labels">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-4">
             <div class="labels-item">
@@ -299,7 +299,7 @@
     </div>
 
     <div class="ticket-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="ticket">
           <div class="ticket-text-string">выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция</div>
           <div class="ticket-logo">
@@ -331,7 +331,7 @@
 
   <div class="rezult-section section">
     <div class="content-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие<br>в нашей выставке окупится<br>благодаря нашей<br><span class="accentcolor">ориентированности на результаты</span></div>
         <div class="content">
           <div class="good-deal">
@@ -372,7 +372,7 @@
     </div>
 
     <div class="logo-fragment-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="logo-fragment-bg">
           <img src="/img/rezult-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
         </div>

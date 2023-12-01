@@ -769,6 +769,7 @@ p {
 .for-participants {
   .main-section {
     background: url(/resources/img/for-participants-bg.png) center no-repeat;
+    background-size: cover;
   }
 
   .for-participants-section {
@@ -2557,6 +2558,12 @@ p {
     }
   }
 
+  .for-participants {
+    .main-title {
+      padding-top: 236px;
+    }
+  }
+
   .event-advantages-section {
     .left {
       padding: 30px 40px 40px 40px;
@@ -2672,6 +2679,10 @@ p {
     padding-left: 30px;
   }
 
+  .main-title br {
+    display: none;
+  }
+
   .header {
     .header-top {
       .cities-menu-wrapper {
@@ -2774,9 +2785,13 @@ p {
       .partners .partners-item-title {
         font-size: 17px;
       }
-
     }
-    
+  }
+
+  .for-participants {
+    .callback-form .callback-submit-btn {
+      width: 180px;
+    }
   }
 
   .fake-section {
@@ -2855,10 +2870,7 @@ p {
     .ticket-right-text .accentcolor {
       display: block;
     }
-  }
-
-  .callback-form {
-    .flex-container {
+    .callback-form .flex-container {
       width: 475px;
       flex-wrap: wrap;
     }
@@ -3104,6 +3116,24 @@ p {
     }
   }
 
+  .for-participants {
+    .main-title {
+      padding-top: 206px;
+    }
+    .main-text {
+      margin: 0 0 33px 0;
+    }
+    .callback-form {
+      .input-field {
+        width: 170px;
+        margin: 0 10px 33px 0;
+      }
+      .callback-submit-btn {
+        width: 170px;
+      }
+    }
+  }
+
   .event-advantages-section {
     .left {
       width: 60%;
@@ -3173,15 +3203,13 @@ p {
       top: 400px;
       left: 270px;
     }
-  }
-
-  .callback-form {
-    .checkbox-wrapper {
-      width: 225px;
-      // margin: 0 0 130px 0;
-    }
-    .checkbox-text br {
-      display: none;
+    .callback-form {
+      .checkbox-wrapper {
+        width: 225px;
+      }
+      .checkbox-text br {
+        display: none;
+      }
     }
   }
 
@@ -3421,6 +3449,21 @@ p {
       }
       .partners-logo .partners-logo-item {
         width: 210px;
+      }
+    }
+  }
+
+  .for-participants {
+    .callback-form {
+      .flex-container {
+        width: 475px;
+        flex-wrap: wrap;
+      }
+      .input-field {
+        width: 200px;
+      }
+      .callback-submit-btn {
+        width: 200px;
       }
     }
   }
@@ -3683,6 +3726,23 @@ p {
     }
   }
 
+  .for-participants {
+    .callback-form {
+      .flex-container {
+        width: auto;
+      }
+      .input-field {
+        width: 160px;
+        margin: 0 5px 33px 0;
+      }
+      .callback-submit-btn {
+        display: inline-block;
+        width: 160px;
+      }
+
+    }
+  }
+
   .labels {
     .labels-item {
       width: 100%;
@@ -3746,6 +3806,20 @@ p {
       .partners .partners-item-title {
         font-size: 16px;
       }
+    }
+  }
+
+  .for-participants {
+    .callback-form {
+      .input-field {
+        display: block;
+        width: 100%;
+      }
+      .callback-submit-btn {
+        display: block;
+        width: 100%;
+      }
+
     }
   }
 
