@@ -48,7 +48,7 @@
     <div class="labels">
       <div class="container-xl">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-diagram.svg" alt="">
@@ -56,7 +56,7 @@
               <div class="labels-item__title">Потенциальные покупатели и инвесторы с <span class="accent">бюджетом от 150 000 до 2 млн.</span></div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-team.svg" alt="">
@@ -64,15 +64,15 @@
               <div class="labels-item__title"><span class="accentcolor">Премиум</span> площадка</div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-agent.svg" alt="">
               </div>
-              <div class="labels-item__title">Представители агентств недвижимости<br>в <span class="accentcolor">сегменте бизнес и премиум класса</span></div>
+              <div class="labels-item__title">Представители агентств недвижимости <br>в <span class="accentcolor">сегменте бизнес и премиум класса</span></div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-list.svg" alt="">
@@ -80,7 +80,7 @@
               <div class="labels-item__title">Полезная <span class="accentcolor">деловая программа</span></div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-shield.svg" alt="">
@@ -88,7 +88,7 @@
               <div class="labels-item__title"><span class="accentcolor">Private banking</span> и Family office</div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-networking.svg" alt="">
@@ -103,7 +103,7 @@
       <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
-            <div class="for-participants-text-item">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: Испании, Греции, Португалии, Таиланда, Кира, ОАЭ и многих других стран.</div>
+            <div class="for-participants-text-item for-participants-text-item-first">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: Испании, Греции, Португалии, Таиланда, Кира, ОАЭ и многих других стран.</div>
           </div>
           <div class="col-md-6">
             <div class="for-participants-text-item">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: Испании, Греции, Португалии, Таиланда, Кира, ОАЭ и многих других стран.</div>
@@ -115,6 +115,8 @@
       <img src="/img/for-participants-section-bg.png" class="for-participants-section-bg-img" alt="">
     </div>
   </div>
+
+  <div class="fake-section"></div>
 
   <div class="visitors-section section">
     <div class="section-title-wrapper">
