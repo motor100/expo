@@ -989,6 +989,9 @@ p {
       width: 460px;
       height: 429px;
       margin: 0 45px 0 0;
+      .logo-fragment-image img {
+        width: 100%;
+      }
       .text {
         position: absolute;
         top: 0;
@@ -2857,6 +2860,21 @@ p {
         width: 681px;
       }
     }
+
+    .stands-section {
+      .logo-fragment {
+        height: auto;
+      }
+      .logo-fragment .text {
+        width: 100%;
+        height: max-content;
+        padding: 0 20px;
+        font-size: 15px;
+      }
+      .stand-image {
+        height: auto;
+      }
+    }
   }
 
   .fake-section {
@@ -3258,7 +3276,15 @@ p {
       }
     }
     
-    
+    .stands-section {
+      .logo-fragment {
+        width: 560px;
+      }
+      .logo-fragment .text {
+        font-size: 13px;
+      }
+    }
+
 
   }
 
@@ -3645,10 +3671,25 @@ p {
         width: 100%;
         height: auto;
       }
-  
     }
 
-    
+    .stands-section {
+      .content {
+        display: block;
+      }
+      .logo-fragment {
+        margin: 0 0 40px 0;
+        max-width: 560px;
+        width: 100%;
+      }
+      .logo-fragment .text {
+        font-size: 16px;
+      }
+      .stand-image {
+        max-width: 565px;
+        width: 100%;
+      }
+    }
 
   }
 
@@ -3940,6 +3981,12 @@ p {
       }
     }
 
+    .stands-section {
+      .logo-fragment .text {
+        font-size: 14px;
+      }
+    }
+
   }
 
   .labels {
@@ -4024,6 +4071,12 @@ p {
 
     .section-title {
       font-size: 29px;
+    }
+
+    .stands-section {
+      .logo-fragment .text {
+        font-size: 13px;
+      }
     }
   }
 
