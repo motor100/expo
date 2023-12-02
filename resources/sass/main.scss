@@ -2585,6 +2585,16 @@ p {
         width: 821px;
       }
     }
+
+    .labels .labels-item__title br {
+      display: none;
+    }
+
+    .ticket-section {
+      .ticket .ticket-seats-counter {
+        left: 655px;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -2875,6 +2885,7 @@ p {
         height: auto;
       }
     }
+
   }
 
   .fake-section {
@@ -2927,6 +2938,9 @@ p {
   }
 
   .labels {
+    .labels-item {
+      padding: 15px 15px 0 95px;
+    }
     .labels-item__title br {
       display: none;
     }
@@ -3285,6 +3299,12 @@ p {
       }
     }
 
+    .ticket-section {
+      .ticket .ticket-seats-counter {
+        font-size: 18px;
+        text-align: left;        
+      }
+    }
 
   }
 
@@ -3995,6 +4015,13 @@ p {
     }
   }
 
+  .ticket {
+    .callback-form .flex-container {
+      width: 100%;
+    }
+  }
+   
+
   .ticket-section {
     .labels .middle-labels-item {
       margin-left: 0;
@@ -4087,6 +4114,13 @@ p {
     }
     .descriptions .descriptions-item-title {
       font-size: 16px;
+    }
+  }
+
+  .ticket {
+    .ticket-label .ticket-label-text {
+      font-size: 22px;
+      text-align: center;
     }
   }
 }
