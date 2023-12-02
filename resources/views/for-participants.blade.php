@@ -119,6 +119,7 @@
   <div class="fake-section"></div>
 
   <div class="visitors-section section">
+
     <div class="section-title-wrapper">
       <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide">Кто посещает<br>выставки <span class="accentcolor">luxury</span><br> property expo</span></div>
@@ -128,7 +129,7 @@
     <div class="visitors-list-wrapper">
       <div class="container-xl">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6 col-md-7">
             <div class="visitors-list">
               <div class="visitors-list-item">
                 <div class="visitors-list-item__title">Потенциальные клиенты и инвесторы</div>
@@ -148,7 +149,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6 col-md-5">
             <div class="percents">
               <div class="percents-item percents-item-first">
                 <div class="percents-item__big">70%</div>
@@ -166,8 +167,15 @@
 
     <div class="visitors-section-bg-wrapper">
       <div class="container-xl">
-        <div class="visitors-section-bg">
-          <img src="/img/for-participants-visitors-bg.png" class="visitors-section-bg-image" alt="">
+        <div class="row">
+          <div class="col-md-5"></div>
+          <div class="col-md-7">
+            <div class="bg-wrapper">
+              <div class="visitors-section-bg">
+                <img src="/img/for-participants-visitors-bg.png" class="visitors-section-bg-image" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -323,7 +331,7 @@
             </div>
           </form>
           <div class="ticket-label">
-            <img src="/img/ticket-label.png" class="ticket-label-image" alt="">
+            <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
             <span class="ticket-label-text">электронный билет</span>
           </div>
         </div>

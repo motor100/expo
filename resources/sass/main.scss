@@ -890,18 +890,20 @@ p {
         color: $accentcolor;
       }
     }
-    .visitors-section-bg-wrapper {
+    .bg-wrapper {
       position: relative;
     }
     .visitors-section-bg {
       position: absolute;
       bottom: -60px;
-      left: 790px;
-      width: 775px;
+      left: 0;
+      width: 100%;
       height: 860px;
       z-index: 0;
       .visitors-section-bg-image {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
   }
@@ -1114,7 +1116,6 @@ p {
         width: 100%;
       }
     }
-
   }
 }
 
@@ -2560,6 +2561,18 @@ p {
     .main-title {
       padding-top: 236px;
     }
+
+    .visitors-section {
+      .percents {
+        padding: 0 0 0 80px;
+      }
+      .percents .percents-item__big {
+        font-size: 83px;
+      }
+      .percents .percent-item__small {
+        font-size: 30px;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -2795,6 +2808,27 @@ p {
 
     .section-title {
       font-size: 44px;
+    }
+
+    .visitors-section {
+      .visitors-section-bg {
+        height: 760px;
+      }
+      .visitors-list {
+        padding: 50px 40px;
+      }
+      .visitors-list .visitors-list-item__title {
+        font-size: 18px;
+      }
+      .percents .percents-item__big {
+        font-size: 80px;
+      }
+      .percents .percent-item__small {
+        font-size: 28px;
+      }
+      .percents {
+        padding: 0 0 0 60px;
+      }
     }
   }
 
@@ -3152,6 +3186,33 @@ p {
       }
     }
 
+    .visitors-section {
+      .visitors-list {
+        padding: 40px 30px;
+      }
+      .visitors-list .visitors-list-item {
+        margin: 0 0 30px 0;
+      }
+      .visitors-list .visitors-list-item__title {
+        margin: 0 0 15px 0;
+        font-size: 17px;
+      }
+      .percents {
+        padding: 0 0 0 20px;
+      }
+      .percents .percents-item__big {
+        margin: 0 12px 0 0;
+        font-size: 60px;
+      }
+      .percents .percent-item__small {
+        font-size: 20px;
+      }
+      .visitors-section-bg {
+        height: 600px;
+      }
+    }
+    
+
   }
 
   .event-advantages-section {
@@ -3336,8 +3397,6 @@ p {
       margin: 0 0 20px 0;
     }
   }
-  
-
 
 }
 
@@ -3508,6 +3567,19 @@ p {
         margin: 0 0 20px 0;
       }
     }
+
+    .visitors-section {
+      .visitors-list {
+        margin: 0 0 60px 0;
+      }
+      .percents {
+        padding: 0 0 60px 60px;
+      }
+      .visitors-section-bg {
+        height: 380px;
+        bottom: 0;
+      }
+    }
     
 
 
@@ -3521,9 +3593,6 @@ p {
       width: 100%;
       border-right: 1px solid #5A5A5A;
     }
-    // .last-left-text {
-    //   margin: 0 0 60px 0;
-    // }
     .left-image-wrapper {
       position: absolute;
       top: 0;
@@ -3797,6 +3866,13 @@ p {
     .section-title {
       font-size: 32px;
     }
+
+    .visitors-section {
+      .percents {
+        padding: 0 0 60px 20px;
+      }
+    }
+
   }
 
   .labels {
