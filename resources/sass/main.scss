@@ -1039,6 +1039,10 @@ p {
       .good-deal {
         position: relative;
         margin: 0 20px 0 0;
+        width: 65%;
+        .good-deal-bg-img {
+          width: 100%;
+        }
         .good-deal-text {
           position: absolute;
           top: 40px;
@@ -1078,8 +1082,10 @@ p {
           position: absolute;
           top: 430px;
           left: 40px;
-          width: 755px;
-          height: 197px;
+          width: 91%;
+        }
+        .good-deal-diagram img {
+          width: 100%;
         }
         .good-deal-description {
           position: absolute;
@@ -1091,7 +1097,11 @@ p {
         .good-deal-description-item {
           display: flex;
           .circle {
+            width: 36px;
             margin: 0 15px 0 0;
+          }
+          .circle img {
+            width: 100%;
           }
           .text {
             font-family: "opensans-medium";
@@ -1106,6 +1116,9 @@ p {
           margin: 0 40px;
         }
       }
+      .rezult-image-mobile {
+        display: none;
+      }
     }
     .logo-fragment-wrapper {
       position: relative;
@@ -1113,7 +1126,7 @@ p {
     .logo-fragment-bg {
       position: absolute;
       bottom: 320px;
-      left: 979px;
+      left: 51%;
       width: 718px;
       height: 671px;
       z-index: 0;
@@ -2595,6 +2608,24 @@ p {
         left: 655px;
       }
     }
+
+    .rezult-section {
+      .section-title br {
+        display: none;
+      }
+      .content .good-deal .good-deal-text__title .number {
+        font-size: 146px;
+      }
+      .content .good-deal .good-deal-text__title .text {
+        font-size: 40px;
+      }
+      .content .good-deal .good-deal-text__subtitle {
+        font-size: 30px;
+      }
+      .content .good-deal .good-deal-description-item .text {
+        font-size: 22px;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -2885,6 +2916,36 @@ p {
         height: auto;
       }
     }
+
+    .rezult-section {
+      .content .good-deal .good-deal-text__top {
+        font-size: 30px;
+      }
+      .content .good-deal .good-deal-text__title .number {
+        font-size: 136px;
+      }
+      .content .good-deal .good-deal-text__title .text {
+        font-size: 35px;
+      }
+      .content .good-deal .good-deal-text__subtitle {
+        font-size: 28px;
+        padding: 0 20px 0 0;
+      }
+      .content .good-deal .good-deal-text__subtitle br {
+        display: none;
+      }
+      .content .good-deal .good-deal-description-item .circle {
+        width: 30px;
+        margin: 0 10px 0 0;
+      }
+      .content .good-deal .good-deal-description-item:first-child {
+        margin: 0 30px 0 40px;
+      }
+      .content .good-deal .good-deal-description-item .text {
+        font-size: 18px;
+      }
+    }
+
 
   }
 
@@ -3303,6 +3364,28 @@ p {
       .ticket .ticket-seats-counter {
         font-size: 18px;
         text-align: left;        
+      }
+    }
+
+    .rezult-section {
+      .section-title {
+        margin: 0 0 50px 0;
+      }
+      .content {
+        display: block;
+      }
+      .content .good-deal {
+        width: 100%;
+        margin: 0 0 130px 0;
+      }
+      .rezult-image-desktop {
+        display: none;
+      }
+      .content .rezult-image-mobile {
+        display: block;
+      }
+      .content .rezult-image-mobile img {
+        width: 100%;
       }
     }
 

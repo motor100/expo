@@ -363,11 +363,11 @@
   <div class="rezult-section section">
     <div class="content-wrapper">
       <div class="container-xl">
-        <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие<br>в нашей выставке окупится<br>благодаря нашей<br><span class="accentcolor">ориентированности на результаты</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие <br>в нашей выставке окупится <br>благодаря нашей <br><span class="accentcolor">ориентированности на результаты</span></div>
         <div class="content">
           <div class="good-deal">
             <div class="good-deal-bg">
-              <img src="/img/good-deal-bg.png" alt="">
+              <img src="/img/good-deal-bg.png" class="good-deal-bg-img" alt="">
             </div>
             <div class="good-deal-text">
               <div class="good-deal-text__top">В среднем, участники достигают</div>
@@ -375,7 +375,7 @@
                 <div class="number">2-6</div>
                 <div class="text"><span class="accent">успешных сделок</span><br>на выставке</div>
               </div>
-              <div class="good-deal-text__subtitle">что обеспечивает <span class="accentcolor">высокую окупаемость<br>вашего участия</span></div>
+              <div class="good-deal-text__subtitle">что обеспечивает <span class="accentcolor">высокую окупаемость <br>вашего участия</span></div>
             </div>
             <div class="good-deal-diagram">
               <img src="/img/good-deal-diagram.svg" alt="">
@@ -396,7 +396,8 @@
             </div>
           </div>
           <div class="image">
-            <img src="/img/rezult-image.png" alt="">
+            <img src="/img/rezult-image-desktop.png" class="rezult-image-desktop" alt="">
+            <img src="/img/rezult-image-mobile.png" class="rezult-image-mobile" alt="">
           </div>
         </div>
       </div>
