@@ -182,10 +182,27 @@
   </div>
 
   <div id="advertising-section" class="advertising-section section">
+
     <div class="section-title-wrapper">
       <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Рекламная</span> кампания</div>
         <div class="advertising-text">Эффективная методика привлечения покупателей.<br>Все современные возможности интернет рекламы:</div>
+      </div>
+    </div>
+
+    <div class="logo-fragment-wrapper hidden-mobile">
+      <div class="container-xl">
+        <div class="logo-fragment-bg">
+          <img src="/img/advertising-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="magazine-wrapper hidden-mobile">
+      <div class="container-xl">
+        <div class="magazine-bg">
+          <img src="/img/advertising-magazine.png" class="magazine-bg-image" alt="">
+        </div>
       </div>
     </div>
     
@@ -242,21 +259,24 @@
       </div>
     </div>
 
-    <div class="logo-fragment-wrapper">
-      <div class="container-xl">
-        <div class="logo-fragment-bg">
-          <img src="/img/advertising-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
+    <div class="logo-magazine-mobile hidden-desktop">
+      <div class="logo-fragment-wrapper">
+        <div class="container-xl">
+          <div class="logo-fragment-bg">
+            <img src="/img/advertising-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="magazine-wrapper">
+        <div class="container-xl">
+          <div class="magazine-bg">
+            <img src="/img/advertising-magazine.png" class="magazine-bg-image" alt="">
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="magazine-wrapper">
-      <div class="container-xl">
-        <div class="magazine-bg">
-          <img src="/img/advertising-magazine.png" class="magazine-bg-image" alt="">
-        </div>
-      </div>
-    </div>
   </div>
 
   <div class="stands-section section">

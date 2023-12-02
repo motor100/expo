@@ -949,13 +949,15 @@ p {
     }
     .logo-fragment-bg {
       position: absolute;
-      bottom: 140px;
-      left: 790px;
+      top: 0;
+      left: 41%;
       width: 1030px;
-      height: 958px;
+      height: 858px;
       z-index: 0;
       .logo-fragment-bg-image {
         width: 100%;
+        height: 100%;
+        object-fit: contain;
       }
     }
     .magazine-wrapper {
@@ -963,12 +965,12 @@ p {
     }
     .magazine-bg {
       position: absolute;
-      bottom: 320px;
-      left: 850px;
+      top: 0;
+      left: 45%;
       width: 861px;
       height: 723px;
       z-index: 0;
-      .logo-fragment-bg-image {
+      .magazine-bg-image {
         width: 100%;
       }
     }
@@ -2573,6 +2575,13 @@ p {
         font-size: 30px;
       }
     }
+
+    .advertising-section {
+      .magazine-bg {
+        left: 43%;
+        width: 821px;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -2828,6 +2837,24 @@ p {
       }
       .percents {
         padding: 0 0 0 60px;
+      }
+    }
+
+    .advertising-section {
+      .advertising .advertising-item {
+        padding: 24px 17px;
+      }
+      .advertising .advertising-item-text {
+        font-size: 18px;
+      }
+      .logo-fragment-bg {
+        left: 41%;
+        width: 830px;
+        height: 773px;
+      }
+      .magazine-bg {
+        left: 40%;
+        width: 681px;
       }
     }
   }
@@ -3211,6 +3238,26 @@ p {
         height: 600px;
       }
     }
+
+    .advertising-section {
+      .advertising .advertising-item {
+        padding: 17px 12px;
+      }
+      .advertising .advertising-item-image {
+        width: 50px;
+      }
+      .advertising .advertising-item-text {
+        font-size: 16px;
+      }
+      .magazine-bg {
+        width: 581px;
+      }
+      .logo-fragment-bg {
+        width: 630px;
+        height: 587px;
+      }
+    }
+    
     
 
   }
@@ -3581,7 +3628,27 @@ p {
       }
     }
     
+    .advertising-section {
+      .logo-magazine-mobile {
+        position: relative;
+      }
+      .logo-fragment-bg {
+        position: static;
+        width: 100%;
+        height: auto;
+      }
+      .magazine-wrapper {
+        position: initial;
+      }
+      .magazine-bg {
+        left: -20px;
+        width: 100%;
+        height: auto;
+      }
+  
+    }
 
+    
 
   }
 
