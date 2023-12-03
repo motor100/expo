@@ -2659,7 +2659,12 @@ p {
         width: 530px;
       }
     }
+  }
 
+  .event {
+    .main-section .main-text {
+      margin: 0 0 60px;
+    }
   }
 
   .event-advantages-section {
@@ -3011,8 +3016,6 @@ p {
         width: 430px;
       }
     }
-    
-
   }
 
   .fake-section {
