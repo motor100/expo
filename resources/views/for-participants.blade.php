@@ -182,14 +182,12 @@
   </div>
 
   <div id="advertising-section" class="advertising-section section">
-
     <div class="section-title-wrapper">
       <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Рекламная</span> кампания</div>
         <div class="advertising-text">Эффективная методика привлечения покупателей.<br>Все современные возможности интернет рекламы:</div>
       </div>
     </div>
-
     <div class="logo-fragment-wrapper hidden-mobile">
       <div class="container-xl">
         <div class="logo-fragment-bg">
@@ -197,7 +195,6 @@
         </div>
       </div>
     </div>
-
     <div class="magazine-wrapper hidden-mobile">
       <div class="container-xl">
         <div class="magazine-bg">
@@ -205,7 +202,6 @@
         </div>
       </div>
     </div>
-    
     <div class="advertising-wrapper">
       <div class="container-xl">
         <div class="row">
@@ -258,7 +254,6 @@
         </div>
       </div>
     </div>
-
     <div class="logo-magazine-mobile hidden-desktop">
       <div class="logo-fragment-wrapper">
         <div class="container-xl">
@@ -267,7 +262,6 @@
           </div>
         </div>
       </div>
-
       <div class="magazine-wrapper">
         <div class="container-xl">
           <div class="magazine-bg">
@@ -276,7 +270,6 @@
         </div>
       </div>
     </div>
-
   </div>
 
   <div class="stands-section section">
@@ -373,7 +366,7 @@
               <div class="good-deal-text__top">В среднем, участники достигают</div>
               <div class="good-deal-text__title">
                 <div class="number">2-6</div>
-                <div class="text"><span class="accent">успешных сделок</span><br>на выставке</div>
+                <div class="text"><span class="accent">успешных сделок</span> <br>на выставке</div>
               </div>
               <div class="good-deal-text__subtitle">что обеспечивает <span class="accentcolor">высокую окупаемость <br>вашего участия</span></div>
             </div>

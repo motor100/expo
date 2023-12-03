@@ -265,9 +265,7 @@
               <a href="/privacy-policy">Политика конфиденциальности</a>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="footer-bottom-item developer"></div>
-          </div>
+          <div class="col-lg-3"></div>
         </div>
       </div>
     </div>

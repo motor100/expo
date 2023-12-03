@@ -1039,15 +1039,24 @@ p {
       .good-deal {
         position: relative;
         margin: 0 20px 0 0;
+        padding: 40px 40px 0 40px;
         width: 65%;
-        .good-deal-bg-img {
+        .good-deal-bg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+        }
+        .good-deal-bg img {
           width: 100%;
         }
-        .good-deal-text {
-          position: absolute;
-          top: 40px;
-          left: 40px;
-        }
+        // .good-deal-text {
+        //   position: absolute;
+        //   top: 40px;
+        //   left: 40px;
+        // }
         .good-deal-text__top {
           margin: 0 0 30px 0;
           font-size: 32px;
@@ -1075,20 +1084,22 @@ p {
           }
         }
         .good-deal-text__subtitle {
+          margin: 0 0 50px 0;
           font-family: "manrope-light";
           font-size: 32px;
         }
         .good-deal-diagram {
-          position: absolute;
-          top: 430px;
-          left: 40px;
-          width: 91%;
+          margin: 0 0 20px 0;
+          // position: absolute;
+          // top: 430px;
+          // left: 40px;
+          // width: 91%;
         }
         .good-deal-diagram img {
           width: 100%;
         }
         .good-deal-description {
-          position: absolute;
+          // position: absolute;
           top: 650px;
           left: 0;
           display: flex;
@@ -1113,7 +1124,7 @@ p {
           }
         }
         .good-deal-description-item:first-child {
-          margin: 0 40px;
+          margin: 0 40px 0 0;
         }
       }
       .rezult-image-mobile {
@@ -2613,6 +2624,9 @@ p {
       .section-title br {
         display: none;
       }
+      .content .good-deal {
+        padding: 35px 35px 0 35px;
+      }
       .content .good-deal .good-deal-text__title .number {
         font-size: 146px;
       }
@@ -2623,7 +2637,7 @@ p {
         font-size: 30px;
       }
       .content .good-deal .good-deal-description-item .text {
-        font-size: 22px;
+        font-size: 21px;
       }
     }
   }
@@ -2927,6 +2941,9 @@ p {
       .content .good-deal .good-deal-text__title .text {
         font-size: 35px;
       }
+      .content .good-deal .good-deal-text__title .text br {
+        display: none;
+      }
       .content .good-deal .good-deal-text__subtitle {
         font-size: 28px;
         padding: 0 20px 0 0;
@@ -2939,7 +2956,7 @@ p {
         margin: 0 10px 0 0;
       }
       .content .good-deal .good-deal-description-item:first-child {
-        margin: 0 30px 0 40px;
+        margin: 0 30px 0 0;
       }
       .content .good-deal .good-deal-description-item .text {
         font-size: 18px;
@@ -3376,15 +3393,17 @@ p {
       }
       .content .good-deal {
         width: 100%;
-        margin: 0 0 130px 0;
+        margin: 0 0 60px 0;
+        padding: 30px 30px 0 30px;
+      }
+      .content .good-deal .good-deal-text__title .number {
+        font-size: 116px;
       }
       .rezult-image-desktop {
         display: none;
       }
       .content .rezult-image-mobile {
         display: block;
-      }
-      .content .rezult-image-mobile img {
         width: 100%;
       }
     }
@@ -3794,6 +3813,42 @@ p {
       }
     }
 
+    .rezult-section {
+      .section-title {
+        font-size: 28px;
+      }
+      .content .good-deal {
+        padding: 25px 20px 0 20px;
+      }
+      .content .good-deal .good-deal-text__top {
+        margin: 0 0 20px 0;
+        font-size: 27px;
+        line-height: 1.2;
+      }
+      .content .good-deal .good-deal-text__title .text {
+        font-size: 23px;
+      }
+      .content .good-deal .good-deal-text__title {
+        margin: 0 0 20px 0;
+      }
+      .content .good-deal .good-deal-text__subtitle {
+        margin: 0 0 30px 0;
+        padding: 0;
+        font-size: 25px;
+        line-height: 1.2;
+      }
+      .content .good-deal .good-deal-description {
+        display: block;
+      }
+      .content .good-deal .good-deal-description-item:first-child {
+        margin: 0 0 20px 0;
+      }
+      .content .good-deal .good-deal-description-item .text {
+        font-size: 16px;
+      }
+    }
+
+
   }
 
   .event-advantages-section {
@@ -4090,6 +4145,29 @@ p {
       }
     }
 
+    .rezult-section {
+      .section-title {
+        font-size: 26px;
+      }
+      .content .good-deal {
+        padding: 25px 15px 0 15px;
+      }
+      .content .good-deal .good-deal-text__top {
+        margin: 0 0 10px 0;
+        font-size: 22px;
+      }
+      .content .good-deal .good-deal-text__title .number {
+        margin: 0 20px 0 0;
+      }
+      .content .good-deal .good-deal-text__title {
+        margin: 0 0 10px 0;
+      }
+      .content .good-deal .good-deal-text__subtitle {
+        font-size: 21px;
+      }
+
+    }
+
   }
 
   .labels {
@@ -4103,7 +4181,6 @@ p {
       width: 100%;
     }
   }
-   
 
   .ticket-section {
     .labels .middle-labels-item {
@@ -4188,6 +4265,16 @@ p {
         font-size: 13px;
       }
     }
+
+    .rezult-section {
+      .content .good-deal .good-deal-text__title {
+        display: block;
+        margin: 0 0 10px 0;
+      }
+      .section-title {
+        font-size: 23px;
+      }
+    }
   }
 
   .description-section {
@@ -4206,4 +4293,5 @@ p {
       text-align: center;
     }
   }
+  
 }
