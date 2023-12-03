@@ -7,8 +7,8 @@
 <div class="poster">
 
   <div class="main-section">
-    <div class="container"> 
-      <div class="main-title _anim-items _anim-no-hide">Будьте в курсе событий - узнайте<br>о мероприятиях <span class="accentcolor">в своём городе</span></div>
+    <div class="container-xl"> 
+      <div class="main-title _anim-items _anim-no-hide">Будьте в курсе событий - узнайте <br>о мероприятиях <span class="accentcolor">в своём городе</span></div>
       <div class="main-text">100% обеспеченность активами, прибыль каждые 3 месяца!</div>
       <button type="button" class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
     </div>
@@ -16,7 +16,7 @@
 
   <div class="events-section section">
     <div class="events-section-title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-8">
             <div class="section-title _anim-items _anim-no-hide">Мероприятия 2023-2024</div>
@@ -32,7 +32,7 @@
     </div>
 
     <div class="events-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="events">
 
           <div class="events-group">

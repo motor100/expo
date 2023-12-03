@@ -1170,7 +1170,6 @@ p {
       }
       .events-title-image {
         width: 300px;
-        height: 90px;
         margin: 0 0 0 auto;
       }
       .events-title-image img {
@@ -2642,6 +2641,27 @@ p {
     }
   }
 
+  .poster {
+    .main-section {
+      .main-text {
+        margin: 0 0 60px 0;
+      }
+    }
+
+    .events-section {
+      .events-section-title-wrapper .events-title-image {
+        width: 270px;
+      }
+      .events-wrapper .city-name {
+        font-size: 30px;
+      }
+      .events-wrapper .events-item-image {
+        width: 530px;
+      }
+    }
+
+  }
+
   .event-advantages-section {
     .left {
       padding: 30px 40px 40px 40px;
@@ -2962,7 +2982,36 @@ p {
         font-size: 18px;
       }
     }
+  }
 
+  .poster {
+    .events-section {
+      .events-section-title-wrapper .section-title {
+        font-size: 40px;
+      }
+      .events-section-period {
+        font-size: 30px;
+      }
+      .events-section-title-wrapper .events-title-image {
+        width: 230px;
+      }
+      .events-wrapper .events-item-date__day {
+        font-size: 80px;
+      }
+      .events-wrapper .events-item-date__month {
+        font-size: 26px;
+      }
+      .events-wrapper .city-name {
+        font-size: 26px;
+      }
+      .events-wrapper .view-more-link {
+        font-size: 18px;
+      }
+      .events-wrapper .events-item-image {
+        width: 430px;
+      }
+    }
+    
 
   }
 
@@ -3407,7 +3456,46 @@ p {
         width: 100%;
       }
     }
+  }
 
+  .poster {
+    .events-section {
+      .events-section-title-wrapper {
+        margin: 0 0 50px 0;
+      }
+      .events-section-title-wrapper .section-title {
+        font-size: 30px;
+      }
+      .events-section-period {
+        font-size: 25px;
+      }
+      .events-section-title-wrapper .events-title-image {
+        width: 170px;
+      }
+      .events-wrapper .events-item-date {
+        width: 112px;
+      }
+      .events-wrapper .events-item-date__day {
+        font-size: 70px;
+      }
+      .events-wrapper .events-item-date__month {
+        font-size: 20px;
+      }
+      .events-wrapper .city-name {
+        margin: 0 0 20px 0;
+        font-size: 21px;
+      }
+      .events-wrapper .place-name {
+        margin: 0 0 20px 0;
+      }
+      .events-wrapper .view-more-link {
+        font-size: 16px;
+      }
+      .events-wrapper .events-item-image {
+        width: 370px;
+      }
+
+    }
   }
 
   .event-advantages-section {
@@ -3847,8 +3935,27 @@ p {
         font-size: 16px;
       }
     }
+  }
 
-
+  .poster {
+    .events-section {
+      .events-section-title-wrapper .events-title-image {
+        margin: 0;
+      }
+      .events-wrapper .events-item {
+        flex-wrap: wrap;
+      }
+      .events-wrapper .events-item-place {
+        width: auto;
+        margin: 0 0 20px 0;
+      }
+      .events-wrapper .events-item-image {
+        width: 100%;
+      }
+      .events-wrapper .events-group {
+        margin: 0 0 40px 0;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -4165,10 +4272,16 @@ p {
       .content .good-deal .good-deal-text__subtitle {
         font-size: 21px;
       }
-
     }
-
   }
+
+  .poster {
+    .events-section {
+      .events-wrapper .events-group {
+        margin: 0 0 20px 0;
+      }
+    }
+  } 
 
   .labels {
     .labels-item {
@@ -4273,6 +4386,17 @@ p {
       }
       .section-title {
         font-size: 23px;
+      }
+    }
+  }
+
+  .poster {
+    .events-section {
+      .events-wrapper .events-item-date {
+        width: 105px;
+      }
+      .events-wrapper .city-name {
+        font-size: 19px;
       }
     }
   }
