@@ -369,9 +369,6 @@ p {
         font-family: "manrope-bold";
       }
     }
-    .become-a-member-btn {
-      padding: 18px 38px;
-    }
     .main-slider-wrapper {
       position: absolute;
       top: 0;
@@ -1271,6 +1268,7 @@ p {
 
   .main-section {
     background: url(/resources/img/participants-main-bg.png) center no-repeat;
+    background-size: cover;
   }
 
   .participants-section {
@@ -1614,6 +1612,9 @@ p {
   }
   .action-btns {
     display: flex;
+  }
+  .become-a-member-btn {
+    padding: 18px 38px;
   }
 }
 
@@ -2670,6 +2671,28 @@ p {
     }
   }
 
+  .participants {
+    .main-section {
+      .main-title {
+        padding: 208px 0 30px 0;
+      }
+    }
+    .participants-section {
+      .participants-description .logo-fragments-item {
+        width: 59px;
+      }
+      .participants-description .participants-description-text {
+        font-size: 19px;
+      }
+      .participants-description .counters-item__number {
+        font-size: 50px;
+      }
+      .logo-fragments-item-hidden {
+        display: none;
+      }
+    }
+  }
+
   .event-advantages-section {
     .left {
       padding: 30px 40px 40px 40px;
@@ -2783,6 +2806,10 @@ p {
   .container-xl {
     padding-right: 30px;
     padding-left: 30px;
+  }
+
+  .section {
+    padding: 50px 0;
   }
 
   .main-title br {
@@ -3021,6 +3048,28 @@ p {
     }
   }
 
+  .participants {
+    .participants-section {
+      .participants-description {
+        margin: 0 0 60px 0;
+      }
+      .participants-description .participants-description-text {
+        margin: 0 0 15px 0;
+        font-size: 17px;
+      }
+      .participants-description .counters-item__number {
+        font-size: 40px;
+      }
+      .participants-description .counters-item__text {
+        font-size: 15px;
+        line-height: 1.4;
+      }
+      .participants-description .participants-description-counters-item {
+        padding: 0 10px 0 0;
+      }
+    }
+  }
+
   .fake-section {
     display: none;
   }
@@ -3231,6 +3280,9 @@ p {
     .main-text br {
       display: none;
     }
+    .become-a-member-btn {
+      padding: 18px 28px;
+    }
   }
 
   .section-title {
@@ -3238,12 +3290,6 @@ p {
   }
 
   .home {
-    .main-section {
-      .become-a-member-btn {
-        padding: 18px 28px;
-      }
-    }
-
     .advantages-section {
       display: none;
     }
@@ -3503,6 +3549,21 @@ p {
 
     }
   }
+
+  .participants {
+    .participants-section {
+      .participants-description {
+        margin: 0 0 50px 0;
+      }
+      .participants-description .participants-description-text {
+        padding: 0;
+      }
+      .participants-description .participants-description-counters {
+        padding: 0;
+      }
+    }
+  }
+  
 
   .event-advantages-section {
     .left {
@@ -3971,6 +4032,17 @@ p {
     }
   }
 
+  .participants {
+    .participants-section {
+      .participants-description {
+        margin: 0 0 40px 0;
+      }
+      .participants-description .participants-description-text {
+        font-size: 16px;
+      }
+    }
+  }
+
   .event-advantages-section {
     .advantages-item {
       margin: 0 0 50px 0;
@@ -4294,7 +4366,19 @@ p {
         margin: 0 0 20px 0;
       }
     }
-  } 
+  }
+
+  .participants {
+    .participants-section {
+      .participants-description .participants-description-counters {
+        display: block;
+      }
+      .participants-description .participants-description-counters-item {
+        margin: 0 0 20px 0;
+        padding: 0;
+      }
+    } 
+  }
 
   .labels {
     .labels-item {
