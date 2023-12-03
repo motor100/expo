@@ -2123,6 +2123,9 @@ p {
   .callback-man img {
     width: 100%;
   }
+  .callback-logo-fragment-mobile {
+    display: none;
+  }
 }
 
 .callback-form {
@@ -3656,6 +3659,7 @@ p {
       right: 0;
       top: auto;
       bottom: -50px;
+      width: 460px;
       margin: 0 auto;
       z-index: 0;
     }
@@ -3666,6 +3670,12 @@ p {
       top: auto;
       margin: 0 auto;
       z-index: 1;
+    }
+    .callback-logo-fragment-desktop {
+      display: none;
+    }
+    .callback-logo-fragment-mobile {
+      display: block;
     }
   }
 
@@ -4329,10 +4339,11 @@ p {
   .callback-section {
     .callback {
       padding: 60px 20px 0 20px;
+      border-radius: 54px 6px 54px 6px;
     }
     .callback-logo-fragment {
-      width: 300px;
-      height: 250px;
+      width: 320px;
+      height: 230px;
     }
     .callback-man {
       width: 255px;
@@ -4418,6 +4429,12 @@ p {
     .ticket-label .ticket-label-text {
       font-size: 22px;
       text-align: center;
+    }
+  }
+
+  .callback-section {
+    .callback-logo-fragment {
+      width: 250px;
     }
   }
   
