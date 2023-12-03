@@ -7,7 +7,7 @@
 <div class="contacts">
 
   <div class="main-section">
-    <div class="container">
+    <div class="container-xl">
       <div class="main-title _anim-items _anim-no-hide">Наши <span class="accentcolor">контакты</span></div>
 
       <div class="main-contacts">
@@ -36,7 +36,7 @@
 
   <div class="about-section section">
     <div class="title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-7">
             <div class="about-title">ОБЩАЯ ИНФОРМАЦИЯ ОБ ОРГАНИЗАЦИИ<br>«LPE Luxury Property Expo» </div>
@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="about-contacts">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-7">
             <div class="about-contacts-item">
@@ -86,7 +86,7 @@
   </div>
 
   <div class="offices-section section">
-    <div class="container">
+    <div class="container-xl">
       <div class="offices-section-item">
         <div class="office">
           <div class="offices-section-item__title">Отделение</div>
