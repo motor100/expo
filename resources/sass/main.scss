@@ -1527,30 +1527,29 @@ p {
     .rectangles img {
       width: 100%;
     }
+    .about-contacts {
+      font-size: 24px;
+    }
     .about-contacts-item {
       display: flex;
       margin: 0 0 40px 0;
     }
     .contacts-item-left {
       width: 180px;
-      font-size: 24px;
       color: $lightgreycolor;
     }
     .contacts-item-right {
       font-family: 'manrope-medium';
-      font-size: 24px;
       color: $accentcolor;
     }
     .company-info-item {
       margin: 0 0 10px 0;
     }
     .company-info-item-top {
-      font-size: 24px;
       color: $lightgreycolor;
       line-height: 1.4;
     }
     .company-info-item-bottom {
-      font-size: 24px;
       color: $accentcolor;
       line-height: 1.4;
     }
@@ -2716,9 +2715,20 @@ p {
         padding: 206px 0 30px 0;
       }
     }
+
     .about-section {
       .about-title {
         padding: 35px 25px;
+        font-size: 22px;
+      }
+      .about-contacts {
+        font-size: 22px;
+      }
+      
+    }
+    .offices-section {
+      .offices-section-item__text {
+        font-size: 17px;
       }
     }
   }
@@ -3132,7 +3142,11 @@ p {
   .contacts {
     .about-section {
       .about-title {
-        font-size: 22px;
+        padding: 18px 15px;
+        font-size: 17px;
+      }
+      .about-contacts {
+        font-size: 18px;
       }
     }
   }
@@ -4122,6 +4136,61 @@ p {
     }
   }
 
+  .contacts {
+    .about-section {
+      .title-wrapper {
+        margin: 0 0 20px 0;
+      }
+      .about-title {
+        padding: 15px;
+        font-size: 16px;
+      }
+      .about-contacts {
+        font-size: 16px;
+      }
+      .about-contacts-item {
+        margin: 0 0 10px 0;
+      }
+    }
+    .offices-section {
+      .offices-section-item {
+        padding: 15px 0 10px 0;
+        flex-wrap: wrap;
+      }
+      .offices-section-item__title {
+        font-size: 15px;
+      }
+      .offices-section-item__text {
+        font-size: 15px;
+      }
+      .office {
+        width: 50%;
+        margin: 0 0 10px 0;
+      }
+      .address {
+        width: 50%;
+        margin: 0 0 10px 0;
+      }
+      .address .offices-section-item__text {
+        padding: 0;
+      }
+      .phone {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+      .email {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+      .working-time {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+
+    }
+    
+  }
+  
   .event-advantages-section {
     .advantages-item {
       margin: 0 0 50px 0;
@@ -4463,6 +4532,20 @@ p {
       }
       .vertical-projects-item .projects-item-white {
         width: 48%;
+      }
+    }
+  }
+
+  .contacts {
+    .main-section {
+      .contacts-item {
+        display: block;
+      }
+    }
+
+    .about-section {
+      .about-contacts-item {
+        display: block;
       }
     }
   }

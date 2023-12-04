@@ -42,7 +42,7 @@
             <div class="about-title">ОБЩАЯ ИНФОРМАЦИЯ ОБ ОРГАНИЗАЦИИ<br>«LPE Luxury Property Expo» </div>
           </div>
           <div class="col-md-5">
-            <div class="rectangles">
+            <div class="rectangles hidden-mobile">
               <img src="/img/contacts-rectangles.png" alt="">
             </div>
           </div>
