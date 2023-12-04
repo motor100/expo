@@ -359,9 +359,9 @@
         <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие <br>в нашей выставке окупится <br>благодаря нашей <br><span class="accentcolor">ориентированности на результаты</span></div>
         <div class="content">
           <div class="good-deal">
-            <div class="good-deal-bg">
-              <img src="/img/good-deal-bg.png" class="good-deal-bg-img" alt="">
-            </div>
+            <!-- <div class="good-deal-bg">
+              <img src="/img/good-deal-bg.svg" class="good-deal-bg-img" alt="">
+            </div> -->
             <div class="good-deal-text">
               <div class="good-deal-text__top">В среднем, участники достигают</div>
               <div class="good-deal-text__title">

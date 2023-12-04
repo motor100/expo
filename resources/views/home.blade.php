@@ -12,7 +12,7 @@
 
   <div class="main-section">
     <div class="container-xl">
-      <div class="main-title _anim-items _anim-no-hide">Выставка <span class="accentcolor">элитной</span><br>зарубежной недвижимости</div>
+      <div class="main-title _anim-items _anim-no-hide">Выставка <span class="accentcolor">элитной </span><br>зарубежной недвижимости</div>
       <div class="main-text">Лучшие зарубежные проекты для релокации и инвестиций, крупнейшая выставка<br> недвижимости в <span class="text-bold">Европе и Азии</span></div>
       <div class="action-btns">
         <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ
