@@ -11,7 +11,8 @@
         </div>
         <div class="col-md-8">
           <div class="cities">
-            <div class="cities-item cities-item-right moscow">
+
+            <div class="cities-item cities-item-right moscow hidden-mobile">
               <div class="cities-item-content">
                 <div class="cities-item-title">Москва</div>
                 <a href="/event" class="cities-item-date">29 марта 2023<br>Конгресс-Холл</a>
@@ -24,7 +25,21 @@
                 </div>
               </div>
             </div>
-            <div class="cities-item cities-item-left saint-petersburg">
+            <div class="cities-item cities-item-left moscow hidden-desktop">
+              <div class="cities-item-circle">
+                <div class="cities-item-image">
+                  <a href="/event" class="cities-item-image__link">
+                    <img src="/img/moscow.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="cities-item-content">
+                <div class="cities-item-title">Москва</div>
+                <a href="/event" class="cities-item-date">29 марта 2023<br>Конгресс-Холл</a>
+              </div>
+            </div>
+
+            <div class="cities-item cities-item-left saint-petersburg hidden-mobile">
               <div class="cities-item-circle">
                 <div class="cities-item-image">
                   <a href="/event" class="cities-item-image__link">
@@ -37,7 +52,21 @@
                 <a href="/event" class="cities-item-date">30 марта 2023</a>
               </div>
             </div>
-            <div class="cities-item cities-item-right baku">
+            <div class="cities-item cities-item-right saint-petersburg hidden-desktop">
+              <div class="cities-item-content">
+                <div class="cities-item-title">Санкт-Петербург</div>
+                <a href="/event" class="cities-item-date">30 марта 2023</a>
+              </div>
+              <div class="cities-item-circle">
+                <div class="cities-item-image">
+                  <a href="/event" class="cities-item-image__link">
+                    <img src="/img/saint-petersburg.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cities-item cities-item-right baku hidden-mobile">
               <div class="cities-item-content">
                 <div class="cities-item-title">БАКУ</div>
                 <a href="#" class="cities-item-date">Coming soon</a>
@@ -50,6 +79,20 @@
                 </div>
               </div>
             </div>
+            <div class="cities-item cities-item-left baku hidden-desktop">
+              <div class="cities-item-circle">
+                <div class="cities-item-image">
+                  <a href="#" class="cities-item-image__link">
+                    <img src="/img/baku.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="cities-item-content">
+                <div class="cities-item-title">БАКУ</div>
+                <a href="#" class="cities-item-date">Coming soon</a>
+              </div>
+            </div>
+
             <div class="cities-item cities-item-right istanbul">
               <div class="cities-item-content">
                 <div class="cities-item-title">СТАМБУЛ</div>
@@ -63,6 +106,7 @@
                 </div>
               </div>
             </div>
+
             <div class="cities-item cities-item-left limassol">
               <div class="cities-item-circle">
                 <div class="cities-item-image">
@@ -76,6 +120,7 @@
                 <a href="#" class="cities-item-date">Coming soon</a>
               </div>
             </div>
+
             <div class="cities-item cities-item-right antalya">
               <div class="cities-item-content">
                 <div class="cities-item-title">Анталия</div>
@@ -89,7 +134,8 @@
                 </div>
               </div>
             </div>
-            <div class="cities-item cities-item-right dubai">
+
+            <div class="cities-item cities-item-right dubai hidden-mobile">
               <div class="cities-item-content">
                 <div class="cities-item-title">ДУБАй</div>
                 <a href="#" class="cities-item-date">Coming soon</a>
@@ -102,6 +148,20 @@
                 </div>
               </div>
             </div>
+            <div class="cities-item cities-item-left dubai hidden-desktop">
+              <div class="cities-item-circle">
+                <div class="cities-item-image">
+                  <a href="#" class="cities-item-image__link">
+                    <img src="/img/dubai.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="cities-item-content">
+                <div class="cities-item-title">ДУБАй</div>
+                <a href="#" class="cities-item-date">Coming soon</a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
