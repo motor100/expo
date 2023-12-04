@@ -85,6 +85,15 @@ if (typeof(menuItem) != "undefined" && menuItem !== null) {
 }
 
 
+// Выпадающее меню выбор города
+const cityMobile = document.querySelector('.cities-menu-wrapper .city-mobile');
+const cityMobileDropdown = document.querySelector('.cities-menu-wrapper .city-mobile-dropdown');
+
+cityMobile.onclick = () => {
+  cityMobileDropdown.classList.toggle('active');
+}
+
+
 // Окна
 const modalWindow = document.querySelectorAll('.modal-window');
 const callbackBtns = document.querySelectorAll('.js-callback-btn');

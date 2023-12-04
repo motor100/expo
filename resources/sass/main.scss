@@ -229,6 +229,7 @@ p {
       font-size: 12px;
     }
     .cities-menu-wrapper {
+      position: relative;
       display: flex;
       justify-content: flex-end;
     }
@@ -241,6 +242,25 @@ p {
     }
     .city-mobile {
       border-bottom: 1px dotted $accentcolor;
+    }
+    .city-mobile-dropdown {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      display: none;
+      width: 170px;
+      background-color: $whitecolor;
+      border-radius: 2px;
+      text-align: center;
+    }
+    .city-mobile-dropdown.active {
+      display: block;
+    }
+    .city-mobile-dropdown-item {
+      margin: 5px 0;
+    }
+    .city-mobile-dropdown-item a {
+      color: $blackcolor;
     }
     .cities-menu .cities-menu-item {
       display: inline-block;
@@ -3886,6 +3906,8 @@ p {
 
   .header {
     .header-top .cities-menu-wrapper {
+      width: 170px;
+      margin: 0 auto;
       justify-content: center;
     }
     .header-bottom .phone-img {

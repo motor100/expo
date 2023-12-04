@@ -57,6 +57,29 @@
                   <a href="/event" class="cities-menu-item__link">Баку</a>
                 </div>
               </div>
+              <div class="city-mobile-dropdown hidden-desktop">
+                <div class="city-mobile-dropdown-item">
+                  <a href="/event">Москва</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/event">Санкт-Петербург</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/event">Дубай</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/event">Анталья</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/event">Алания</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/event">Лимассол</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/event">Баку</a>
+                </div>
+              </div> 
             </div>
           </div>
           <div class="col-md-1">
