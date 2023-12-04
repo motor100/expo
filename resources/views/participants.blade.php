@@ -256,7 +256,7 @@
     <div class="projects-wrapper">
       <div class="container-xl">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-lg-7 col-md-6">
             <div class="projects-item vertical-projects-item">
               <div class="projects-item-content">
                 <div class="projects-item-image">
@@ -279,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-lg-5 col-md-6">
             <div class="projects-item horizontal-projects-item">
               <div class="projects-item-white">
                 <div class="projects-item-title">KONAK Construction</div>
@@ -300,7 +300,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-lg-5 col-md-6">
             <div class="projects-item horizontal-projects-item">
               <div class="projects-item-white">
                 <div class="projects-item-title">PRIME PROPERTY</div>
@@ -321,7 +321,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-lg-7 col-md-6">
             <div class="projects-item vertical-projects-item">
               <div class="projects-item-content">
                 <div class="projects-item-image">
@@ -344,7 +344,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-lg-7 col-md-6">
             <div class="projects-item vertical-projects-item">
               <div class="projects-item-content">
                 <div class="projects-item-image">
@@ -367,7 +367,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-lg-5 col-md-6">
             <div class="project-item-last">
               <div class="project-item-last-logo">
                 <img src="/img/logo.svg" alt="">

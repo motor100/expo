@@ -1369,6 +1369,9 @@ p {
       position: relative;
       height: 330px;
       margin: 0 0 24px 0;
+      .projects-item-image {
+        height: 100%;
+      }
       .projects-item-image img {
         width: 100%;
         height: 100%;
@@ -2693,6 +2696,18 @@ p {
         display: none;
       }
     }
+
+    .projects-section {
+      .projects-item .projects-item-white {
+        padding: 25px;
+      }
+      .projects-item .projects-item-title {
+        font-size: 23px;
+      }
+      .horizontal-projects-item .projects-item-about {
+        width: 270px;
+      }
+    }
   }
 
   .contacts {
@@ -3089,6 +3104,27 @@ p {
       .participants-wrapper .participants-cards .participants-last-item {
         width: 275px;
         height: 265px;
+      }
+    }
+
+    .projects-section {
+      .projects-item .projects-item-white {
+        padding: 20px;
+      }
+      .projects-item .projects-item-title {
+        font-size: 19px;
+      }
+      .projects-item .projects-item-description {
+        font-size: 14px;
+      }
+      .horizontal-projects-item .projects-item-title {
+        width: 54%;
+      }
+      .horizontal-projects-item .projects-item-description {
+        width: 46%;
+      }
+      .horizontal-projects-item .projects-item-about {
+        width: 320px;
       }
     }
   }
@@ -3580,6 +3616,26 @@ p {
         padding: 0;
       }
     }
+
+    .projects-section {
+      .projects-item .projects-item-white {
+        padding: 15px;
+      }
+      .projects-item .projects-item-title {
+        font-size: 18px;
+      }
+      .projects-item .projects-item-about {
+        padding: 15px;
+      }
+      .horizontal-projects-item .projects-item-about {
+        width: 100%;
+      }
+      .vertical-projects-item .projects-item-about {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
   }
 
   .event-advantages-section {
@@ -4058,6 +4114,12 @@ p {
         font-size: 16px;
       }
     }
+    .projects-section .text-wrapper .text-item {
+      font-size: 18px;
+    }
+    .projects-section .projects-item {
+      margin: 0 0 10px 0;
+    }
   }
 
   .event-advantages-section {
@@ -4393,7 +4455,16 @@ p {
         margin: 0 0 20px 0;
         padding: 0;
       }
-    } 
+    }
+
+    .projects-section {
+      .vertical-projects-item .projects-item-content {
+        width: 52%;
+      }
+      .vertical-projects-item .projects-item-white {
+        width: 48%;
+      }
+    }
   }
 
   .labels {
@@ -4510,6 +4581,21 @@ p {
       }
       .events-wrapper .city-name {
         font-size: 19px;
+      }
+    }
+  }
+
+  .participants {
+    .projects-section {
+      .projects-item .projects-item-white {
+        display: block;
+      }
+      .projects-item .projects-item-title {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+      .horizontal-projects-item .projects-item-description {
+        width: 100%;
       }
     }
   }
