@@ -303,35 +303,22 @@
   <div class="mobile-menu">
 
     <ul class="menu">
-      <li class="menu-item {{ Route::is('company') ? 'active' : '' }}">
-        <a href="/company">КОМПАНИЯ</a>
-      </li>
-      <li class="menu-item {{ Route::is('services') ? 'active' : '' }}">
-        <a href="/services">УСЛУГИ</a>
-      </li>
-      <li class="menu-item {{ Route::is('payment') ? 'active' : '' }}">
-        <a href="/payment">ОПЛАТА</a>
-      </li>
-      <li class="menu-item {{ Route::is('delivery') ? 'active' : '' }}">
-        <a href="/delivery">ДОСТАВКА</a>
-      </li>
-      <li class="menu-item {{ Route::is('warranty') ? 'active' : '' }}">
-        <a href="/warranty">ГАРАНТИЯ</a>
-      </li>
-      <li class="menu-item {{ Route::is('calculators') ? 'active' : '' }}">
-        <a href="/calculators">КАЛЬКУЛЯТОРЫ</a>
+      <li class="menu-item">
+        <a href="/">Главная</a>
       </li>
       <li class="menu-item">
-        <a href="/contacts {{ Route::is('contacts') ? 'active' : '' }}">КОНТАКТЫ</a>
+        <a href="/for-participants">Экспонентам</a>
+      </li>
+      <li class="menu-item">
+        <a href="/poster">Афиша</a>
+      </li>
+      <li class="menu-item">
+        <a href="/participants">Участники</a>
+      </li>
+      <li class="menu-item">
+        <a href="/contacts">Контакты</a>
       </li>
     </ul>
-
-    <div class="secondary-btn callback-btn js-callback-btn">Оставить заявку</div>
-
-    <div class="info">
-      <div class="phone">+7 (982) 292-88-79</div>
-      <div class="phone">8 (800) 575-55-88</div>
-    </div>          
 
   </div>
 
