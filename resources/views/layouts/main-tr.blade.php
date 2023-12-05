@@ -11,7 +11,7 @@
   <link rel="shortcut icon" href="{{ asset('/img/favicon.svg') }}" type="image/x-icon">
   <title>@yield('title', config('app.name') )</title>
   @yield('style')
-  @vite(['resources/sass/main.scss'])
+  @vite(['resources/sass/main-tr.scss'])
 </head>
 
 <body>

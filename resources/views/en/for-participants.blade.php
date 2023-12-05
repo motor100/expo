@@ -7,20 +7,20 @@
 <div class="for-participants">
 
   <div class="main-section">
-    <div class="container"> 
-      <div class="main-title _anim-items _anim-no-hide"><span class="accentcolor">Стань ЭКСПОНЕНТОМ</span> премиальной<br>выставки недвижимости</div>
-      <div class="main-text">Оставь заявку прямо сейчас и <span class="accentcolor">мы отправим условия участия в течении 15 минут</span></div>
+    <div class="container-xl">
+      <div class="main-title _anim-items _anim-no-hide"><span class="accentcolor">Become an EXHIBITOR</span> of a premium real <br>estate exhibition</div>
+      <div class="main-text">Leave a request right now and  <span class="accentcolor">we will send the terms of participation within 15 minutes</span></div>
       <form class="form callback-form">
         <div class="flex-container">
-          <input type="text" name="name" class="input-field" required placeholder="Представьтесь">
-          <input type="text" name="phone" class="input-field js-input-phone-mask" required placeholder="Телефон">
+          <input type="text" name="name" class="input-field" required placeholder="Name">
+          <input type="text" name="phone" class="input-field js-input-phone-mask" required placeholder="Phone">
           <input type="email" name="email" class="input-field" required placeholder="Email">
-          <button type="button" class="callback-submit-btn primary-btn">Отправить</button>
+          <button type="button" class="callback-submit-btn primary-btn">Send</button>
         </div>
         <div class="checkbox-wrapper">
           <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="ticket-checkbox" checked required>
           <label for="ticket-checkbox" class="custom-checkbox-label"></label>
-          <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+          <span class="checkbox-text"><a href="/privacy-policy" class="privacy-policy-link" target="_blank">I accept the user agreement and confirm that I have read and agree to the <br> privacy policy of this site.</a></span>
         </div>
       </form>
     </div>
@@ -30,7 +30,7 @@
 
   <div class="for-participants-section section">
     <div class="title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="section-title _anim-items _anim-no-hide">для экспонентов</div>
@@ -46,9 +46,9 @@
       </div>
     </div>
     <div class="labels">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-diagram.svg" alt="">
@@ -56,7 +56,7 @@
               <div class="labels-item__title">Потенциальные покупатели и инвесторы с <span class="accent">бюджетом от 150 000 до 2 млн.</span></div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-team.svg" alt="">
@@ -64,15 +64,15 @@
               <div class="labels-item__title"><span class="accentcolor">Премиум</span> площадка</div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-agent.svg" alt="">
               </div>
-              <div class="labels-item__title">Представители агентств недвижимости<br>в <span class="accentcolor">сегменте бизнес и премиум класса</span></div>
+              <div class="labels-item__title">Представители агентств недвижимости <br>в <span class="accentcolor">сегменте бизнес и премиум класса</span></div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-list.svg" alt="">
@@ -80,7 +80,7 @@
               <div class="labels-item__title">Полезная <span class="accentcolor">деловая программа</span></div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-shield.svg" alt="">
@@ -88,7 +88,7 @@
               <div class="labels-item__title"><span class="accentcolor">Private banking</span> и Family office</div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/for-participants-label-networking.svg" alt="">
@@ -100,10 +100,10 @@
       </div>
     </div>
     <div class="for-participants-text">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
-            <div class="for-participants-text-item">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: Испании, Греции, Португалии, Таиланда, Кира, ОАЭ и многих других стран.</div>
+            <div class="for-participants-text-item for-participants-text-item-first">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: Испании, Греции, Португалии, Таиланда, Кира, ОАЭ и многих других стран.</div>
           </div>
           <div class="col-md-6">
             <div class="for-participants-text-item">агентства недвижимости и девелоперы, имеющие большой опыт работы и хорошую репутацию на рынке, иммиграционные компании, имеющие собственные представительства в странах по всему миру: Испании, Греции, Португалии, Таиланда, Кира, ОАЭ и многих других стран.</div>
@@ -116,17 +116,20 @@
     </div>
   </div>
 
+  <div class="fake-section"></div>
+
   <div class="visitors-section section">
+
     <div class="section-title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide">Кто посещает<br>выставки <span class="accentcolor">luxury</span><br> property expo</span></div>
       </div>
     </div>
 
     <div class="visitors-list-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6 col-md-7">
             <div class="visitors-list">
               <div class="visitors-list-item">
                 <div class="visitors-list-item__title">Потенциальные клиенты и инвесторы</div>
@@ -146,7 +149,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6 col-md-5">
             <div class="percents">
               <div class="percents-item percents-item-first">
                 <div class="percents-item__big">70%</div>
@@ -163,9 +166,16 @@
     </div>
 
     <div class="visitors-section-bg-wrapper">
-      <div class="container">
-        <div class="visitors-section-bg">
-          <img src="/img/for-participants-visitors-bg.png" class="visitors-section-bg-image" alt="">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md-5"></div>
+          <div class="col-md-7">
+            <div class="bg-wrapper">
+              <div class="visitors-section-bg">
+                <img src="/img/for-participants-visitors-bg.png" class="visitors-section-bg-image" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -173,14 +183,27 @@
 
   <div id="advertising-section" class="advertising-section section">
     <div class="section-title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Рекламная</span> кампания</div>
         <div class="advertising-text">Эффективная методика привлечения покупателей.<br>Все современные возможности интернет рекламы:</div>
       </div>
     </div>
-    
+    <div class="logo-fragment-wrapper hidden-mobile">
+      <div class="container-xl">
+        <div class="logo-fragment-bg">
+          <img src="/img/advertising-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="magazine-wrapper hidden-mobile">
+      <div class="container-xl">
+        <div class="magazine-bg">
+          <img src="/img/advertising-magazine.png" class="magazine-bg-image" alt="">
+        </div>
+      </div>
+    </div>
     <div class="advertising-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-6">
             <div class="advertising">
@@ -231,26 +254,26 @@
         </div>
       </div>
     </div>
-
-    <div class="logo-fragment-wrapper">
-      <div class="container">
-        <div class="logo-fragment-bg">
-          <img src="/img/advertising-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
+    <div class="logo-magazine-mobile hidden-desktop">
+      <div class="logo-fragment-wrapper">
+        <div class="container-xl">
+          <div class="logo-fragment-bg">
+            <img src="/img/advertising-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="magazine-wrapper">
-      <div class="container">
-        <div class="magazine-bg">
-          <img src="/img/advertising-magazine.png" class="magazine-bg-image" alt="">
+      <div class="magazine-wrapper">
+        <div class="container-xl">
+          <div class="magazine-bg">
+            <img src="/img/advertising-magazine.png" class="magazine-bg-image" alt="">
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="stands-section section">
-    <div class="container">
+    <div class="container-xl">
       <div class="section-title _anim-items _anim-no-hide">НА НАШЕЙ ВЫСТАВКЕ<br><span class="accentcolor">ПРЕМИАЛЬНЫЕ СТЕНДЫ УЧАСТНИКОВ</span></div>
       <div class="content">
         <div class="logo-fragment">
@@ -268,7 +291,7 @@
 
   <div class="ticket-section section">
     <div class="labels">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-4">
             <div class="labels-item">
@@ -279,7 +302,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="labels-item">
+            <div class="labels-item middle-labels-item">
               <div class="labels-item__image">
                 <img src="/img/ticket-label-get.svg" alt="">
               </div>
@@ -299,7 +322,7 @@
     </div>
 
     <div class="ticket-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="ticket">
           <div class="ticket-text-string">выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция</div>
           <div class="ticket-logo">
@@ -317,11 +340,12 @@
             <div class="checkbox-wrapper">
               <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="ticket-checkbox" checked required>
               <label for="ticket-checkbox" class="custom-checkbox-label"></label>
-              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
             </div>
           </form>
           <div class="ticket-label">
-            <img src="/img/ticket-label.png" class="ticket-label-image" alt="">
+            <img src="/img/ticket-label-desktop.png" class="ticket-label-image ticket-label-desktop-image hidden-mobile" alt="">
+            <img src="/img/ticket-label-mobile.png" class="ticket-label-image ticket-label-mobile-image hidden-desktop" alt="">
             <span class="ticket-label-text">электронный билет</span>
           </div>
         </div>
@@ -331,21 +355,49 @@
 
   <div class="rezult-section section">
     <div class="content-wrapper">
-      <div class="container">
-        <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие<br>в нашей выставке окупится<br>благодаря нашей<br><span class="accentcolor">ориентированности на результаты</span></div>
+      <div class="container-xl">
+        <div class="section-title _anim-items _anim-no-hide">Мы уверены, что ваше участие <br>в нашей выставке окупится <br>благодаря нашей <br><span class="accentcolor">ориентированности на результаты</span></div>
         <div class="content">
           <div class="good-deal">
-            <img src="/img/rezult-good-deal.png" alt="">
+            <!-- <div class="good-deal-bg">
+              <img src="/img/good-deal-bg.svg" class="good-deal-bg-img" alt="">
+            </div> -->
+            <div class="good-deal-text">
+              <div class="good-deal-text__top">В среднем, участники достигают</div>
+              <div class="good-deal-text__title">
+                <div class="number">2-6</div>
+                <div class="text"><span class="accent">успешных сделок</span> <br>на выставке</div>
+              </div>
+              <div class="good-deal-text__subtitle">что обеспечивает <span class="accentcolor">высокую окупаемость <br>вашего участия</span></div>
+            </div>
+            <div class="good-deal-diagram">
+              <img src="/img/good-deal-diagram.svg" alt="">
+            </div>
+            <div class="good-deal-description">
+              <div class="good-deal-description-item">
+                <div class="circle">
+                  <img src="/img/good-deal-circle-accent.svg" alt="">
+                </div>
+                <div class="text">Выставка <span class="accent">Luxury Property Expo</span></div>
+              </div>
+              <div class="good-deal-description-item">
+                <div class="circle">
+                  <img src="/img/good-deal-circle-grey.svg" alt="">
+                </div>
+                <div class="text">Другие выставки</div>
+              </div>
+            </div>
           </div>
           <div class="image">
-            <img src="/img/rezult-image.png" alt="">
+            <img src="/img/rezult-image-desktop.png" class="rezult-image-desktop" alt="">
+            <img src="/img/rezult-image-mobile.png" class="rezult-image-mobile" alt="">
           </div>
         </div>
       </div>
     </div>
 
     <div class="logo-fragment-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="logo-fragment-bg">
           <img src="/img/rezult-logo-fragment.svg" class="logo-fragment-bg-image" alt="">
         </div>

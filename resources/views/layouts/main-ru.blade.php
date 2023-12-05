@@ -11,7 +11,7 @@
   <link rel="shortcut icon" href="{{ asset('/img/favicon.svg') }}" type="image/x-icon">
   <title>@yield('title', config('app.name') )</title>
   @yield('style')
-  @vite(['resources/sass/main.scss'])
+  @vite(['resources/sass/main-ru.scss'])
 </head>
 
 <body>
@@ -189,19 +189,19 @@
 
           <div class="col-lg-4 col-md-3">
             <div class="socials">
-              <a href="" class="social-item">
+              <a href="#" class="social-item">
                 <img src="/img/footer-telegram.svg" alt="">
               </a>
-              <a href="" class="social-item">
+              <a href="#" class="social-item">
                 <img src="/img/footer-whatsapp.svg" alt="">
               </a>
-              <a href="" class="social-item">
+              <a href="#" class="social-item">
                 <img src="/img/footer-facebook.svg" alt="">
               </a>
-              <a href="" class="social-item">
+              <a href="#" class="social-item">
                 <img src="/img/footer-youtube.svg" alt="">
               </a>
-              <a href="" class="social-item">
+              <a href="#" class="social-item">
                 <img src="/img/footer-twitter.svg" alt="">
               </a>
             </div>
@@ -221,19 +221,19 @@
           <div class="address">Москва, Столярный переулок</div>
           <div class="working-time">Мы работаем с 08:00 до 20:00</div>
           <div class="socials">
-            <a href="" class="social-item">
+            <a href="#" class="social-item">
               <img src="/img/footer-telegram.svg" alt="">
             </a>
-            <a href="" class="social-item">
+            <a href="#" class="social-item">
               <img src="/img/footer-whatsapp.svg" alt="">
             </a>
-            <a href="" class="social-item">
+            <a href="#" class="social-item">
               <img src="/img/footer-facebook.svg" alt="">
             </a>
-            <a href="" class="social-item">
+            <a href="#" class="social-item">
               <img src="/img/footer-youtube.svg" alt="">
             </a>
-            <a href="" class="social-item">
+            <a href="#" class="social-item">
               <img src="/img/footer-twitter.svg" alt="">
             </a>
           </div>

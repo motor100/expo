@@ -83,6 +83,9 @@ Route::get('/tr/faq', [MainTrController::class, 'faq']);
 Route::get('/tr/privacy-policy', [MainTrController::class, 'privacy_policy']);
 
 
+Route::get('/ru', [MainRuController::class, 'home_ru']);
+
+
 
 /*
 Route::get('/dashboard', function () {

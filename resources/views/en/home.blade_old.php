@@ -13,7 +13,7 @@
   <div class="main-section">
     <div class="container-xl">
       <div class="main-title _anim-items _anim-no-hide">Exhibition of <span class="accentcolor">elite </span>foreign <br>real estate</div>
-      <div class="main-text">The best foreign projects for relaxation and investment, the largest real estate<br> exhibition in <span class="text-bold">Europe and Asia</div>
+      <div class="main-text">The best foreign projects for relaxation and investment, the largest real estate<br> exhibition in <span class="text-bold">Europe and Asia</span></div>
       <div class="action-btns">
         <button class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION
           <span class="flash lighting"></span>
@@ -39,7 +39,7 @@
   </div>
 
   <div id="advantages-section" class="advantages-section section">
-    <div class="container-xl">
+    <div class="container">
       <div class="section-title _anim-items _anim-no-hide">Advantages of the<br><span class="accentcolor">exhibition-conference</span></div>
       <div class="flex-container">
         <div class="left">
@@ -85,13 +85,11 @@
     </div>
   </div>
 
-  @include('en.event-advantages-section')
-
   <div class="participants-section section">
     <div class="participants-content">
-      <div class="container-xl">
+      <div class="container">
         <div class="row">
-          <div class="col-xl-7 col-lg-8">
+          <div class="col-md-7">
             <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Exhibitors</span></div>
             <div class="participants-description">
               <div class="participants-description-item">
@@ -112,17 +110,12 @@
                 </div>
                 <div class="participants-description-item__text">The most unique projects from all over the world in one place</div>
               </div>
-              <div class="participants-description-horizontal-rectangles">
-                <img src="/img/participants-description-horizontal-rectangles.png" alt="">
-              </div>
-              <div class="participants-description-vertikal-rectangles hidden-desktop">
-                <img src="/img/participants-description-vertikal-rectangles.png" alt="">
-              </div>
+
             </div>
             <div class="participants-description-underline"></div>
           </div>
-          <div class="col-xl-1 d-xl-block d-none"></div>
-          <div class="col-xl-4 col-lg-4">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
             <div class="participants-counters">
               <div class="participants-counters-item">
                 <div class="participants-counters-item__image">
@@ -158,7 +151,7 @@
     </div>
 
     <div class="participants-wrapper">
-      <div class="container-xl">
+      <div class="container">
         <div class="participants-cards">
           <div class="participants-item">
             <div class="participants-item-content">
@@ -212,7 +205,7 @@
               </div>
               <div class="participants-item-content__description">Here are the regular participants of our events. To view all participants, follow the link below.</div>
               <div class="participants-item-content__see-all">
-                <a href="/en/participants#participants-section">View all participants</a>
+                <a href="/en/">View all participants</a>
               </div>
             </div>
           </div>
@@ -229,7 +222,7 @@
 
   <div class="ticket-section section">
     <div class="labels">
-      <div class="container-xl">
+      <div class="container">
         <div class="row">
           <div class="col-md-4">
             <div class="labels-item">
@@ -240,7 +233,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="labels-item middle-labels-item">
+            <div class="labels-item">
               <div class="labels-item__image">
                 <img src="/img/ticket-label-get.svg" alt="">
               </div>
@@ -260,42 +253,41 @@
     </div>
 
     <div class="ticket-wrapper">
-      <div class="container-xl">
+      <div class="container">
         <div class="ticket">
-          <div class="ticket-text-string">exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference</div>
+          <div class="ticket-text-string">выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция&nbsp;&nbsp;&nbsp;выставка конференция</div>
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
-          </div> 
-          <div class="ticket-title"><span class="accent">Premium and business class </span><br>real estate abroad</div>
-          <div class="ticket-right-text ticket-date"><span class="accentcolor">October 28-29, 2023</div>
+          </div>
+          <div class="ticket-title">Недвижимость за рубежом<br><span class="accent">премиум и бизнес-класса</span></div>
+          <div class="ticket-right-text ticket-date"><span class="accentcolor">28-29 Октября</span> 2023</div>
           <form class="form callback-form">
             <div class="flex-container">
-              <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Name">
-              <input type="text" name="phone" id="ticket-phone" class="input-field js-input-phone-mask" required placeholder="Phone">
+              <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Представьтесь">
+              <input type="text" name="phone" id="ticket-phone" class="input-field js-input-phone-mask" required placeholder="Телефон">
               <input type="email" name="email" id="ticket-email" class="input-field" required placeholder="Email">
               <button type="button" class="callback-submit-btn primary-btn">Отправить</button>
             </div>
             <div class="checkbox-wrapper">
-              <input type="checkbox" name="ticket-checkbox" id="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal"  checked required>
+              <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="ticket-checkbox" checked required>
               <label for="ticket-checkbox" class="custom-checkbox-label"></label>
-              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
             </div>
-          </form> 
-          <div class="ticket-counter">Only left<br> <span class="accentcolor">281</span> out of 1000 places</div>
+          </form>
+          <div class="ticket-counter">Осталось всего<br> <span class="accentcolor">281</span> из 1000 мест</div>
           <div class="ticket-label">
-            <img src="/img/ticket-label-desktop.png" class="ticket-label-image ticket-label-desktop-image hidden-mobile" alt="">
-            <img src="/img/ticket-label-mobile.png" class="ticket-label-image ticket-label-mobile-image hidden-desktop" alt="">
-            <span class="ticket-label-text">e-ticket</span>
+            <img src="/img/ticket-label.png" class="ticket-label-image" alt="">
+            <span class="ticket-label-text">электронный билет</span>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  @include('en.cities-section')
+  @include('cities-section')
 
   <div class="slider-section section">
-    <div class="container-xl">
+    <div class="container">
       <div class="sn-slider-wrapper">
         <div class="sn-slider swiper">
           <div class="swiper-wrapper">
@@ -334,15 +326,15 @@
     </div>
   </div>
 
-  @include('en.description-section')
+  @include('description-section')
 
   <div id="partners-section" class="partners-section section">
     <div class="title-wrapper">
-      <div class="container-xl">
+      <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">We are proud</span></div>
-            <div class="section-title__text">that we have the support and cooperate <span class="accent">with <br> leading media partners</span> who promote and support our exhibition</div>
+            <div class="section-title _anim-items _anim-no-hide"><span class="accentcolor">Мы гордимся</span></div>
+            <div class="section-title__text">что имеем поддержку и сотрудничаем<br> с <span class="accent">ведущими информационными партнёрами</span>,<br> которые продвигают и поддерживают нашу выставку</div>
           </div>
           <div class="col-md-6">
             <div class="section-title__image">
@@ -353,72 +345,72 @@
       </div>
     </div>
     <div class="partners">
-      <div class="container-xl">
-        <div class="partners-title">Here are some of them:</div>
+      <div class="container">
+        <div class="partners-title">Вот некоторые из них:</div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="partners-item">
               <div class="partners-item-number">01</div>
               <div class="vertikal-line"></div>
-              <div class="partners-item-title">Magazine<br> <span class="accentcolor">«Real estate and construction»</span></div>
+              <div class="partners-item-title">Журнал<br> <span class="accentcolor">«Недвижимость и строительство»</span></div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="partners-item">
               <div class="partners-item-number">02</div>
               <div class="vertikal-line"></div>
-              <div class="partners-item-title">Portal<br> <span class="accentcolor">«Real Estate Today»</span></div>
+              <div class="partners-item-title">Портал<br> <span class="accentcolor">«Недвижимость Today»</span></div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="partners-item">
               <div class="partners-item-number">03</div>
               <div class="vertikal-line"></div>
-              <div class="partners-item-title">And others<br> <span class="accentcolor">famous publications</span><br>and Internet platforms</div>
+              <div class="partners-item-title">И другие<br> <span class="accentcolor">известные издания</span><br>и интернет-площадки</div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="partners-logo">
-      <div class="container-xl">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
+          <div class="col-md-3">
             <div class="partners-logo-item">
               <img src="/img/partners-logo-temp.png" alt="">
             </div>
@@ -428,7 +420,7 @@
     </div>
   </div>
 
-  @include('en.callback-section')
+  @include('callback-section')
 
 </div>
 

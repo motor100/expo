@@ -172,7 +172,7 @@
                   </div>
                 </div>
                 <div class="cities-item-content">
-                  <div class="cities-item-title">ДУБАй</div>
+                  <div class="cities-item-title">ДУБАЙ</div>
                   <a href="#" class="cities-item-date">Coming soon</a>
                 </div>
               </div>

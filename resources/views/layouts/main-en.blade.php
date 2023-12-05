@@ -11,57 +11,84 @@
   <link rel="shortcut icon" href="{{ asset('/img/favicon.svg') }}" type="image/x-icon">
   <title>@yield('title', config('app.name') )</title>
   @yield('style')
-  @vite(['resources/sass/main.scss'])
+  @vite(['resources/sass/main-en.scss'])
 </head>
 
 <body>
-
+  
   <!-- @include('preloader') -->
 
   <header class="header">
     <div class="header-top">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
-          <div class="col-md-2">
-            <div class="name">Международная выставка</div>
+          <div class="col-md-2 col-2">
+            <div class="name hidden-mobile">International exhibitions</div>
+            <div class="logo-mobile hidden-desktop">
+              <img src="/img/logo-mobile.svg" alt="">
+            </div>
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9 col-8">
             <div class="cities-menu-wrapper">
               <div class="cursor">
                 <img src="/img/header-cursor.svg" alt="">
               </div>
-              <div class="cities-menu">
+              <div class="city-mobile hidden-desktop">Moscow</div>
+              <div class="cities-menu hidden-mobile">
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Москва</a>
+                  <a href="/en/event" class="cities-menu-item__link">Moscow</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Санкт-Петербург</a>
+                  <a href="/en/event" class="cities-menu-item__link">St. Petersburg</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Дубай</a>
+                  <a href="/en/event" class="cities-menu-item__link">Dubai</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Анталья</a>
+                  <a href="/en/event" class="cities-menu-item__link">Antalya</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Алания</a>
+                  <a href="/en/event" class="cities-menu-item__link">Alania</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Лимассол</a>
+                  <a href="/en/event" class="cities-menu-item__link">Limassol</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Баку</a>
+                  <a href="/en/event" class="cities-menu-item__link">Baku</a>
                 </div>
               </div>
+              <div class="city-mobile-dropdown hidden-desktop">
+                <div class="city-mobile-dropdown-item">
+                  <a href="/en/event">Moscow</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/en/event">St. Petersburg</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/en/event">Dubai</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/en/event">Antalya</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/en/event">Alania</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/en/event">Limassol</a>
+                </div>
+                <div class="city-mobile-dropdown-item">
+                  <a href="/en/event">Baku</a>
+                </div>
+              </div> 
             </div>
           </div>
           <div class="col-md-1">
-            <div class="lang-select">
+            <div class="lang-select hidden-mobile">
               <div class="lang-select-text">
                 <a href="/en" class="lang-select-link">en</a>
               </div>
               <div class="lang-select-dropdown">
-                <a href="/" class="lang-select-link">ru</a>
+                <a href="/ru" class="lang-select-link">ru</a>
                 <a href="/tr" class="lang-select-link">tr</a>
               </div>
             </div>
@@ -71,43 +98,44 @@
     </div>
 
     <div class="underline-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="underline"></div>
       </div>
     </div>
 
     <div class="header-bottom">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
-          <div class="col-md-2">
-            <div class="logo">
+          <div class="col-md-2 col-6">
+            <div class="logo hidden-mobile">
               <a href="/en">
                 <img src="/img/logo.svg" alt="">
               </a>
             </div>
+            <div class="name hidden-desktop">International exhibitions</div>
           </div>
-          <div class="col-md-8">
-            <div class="top-menu">
+          <div class="col-md-8 d-md-block d-none">
+            <div class="top-menu hidden-mobile">
               <ul class="menu">
                 <li class="menu-item">
-                  <a href="/en" class="menu-item-link">Главная</a>
+                  <a href="/en" class="menu-item-link">Main</a>
                 </li>
                 <li class="menu-item">
-                  <a href="/en/for-participants" class="menu-item-link">Экспонентам</a>
+                  <a href="/en/for-participants" class="menu-item-link">Index</a>
                 </li>
                 <li class="menu-item">
-                  <a href="/en/poster" class="menu-item-link">Афиша</a>
+                  <a href="/en/poster" class="menu-item-link">Poster</a>
                 </li>
                 <li class="menu-item">
-                  <a href="/en/participants" class="menu-item-link">Участники</a>
+                  <a href="/en/participants" class="menu-item-link">Attendance</a>
                 </li>
                 <li class="menu-item">
-                  <a href="/en/contacts" class="menu-item-link">Контакты</a>
+                  <a href="/en/contacts" class="menu-item-link">Contacts</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
             <div class="phone-wrapper">
               <div class="phone-img">
                 <img src="/img/header-phone.svg" alt="">
@@ -134,10 +162,54 @@
 
 
   <footer class="footer">
-    <div class="container">
+    <div class="container-xl">
       <div class="footer-logo">
         <img src="/img/footer-logo.svg" alt="">
       </div>
+
+      <div class="footer-contacts-mobile">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="contacts">
+              <div class="phone">
+                <a href="tel:+78002700700">8 800 2700 700</a>
+              </div>
+              <div class="email">
+                <a href="mailto:support@luxpropertyexpo.com">support@luxpropertyexpo.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5">
+            <div class="address-wrapper">
+              <div class="address">Moscow, Stolyarny Lane</div>
+              <div class="working-time">We work from 08:00 to 20:00</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3">
+            <div class="socials">
+              <a href="#" class="social-item">
+                <img src="/img/footer-telegram.svg" alt="">
+              </a>
+              <a href="#" class="social-item">
+                <img src="/img/footer-whatsapp.svg" alt="">
+              </a>
+              <a href="#" class="social-item">
+                <img src="/img/footer-facebook.svg" alt="">
+              </a>
+              <a href="#" class="social-item">
+                <img src="/img/footer-youtube.svg" alt="">
+              </a>
+              <a href="#" class="social-item">
+                <img src="/img/footer-twitter.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
       <div class="footer-menu">
         <div class="footer-menu-contacts">
           <div class="phone">
@@ -146,77 +218,77 @@
           <div class="email">
             <a href="mailto:support@luxpropertyexpo.com">support@luxpropertyexpo.com</a>
           </div>
-          <div class="address">Москва, Столярный переулок</div>
-          <div class="working-time">Мы работаем с 08:00 до 20:00</div>
+          <div class="address">Moscow, Stolyarny Lane</div>
+          <div class="working-time">We work from 08:00 to 20:00</div>
           <div class="socials">
-            <a href="#" class="social-item">
+            <a href="/en/#" class="social-item">
               <img src="/img/footer-telegram.svg" alt="">
             </a>
-            <a href="#" class="social-item">
+            <a href="/en/#" class="social-item">
               <img src="/img/footer-whatsapp.svg" alt="">
             </a>
-            <a href="#" class="social-item">
+            <a href="/en/#" class="social-item">
               <img src="/img/footer-facebook.svg" alt="">
             </a>
-            <a href="#" class="social-item">
+            <a href="/en/#" class="social-item">
               <img src="/img/footer-youtube.svg" alt="">
             </a>
-            <a href="#" class="social-item">
+            <a href="/en/#" class="social-item">
               <img src="/img/footer-twitter.svg" alt="">
             </a>
           </div>
         </div>
         <div class="footer-menu-item for-participant">
-          <div class="footer-menu-item__title">Для участников</div>
+          <div class="footer-menu-item__title">For participants</div>
           <div class="nav">
-            <a href="/en/#description-section" class="nav-item">Что такое Luxury Property Expo</a>
-            <a href="/en/participants#projects-section" class="nav-item">Проекты и страны</a>
-            <a href="/en/#advantages-section" class="nav-item">Преимущества выставки</a>
-            <a href="/en/participants#participants-section" class="nav-item">Участники</a>
+            <a href="/en/#description-section" class="nav-item">What is Luxury Property Expo</a>
+            <a href="/en/participants#projects-section" class="nav-item">Projects & Countries</a>
+            <a href="/en/#advantages-section" class="nav-item">Advantages of the exhibition</a>
+            <a href="/en/participants#participants-section" class="nav-item">Participants</a>
           </div>
         </div>
         <div class="footer-menu-item for-expo">
-          <div class="footer-menu-item__title">Для экспонентов</div>
+          <div class="footer-menu-item__title">For Exhibitors</div>
           <div class="nav">
-            <a href="/en/#description-section" class="nav-item">Что такое Luxury Property Expo</a>
-            <a href="/en/participants#participants-section" class="nav-item">Участники</a>
-            <a href="/en/for-participants#advertising-section" class="nav-item">Рекламная кампания</a>
-            <a href="/en/for-participants" class="nav-item">Стать экспонентом</a>
+            <a href="/en/#description-section" class="nav-item">What is Luxury Property Expo</a>
+            <a href="/en/participants#participants-section" class="nav-item">Participants</a>
+            <a href="/en/for-participants#advertising-section" class="nav-item">Advertising Campaign</a>
+            <a href="/en/for-participants" class="nav-item">Become an exhibitor</a>
           </div>
         </div>
         <div class="footer-menu-item events">
-          <div class="footer-menu-item__title">Афиша</div>
+          <div class="footer-menu-item__title">Poster</div>
           <div class="nav">
-            <a href="/en/event" class="nav-item">Москва</a>
-            <a href="/en/event" class="nav-item">Анталия</a>
-            <a href="/en/event" class="nav-item">Дубай</a>
-            <a href="/en/event" class="nav-item">Лимассол</a>
-            <a href="/en/event" class="nav-item">Баку</a>
-            <a href="/en/event" class="nav-item">Санкт-Петербург</a>
+            <a href="/en/event" class="nav-item">Moscow</a>
+            <a href="/en/event" class="nav-item">Antalya</a>
+            <a href="/en/event" class="nav-item">Dubai</a>
+            <a href="/en/event" class="nav-item">Limassol</a>
+            <a href="/en/event" class="nav-item">Baku</a>
+            <a href="/en/event" class="nav-item">Saint Petersburg</a>
           </div>
         </div>
         <div class="footer-menu-item info">
-          <div class="footer-menu-item__title">Информация</div>
+          <div class="footer-menu-item__title">Information</div>
           <div class="nav">
-            <a href="/en/halal" class="nav-item">Халяль подробно</a>
-            <a href="/en/#partners-section" class="nav-item">Наши партнеры</a>
-            <a href="/en/faq" class="nav-item">Частые вопросы</a>
-            <a href="#" class="nav-item">Личный кабинет</a>
-            <a href="/en/contacts" class="nav-item">Контакты</a>
+            <a href="/en/halal" class="nav-item">Halal in detail</a>
+            <a href="/en/#partners-section" class="nav-item">Our Partners</a>
+            <a href="/en/faq" class="nav-item">Frequently Asked Questions</a>
+            <a href="/en/#" class="nav-item">Personal account</a>
+            <a href="/en/contacts" class="nav-item">Contacts</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
         <div class="row">
-          <div class="col-md-3">
-            <div class="copyright">© 2023 SA ORGANIZATION GROUP</div>
+          <div class="col-lg-3">
+            <div class="footer-bottom-item copyright">© 2023 SA ORGANIZATION GROUP</div>
           </div>
-          <div class="col-md-6">
-            <div class="privacy-policy">
-              <a href="/en/privacy-policy">Политика конфиденциальности</a>
+          <div class="col-lg-6">
+            <div class="footer-bottom-item privacy-policy">
+              <a href="/en/privacy-policy">Privacy policy</a>
             </div>
           </div>
-          <div class="col-md-3"></div>
+          <div class="col-lg-3"></div>
         </div>
       </div>
     </div>
@@ -231,76 +303,97 @@
   <div class="mobile-menu">
 
     <ul class="menu">
-      <li class="menu-item {{ Route::is('company') ? 'active' : '' }}">
-        <a href="/en/company">КОМПАНИЯ</a>
-      </li>
-      <li class="menu-item {{ Route::is('services') ? 'active' : '' }}">
-        <a href="/en/services">УСЛУГИ</a>
-      </li>
-      <li class="menu-item {{ Route::is('payment') ? 'active' : '' }}">
-        <a href="/en/payment">ОПЛАТА</a>
-      </li>
-      <li class="menu-item {{ Route::is('delivery') ? 'active' : '' }}">
-        <a href="/en/delivery">ДОСТАВКА</a>
-      </li>
-      <li class="menu-item {{ Route::is('warranty') ? 'active' : '' }}">
-        <a href="/en/warranty">ГАРАНТИЯ</a>
-      </li>
-      <li class="menu-item {{ Route::is('calculators') ? 'active' : '' }}">
-        <a href="/en/calculators">КАЛЬКУЛЯТОРЫ</a>
+      <li class="menu-item">
+        <a href="/en">Main</a>
       </li>
       <li class="menu-item">
-        <a href="/en/contacts {{ Route::is('contacts') ? 'active' : '' }}">КОНТАКТЫ</a>
+        <a href="/en/for-participants">Index</a>
+      </li>
+      <li class="menu-item">
+        <a href="/en/poster">Poster</a>
+      </li>
+      <li class="menu-item">
+        <a href="/en/participants">Attendance</a>
+      </li>
+      <li class="menu-item">
+        <a href="/en/contacts">Contacst</a>
       </li>
     </ul>
-
-    <div class="secondary-btn callback-btn js-callback-btn">Оставить заявку</div>
-
-    <div class="info">
-      <div class="phone">+7 (982) 292-88-79</div>
-      <div class="phone">8 (800) 575-55-88</div>
-    </div>          
 
   </div>
 
   <div id="callback-modal" class="modal-window callback-modal">
     <div class="modal-wrapper">
       <div class="modal-area">
-        <div class="modal-close">
-          <div class="close"></div>
+        <div class="container-xl">
+          <div class="modal-close-wrapper">
+            <div class="modal-close">
+              <div class="close"></div>
+            </div>
+          </div>
         </div>
-        <div class="modal-title">Оставить заявку</div>
-        <form id="callback-modal-form" class="form" method="post">
-          <div class="form-group">
-            <label for="name-callback-modal" class="label">Имя <span class="accentcolor">*</span></label>
-            <input type="text" name="name" id="name-callback-modal" class="input-field js-name-callback-modal" required minlength="3" maxlength="20">
+        
+        <div class="labels">
+          <div class="container-xl">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="labels-item">
+                  <div class="labels-item__image">
+                    <img src="/img/ticket-label-form.svg" alt="">
+                  </div>
+                  <div class="labels-item__title">Оставьте заявку на<br> участие в выставке</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="labels-item">
+                  <div class="labels-item__image">
+                    <img src="/img/ticket-label-get.svg" alt="">
+                  </div>
+                  <div class="labels-item__title">С вами свяжется VIP-<br>менеджер и расскажет про условия участия</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="labels-item">
+                  <div class="labels-item__image">
+                    <img src="/img/ticket-label-show.svg" alt="">
+                  </div>
+                  <div class="labels-item__title">Подпишем документы и<br> начнем готовить ваш<br> стенд к выставке</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="email-callback-modal" class="label">E-mail <span class="accentcolor">*</span></label>
-            <input type="email" name="email" id="email-callback-modal" class="input-field js-email-callback-modal" required minlength="3" maxlength="50">
-          </div>
-          <div class="form-group">
-            <label for="phone-callback-modal" class="label">Телефон <span class="accentcolor">*</span></label>
-            <input type="text" name="phone" id="phone-callback-modal" class="input-field js-phone-callback-modal js-input-phone-mask" required size="18">
-          </div>
-          <div class="form-group">
-            <label for="message-callback-modal" class="label">Сообщение</label>
-            <textarea name="message" id="message-callback-modal" class="input-field textarea" minlength="3" maxlength="100"></textarea>
-          </div>
-          <div class="checkbox-wrapper">
-            <input type="checkbox" name="checkbox-agree" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-agree-callback-modal" checked required>
-            <label for="checkbox-agree-callback-modal" class="custom-checkbox-label"></label>
-            <span class="checkbox-text">Согласен на обработку персональных данных</span>
-          </div>
-          <div class="checkbox-wrapper mb25">
-            <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
-            <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
-            <span class="checkbox-text">Ознакомлен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
-          </div>
+        </div>
 
-          @csrf
-          <button type="button" id="callback-submit-btn" class="primary-btn modal-submit-btn btn-415">ОТПРАВИТЬ СООБЩЕНИЕ</button>
-        </form>
+        <div class="ticket-wrapper">
+          <div class="container-xl">
+            <div class="ticket">
+              <div class="ticket-text-string">exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference&nbsp;&nbsp;&nbsp;exhibition conference</div>
+              <div class="ticket-logo">
+                <img src="/img/logo.svg" alt="">
+              </div>
+              <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И<br><span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
+              <div class="ticket-right-text ticket-seats-counter">ОСТАЛОСЬ ВСЕГО<br><span class="accent"><span class="accentcolor">17</span> ИЗ 50 МЕСТ</span></div>
+              <form class="form callback-form">
+                <div class="flex-container">
+                  <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Представьтесь">
+                  <input type="text" name="phone" id="modal-ticket-phone" class="input-field js-input-phone-mask" required placeholder="Телефон">
+                  <input type="email" name="email" id="modal-ticket-email" class="input-field" required placeholder="Email">
+                  <button type="button" class="callback-submit-btn primary-btn">ПОЛУЧИТЬ</button>
+                </div>
+                <div class="checkbox-wrapper">
+                  <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="modal-ticket-checkbox" checked required>
+                  <label for="modal-ticket-checkbox" class="custom-checkbox-label"></label>
+                  <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+                </div>
+              </form>
+              <div class="ticket-label">
+                <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
+                <span class="ticket-label-text">электронный билет</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
