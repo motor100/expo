@@ -247,7 +247,7 @@
                 <div class="advertising-item-image">
                   <img src="/img/advertising-homes.png" alt="">
                 </div>
-                <div class="advertising-item-text"><span class="accent">Реклама на порталах PRIAN и Homes Overseas</span> размещениерекламы на крупнейших порталах по зарубежной недвижимсоти</div>
+                <div class="advertising-item-text"><span class="accent">Реклама на порталах PRIAN и Homes Overseas</span> размещение рекламы на крупнейших порталах по зарубежной недвижимоcти</div>
               </div>
             </div>
           </div>

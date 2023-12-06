@@ -341,7 +341,7 @@
                   <div class="labels-item__image">
                     <img src="/img/ticket-label-form.svg" alt="">
                   </div>
-                  <div class="labels-item__title">Оставьте заявку на<br> участие в выставке</div>
+                  <div class="labels-item__title">Leave a request to participate in the exhibition</div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -349,7 +349,7 @@
                   <div class="labels-item__image">
                     <img src="/img/ticket-label-get.svg" alt="">
                   </div>
-                  <div class="labels-item__title">С вами свяжется VIP-<br>менеджер и расскажет про условия участия</div>
+                  <div class="labels-item__title">A VIP manager will contact you and tell you about the conditions of participation</div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -357,7 +357,7 @@
                   <div class="labels-item__image">
                     <img src="/img/ticket-label-show.svg" alt="">
                   </div>
-                  <div class="labels-item__title">Подпишем документы и<br> начнем готовить ваш<br> стенд к выставке</div>
+                  <div class="labels-item__title">We will sign the documents and begin preparing your stand for the exhibition</div>
                 </div>
               </div>
             </div>
@@ -371,24 +371,24 @@
               <div class="ticket-logo">
                 <img src="/img/logo.svg" alt="">
               </div>
-              <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И<br><span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
-              <div class="ticket-right-text ticket-seats-counter">ОСТАЛОСЬ ВСЕГО<br><span class="accent"><span class="accentcolor">17</span> ИЗ 50 МЕСТ</span></div>
+              <div class="ticket-title">LEAVE A REQUEST RIGHT NOW AND <br><span class="accent">BECOME A PARTICIPANT IN THE EXHIBITION</span></div>
+              <div class="ticket-right-text ticket-seats-counter">ONLY LEFT<br><span class="accent"><span class="accentcolor">17</span> OF 50 PLACES</span></div>
               <form class="form callback-form">
                 <div class="flex-container">
-                  <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Представьтесь">
-                  <input type="text" name="phone" id="modal-ticket-phone" class="input-field js-input-phone-mask" required placeholder="Телефон">
+                  <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Name">
+                  <input type="text" name="phone" id="modal-ticket-phone" class="input-field js-input-phone-mask" required placeholder="Phone">
                   <input type="email" name="email" id="modal-ticket-email" class="input-field" required placeholder="Email">
-                  <button type="button" class="callback-submit-btn primary-btn">ПОЛУЧИТЬ</button>
+                  <button type="button" class="callback-submit-btn primary-btn">SEND</button>
                 </div>
                 <div class="checkbox-wrapper">
                   <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="modal-ticket-checkbox" checked required>
                   <label for="modal-ticket-checkbox" class="custom-checkbox-label"></label>
-                  <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+                  <span class="checkbox-text"><a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">I accept the user agreement and confirm that I have read and agree to the <br> privacy policy of this site.</a></span>
                 </div>
               </form>
               <div class="ticket-label">
                 <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
-                <span class="ticket-label-text">электронный билет</span>
+                <span class="ticket-label-text">e-ticket</span>
               </div>
             </div>
           </div>

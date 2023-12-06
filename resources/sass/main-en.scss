@@ -2015,7 +2015,7 @@ p {
       bottom: 0;
       left: 0;
       width: 36px;
-      height: 276px;
+      height: max-content;
       margin: auto;
       font-family: "opensans-bold";
       font-size: 24px;
@@ -4303,7 +4303,7 @@ p {
       height: 100px;
     }
     .ticket-label .ticket-label-text {
-      width: 276px;
+      width: max-content;
       height: 36px;
       writing-mode: inherit;
       transform: none;
@@ -4520,6 +4520,7 @@ p {
         margin: 0 20px 0 0;
       }
       .content .good-deal .good-deal-text__title {
+        display: block;
         margin: 0 0 10px 0;
       }
       .content .good-deal .good-deal-text__subtitle {

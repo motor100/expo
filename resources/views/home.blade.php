@@ -433,6 +433,10 @@
 
 </div>
 
+<script>
+  const menuItem = 0;
+</script>
+
 @endsection
 
 @section('script')

@@ -8,11 +8,11 @@
 
   <div class="main-section">
     <div class="container-xl">
-      <div class="main-title _anim-items _anim-no-hide">Встречайте <span class="accentcolor">лидеров рынка</span> -<br> познакомьтесь с застройщиками и компаниями-участниками!</div>
-      <div class="main-text">100% обеспеченность активами, прибыль каждые 3 месяца!</div>
+      <div class="main-title _anim-items _anim-no-hide">Meet the <span class="accentcolor">market leaders</span> -<br> meet the <br> developers and participating companies!</div>
+      <div class="main-text">100% asset security, profit every 3 months!</div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
-        <button class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</button>
+        <button class="main-accent-btn primary-btn">GET AN INVITATION</button>
+        <button class="become-a-member-btn secondary-btn">BECOME A MEMBER</button>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@
   <div id="participants-section" class="participants-section section">
     <div class="title-wrapper">
       <div class="container-xl">
-        <div class="section-title _anim-items _anim-no-hide">Участники<br><span class="accentcolor">выставки - конференции</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Participants<br><span class="accentcolor">exhibitions and conferences</span></div>
       </div>
     </div>
 
@@ -28,19 +28,19 @@
       <div class="container-xl">
         <div class="row">
           <div class="col-lg-7 col-md-8 order-lg-2">
-            <div class="participants-description-text">На нашей выставке представлены <span class="accent">лидеры рынка недвижимости</span>. Познакомьтесь с ведущими застройщиками, которые представят свои <span class="accent">уникальные проекты</span>. Узнайте о компаниях-участниках, которые предлагают широкий спектр услуг и решений в области недвижимости. Наши партнеры, информационные и организационные, поделятся своим опытом и будут рады помочь вам с вашими потребностями. <span class="accent">Присоединяйтесь к нам</span> и встречайте лидеров рынка на нашей выставке!</div>
+            <div class="participants-description-text">Our exhibition presents the <span class="accent">leaders of the real estate market</span>. Meet leading developers who will present their unique projects. Learn about participating companies that offer a wide range of real estate services and solutions. Our partners, information and organizational, will share their experience and will be happy to help you with your needs. <span class="accent">Join us</span> and meet market leaders at our exhibition!</div>
             <div class="participants-description-counters">
               <div class="participants-description-counters-item">
                 <div class="counters-item__number">50+</div>
-                <div class="counters-item__text">участников выставки</div>
+                <div class="counters-item__text">exhibitors</div>
               </div>
               <div class="participants-description-counters-item">
                 <div class="counters-item__number">15</div>
-                <div class="counters-item__text">городов представлены</div>
+                <div class="counters-item__text">cities are represented</div>
               </div>
               <div class="participants-description-counters-item">
                 <div class="counters-item__number">5400+</div>
-                <div class="counters-item__text">проектов на выставке</div>
+                <div class="counters-item__text">projects at the exhibition</div>
               </div>
             </div>
           </div>
@@ -118,17 +118,16 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">Ellington properties</div>
-              <div class="participants-item-content__text">Элитный застройщик Дубай со своими 6 новыми проектами</div>
+              <div class="participants-item-content__text">Luxury developer Dubai with its 6 new projects</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg1.png" alt="">
               </div>
-              <!-- <div class="participants-item-dark-bg"></div> -->
             </div>
           </div>
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">Whitewill</div>
-              <div class="participants-item-content__text">ТОП-3 агенств недвижимости по версии Emaar, проекты Москва, Дубай, Лондон, Майами</div>
+              <div class="participants-item-content__text">TOP 3 real estate agencies according to Emaar, projects Moscow, Dubai, London, Miami</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg2.png" alt="">
               </div>
@@ -137,7 +136,7 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Элитный застройщик делюкс проектов в солнечной Алании</div>
+              <div class="participants-item-content__text">Elite developer of deluxe projects in sunny Alanya</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg3.png" alt="">
               </div>
@@ -146,7 +145,7 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">KONAK Construction</div>
-              <div class="participants-item-content__text">Премиальные проекты в Турции, основана с 1987 года</div>
+              <div class="participants-item-content__text">Premium projects in Turkey, founded since 1987</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg4.png" alt="">
               </div>
@@ -155,7 +154,7 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">PRIME PROPERTY</div>
-              <div class="participants-item-content__text">Элитный застройщик северного Кипра, более 237 проектов</div>
+              <div class="participants-item-content__text">Elite developer of northern Cyprus, more than 237 projects</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg5.png" alt="">
               </div>
@@ -164,17 +163,16 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">Ellington properties</div>
-              <div class="participants-item-content__text">Элитный застройщик Дубай со своими 6 новыми проектами</div>
+              <div class="participants-item-content__text">Luxury developer Dubai with its 6 new projects</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg1.png" alt="">
               </div>
-              <!-- <div class="participants-item-dark-bg"></div> -->
             </div>
           </div>
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">Whitewill</div>
-              <div class="participants-item-content__text">ТОП-3 агенств недвижимости по версии Emaar, проекты Москва, Дубай, Лондон, Майами</div>
+              <div class="participants-item-content__text">TOP 3 real estate agencies according to Emaar, projects Moscow, Dubai, London, Miami</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg2.png" alt="">
               </div>
@@ -183,7 +181,7 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Элитный застройщик делюкс проектов в солнечной Алании</div>
+              <div class="participants-item-content__text">Elite developer of deluxe projects in sunny Alanya</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg3.png" alt="">
               </div>
@@ -192,7 +190,7 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">KONAK Construction</div>
-              <div class="participants-item-content__text">Премиальные проекты в Турции, основана с 1987 года</div>
+              <div class="participants-item-content__text">Premium projects in Turkey, founded since 1987</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg4.png" alt="">
               </div>
@@ -201,7 +199,7 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">PRIME PROPERTY</div>
-              <div class="participants-item-content__text">Элитный застройщик северного Кипра, более 237 проектов</div>
+              <div class="participants-item-content__text">Elite developer of northern Cyprus, more than 237 projects</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg5.png" alt="">
               </div>
@@ -210,7 +208,7 @@
           <div class="participants-item">
             <div class="participants-item-content">
               <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Элитный застройщик делюкс проектов в солнечной Алании</div>
+              <div class="participants-item-content__text">Elite developer of deluxe projects in sunny Alanya</div>
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg3.png" alt="">
               </div>
@@ -221,7 +219,7 @@
               <div class="participants-item-content__logo">
                 <img src="/img/logo.svg" alt="">
               </div>
-              <div class="participants-item-content__description">Здесь предоставлены постоянные участники наших мероприятий. Для того, чтобы посмотреть всех участников, перейдите по ссылке ниже.</div>
+              <div class="participants-item-content__description">Here are the regular participants of our events. There are more than 40 of them from different countries.</div>
               <div class="participants-last-item-logo-fragment">
                 <img src="/img/participants-logo-fragment.svg" class="participants-last-item-logo-fragment-img" alt="">
               </div>
@@ -235,7 +233,7 @@
   <div id="projects-section" class="projects-section section">
     <div class="title-wrapper">
       <div class="container-xl">
-        <div class="section-title _anim-items _anim-no-hide">Проекты<br><span class="accentcolor">выставок-конференций</span></div>
+        <div class="section-title _anim-items _anim-no-hide">Projects<br><span class="accentcolor">exhibitions and conferences</span></div>
       </div>
     </div>
 
@@ -243,11 +241,11 @@
       <div class="container-xl">
         <div class="row">
           <div class="col-md-5">
-            <div class="text-item">На нашей выставке представлены <span class="accent">уникальные проекты лидеров рынка недвижимости</span>.</div>
+            <div class="text-item">Our exhibition presents <span class="accent">unique projects from real estate market leaders</span>.</div>
           </div>
           <div class="col-md-2"></div>
           <div class="col-md-5">
-            <div class="text-item"><span class="accent">Присоединяйтесь к нам</span> и встречайте лидеров рынка на нашей выставке!</div>
+            <div class="text-item"><span class="accent">Join us</span> and meet market leaders at our exhibition!</div>
           </div>
         </div>
       </div>
@@ -264,18 +262,18 @@
                 </div>
                 <div class="projects-item-about">
                   <div class="projects-item-about__description">
-                    <span class="description">Страна:</span>
-                    <span class="description-name">Дубай</span>
+                    <span class="description">Country:</span>
+                    <span class="description-name">Dubai</span>
                   </div>
                   <div class="projects-item-about__description">
-                    <span class="description">Проект:</span>
-                    <span class="description-name">Коммерческая недвижимость</span>
+                    <span class="description">Project:</span>
+                    <span class="description-name">Commercial real estate</span>
                   </div>
                 </div>
               </div>
               <div class="projects-item-white">
                 <div class="projects-item-title">Ellington properties</div>
-                <div class="projects-item-description">Элитный застройщик Дубай со своими 6 новыми проектами</div>
+                <div class="projects-item-description">Luxury developer Dubai with its 6 new projects</div>
               </div>
             </div>
           </div>
@@ -283,19 +281,19 @@
             <div class="projects-item horizontal-projects-item">
               <div class="projects-item-white">
                 <div class="projects-item-title">KONAK Construction</div>
-                <div class="projects-item-description">Премиальные проекты в Турции, основана с 1987 года</div>
+                <div class="projects-item-description">Premium projects in Turkey, founded since 1987</div>
               </div>
               <div class="projects-item-image">
                 <img src="/img/projects-ellington.png" alt="">
               </div>
               <div class="projects-item-about">
                 <div class="projects-item-about__description">
-                  <span class="description">Страна:</span>
-                  <span class="description-name">Турция</span>
+                  <span class="description">Country:</span>
+                  <span class="description-name">Türkiye</span>
                 </div>
                 <div class="projects-item-about__description">
-                  <span class="description">Проект:</span>
-                  <span class="description-name">Туристическая недвижимость</span>
+                  <span class="description">Project:</span>
+                  <span class="description-name">Tourist property</span>
                 </div>
               </div>
             </div>
@@ -304,19 +302,19 @@
             <div class="projects-item horizontal-projects-item">
               <div class="projects-item-white">
                 <div class="projects-item-title">PRIME PROPERTY</div>
-                <div class="projects-item-description">Элитный застройщик северного Кипра, более 237 проектов</div>
+                <div class="projects-item-description">Elite developer of northern Cyprus, more than 237 projects</div>
               </div>
               <div class="projects-item-image">
                 <img src="/img/projects-prime.png" alt="">
               </div>
               <div class="projects-item-about">
                 <div class="projects-item-about__description">
-                  <span class="description">Страна:</span>
-                  <span class="description-name">Кипр</span>
+                  <span class="description">Country:</span>
+                  <span class="description-name">Cyprus</span>
                 </div>
                 <div class="projects-item-about__description">
-                  <span class="description">Проект:</span>
-                  <span class="description-name">Жилая недвижимость</span>
+                  <span class="description">Project:</span>
+                  <span class="description-name">Residential real estate</span>
                 </div>
               </div>
             </div>
@@ -329,18 +327,18 @@
                 </div>
                 <div class="projects-item-about">
                   <div class="projects-item-about__description">
-                    <span class="description">Страна:</span>
-                    <span class="description-name">Россия</span>
+                    <span class="description">Country:</span>
+                    <span class="description-name">Russia</span>
                   </div>
                   <div class="projects-item-about__description">
-                    <span class="description">Проект:</span>
-                    <span class="description-name">Жилая премиум недвижимость</span>
+                    <span class="description">Project:</span>
+                    <span class="description-name">Premium residential property</span>
                   </div>
                 </div>
               </div>
               <div class="projects-item-white">
                 <div class="projects-item-title">KAMKA LUXURY BUILDING</div>
-                <div class="projects-item-description">Элитный застройщик Москвы со своими 18 новыми проектами</div>
+                <div class="projects-item-description">Elite developer in Moscow with its 18 new projects</div>
               </div>
             </div>
           </div>
@@ -352,18 +350,18 @@
                 </div>
                 <div class="projects-item-about">
                   <div class="projects-item-about__description">
-                    <span class="description">Страна:</span>
-                    <span class="description-name">Дубай</span>
+                    <span class="description">Country:</span>
+                    <span class="description-name">Dubai</span>
                   </div>
                   <div class="projects-item-about__description">
-                    <span class="description">Проект:</span>
-                    <span class="description-name">Коммерческая недвижимость</span>
+                    <span class="description">Project:</span>
+                    <span class="description-name">Commercial real estate</span>
                   </div>
                 </div>
               </div>
               <div class="projects-item-white">
                 <div class="projects-item-title">Ellington properties</div>
-                <div class="projects-item-description">Элитный застройщик Дубай со своими 6 новыми проектами</div>
+                <div class="projects-item-description">Luxury developer Dubai with its 6 new projects</div>
               </div>
             </div>
           </div>
@@ -372,7 +370,7 @@
               <div class="project-item-last-logo">
                 <img src="/img/logo.svg" alt="">
               </div>
-              <div class="project-item-last-description">Здесь предоставлены все проекты<br>наших мероприятий.<br>Всего их более 40.</div>
+              <div class="project-item-last-description">All projects of our events are provided here. <br> There are more than 40 of them in total.</div>
               <div class="project-item-last-logo-fragment">
                 <img src="/img/participants-logo-fragment.svg" class="project-item-last-logo-fragment-img" alt="">
               </div>

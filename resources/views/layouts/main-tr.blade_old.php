@@ -15,26 +15,22 @@
 </head>
 
 <body>
-  
+
   <!-- @include('preloader') -->
 
   <header class="header">
     <div class="header-top">
-      <div class="container-xl">
+      <div class="container">
         <div class="row">
-          <div class="col-md-2 col-2">
-            <div class="name hidden-mobile">Uluslararası sergiler</div>
-            <div class="logo-mobile hidden-desktop">
-              <img src="/img/logo-mobile.svg" alt="">
-            </div>
+          <div class="col-md-2">
+            <div class="name">Uluslararası sergiler</div>
           </div>
-          <div class="col-md-9 col-8">
+          <div class="col-md-9">
             <div class="cities-menu-wrapper">
               <div class="cursor">
                 <img src="/img/header-cursor.svg" alt="">
               </div>
-              <div class="city-mobile hidden-desktop">Moskova</div>
-              <div class="cities-menu hidden-mobile">
+              <div class="cities-menu">
                 <div class="cities-menu-item">
                   <a href="/tr/event" class="cities-menu-item__link">Moskova</a>
                 </div>
@@ -57,33 +53,10 @@
                   <a href="/tr/event" class="cities-menu-item__link">Bakü</a>
                 </div>
               </div>
-              <div class="city-mobile-dropdown hidden-desktop">
-                <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Moskova</a>
-                </div>
-                <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">St.Petersburg</a>
-                </div>
-                <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Dubai</a>
-                </div>
-                <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Antalya</a>
-                </div>
-                <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Alanya</a>
-                </div>
-                <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Limassol</a>
-                </div>
-                <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Bakü</a>
-                </div>
-              </div> 
             </div>
           </div>
           <div class="col-md-1">
-            <div class="lang-select hidden-mobile">
+            <div class="lang-select">
               <div class="lang-select-text">
                 <a href="/tr" class="lang-select-link">tr</a>
               </div>
@@ -98,27 +71,26 @@
     </div>
 
     <div class="underline-wrapper">
-      <div class="container-xl">
+      <div class="container">
         <div class="underline"></div>
       </div>
     </div>
 
     <div class="header-bottom">
-      <div class="container-xl">
+      <div class="container">
         <div class="row">
-          <div class="col-md-2 col-6">
-            <div class="logo hidden-mobile">
+          <div class="col-md-2">
+            <div class="logo">
               <a href="/tr">
                 <img src="/img/logo.svg" alt="">
               </a>
             </div>
-            <div class="name hidden-desktop">Uluslararası sergiler</div>
           </div>
-          <div class="col-md-8 d-md-block d-none">
-            <div class="top-menu hidden-mobile">
+          <div class="col-md-8">
+            <div class="top-menu">
               <ul class="menu">
                 <li class="menu-item">
-                  <a href="/tr" class="menu-item-link">Ana</a>
+                  <a href="/tr/" class="menu-item-link">Ana</a>
                 </li>
                 <li class="menu-item">
                   <a href="/tr/for-participants" class="menu-item-link">Indeks</a>
@@ -135,7 +107,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-2 col-6">
+          <div class="col-md-2">
             <div class="phone-wrapper">
               <div class="phone-img">
                 <img src="/img/header-phone.svg" alt="">
@@ -147,7 +119,9 @@
           </div>
         </div>
       </div>
-
+      
+      
+      
     </div>
     
   </header>
@@ -158,55 +132,12 @@
 
   </div>
 
+
   <footer class="footer">
-    <div class="container-xl">
+    <div class="container">
       <div class="footer-logo">
         <img src="/img/footer-logo.svg" alt="">
       </div>
-
-      <div class="footer-contacts-mobile">
-        <div class="row">
-          <div class="col-lg-4 col-md-4">
-            <div class="contacts">
-              <div class="phone">
-                <a href="tel:+78002700700">8 800 2700 700</a>
-              </div>
-              <div class="email">
-                <a href="mailto:support@luxpropertyexpo.com">support@luxpropertyexpo.com</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-5">
-            <div class="address-wrapper">
-              <div class="address">Moskova, Stolyarny Yoluк</div>
-              <div class="working-time">08:00 - 20:00 saatleri arasında çalışıyoruz</div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-3">
-            <div class="socials">
-              <a href="/tr/#" class="social-item">
-                <img src="/img/footer-telegram.svg" alt="">
-              </a>
-              <a href="/tr/#" class="social-item">
-                <img src="/img/footer-whatsapp.svg" alt="">
-              </a>
-              <a href="/tr/#" class="social-item">
-                <img src="/img/footer-facebook.svg" alt="">
-              </a>
-              <a href="/tr/#" class="social-item">
-                <img src="/img/footer-youtube.svg" alt="">
-              </a>
-              <a href="/tr/#" class="social-item">
-                <img src="/img/footer-twitter.svg" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
       <div class="footer-menu">
         <div class="footer-menu-contacts">
           <div class="phone">
@@ -277,15 +208,15 @@
       </div>
       <div class="footer-bottom">
         <div class="row">
-          <div class="col-lg-3">
-            <div class="footer-bottom-item copyright">© 2023 SA ORGANIZATION GROUP</div>
+          <div class="col-md-3">
+            <div class="copyright">© 2023 SA ORGANIZATION GROUP</div>
           </div>
-          <div class="col-lg-6">
-            <div class="footer-bottom-item privacy-policy">
+          <div class="col-md-6">
+            <div class="privacy-policy">
               <a href="/tr/privacy-policy">Gizlilik Politikası</a>
             </div>
           </div>
-          <div class="col-lg-3"></div>
+          <div class="col-md-3"></div>
         </div>
       </div>
     </div>
@@ -322,75 +253,41 @@
   <div id="callback-modal" class="modal-window callback-modal">
     <div class="modal-wrapper">
       <div class="modal-area">
-        <div class="container-xl">
-          <div class="modal-close-wrapper">
-            <div class="modal-close">
-              <div class="close"></div>
-            </div>
-          </div>
+        <div class="modal-close">
+          <div class="close"></div>
         </div>
-        
-        <div class="labels">
-          <div class="container-xl">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="labels-item">
-                  <div class="labels-item__image">
-                    <img src="/img/ticket-label-form.svg" alt="">
-                  </div>
-                  <div class="labels-item__title">Оставьте заявку на<br> участие в выставке</div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="labels-item">
-                  <div class="labels-item__image">
-                    <img src="/img/ticket-label-get.svg" alt="">
-                  </div>
-                  <div class="labels-item__title">С вами свяжется VIP-<br>менеджер и расскажет про условия участия</div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="labels-item">
-                  <div class="labels-item__image">
-                    <img src="/img/ticket-label-show.svg" alt="">
-                  </div>
-                  <div class="labels-item__title">Подпишем документы и<br> начнем готовить ваш<br> стенд к выставке</div>
-                </div>
-              </div>
-            </div>
+        <div class="modal-title">Оставить заявку</div>
+        <form id="callback-modal-form" class="form" method="post">
+          <div class="form-group">
+            <label for="name-callback-modal" class="label">Имя <span class="accentcolor">*</span></label>
+            <input type="text" name="name" id="name-callback-modal" class="input-field js-name-callback-modal" required minlength="3" maxlength="20">
           </div>
-        </div>
+          <div class="form-group">
+            <label for="email-callback-modal" class="label">E-mail <span class="accentcolor">*</span></label>
+            <input type="email" name="email" id="email-callback-modal" class="input-field js-email-callback-modal" required minlength="3" maxlength="50">
+          </div>
+          <div class="form-group">
+            <label for="phone-callback-modal" class="label">Телефон <span class="accentcolor">*</span></label>
+            <input type="text" name="phone" id="phone-callback-modal" class="input-field js-phone-callback-modal js-input-phone-mask" required size="18">
+          </div>
+          <div class="form-group">
+            <label for="message-callback-modal" class="label">Сообщение</label>
+            <textarea name="message" id="message-callback-modal" class="input-field textarea" minlength="3" maxlength="100"></textarea>
+          </div>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" name="checkbox-agree" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-agree-callback-modal" checked required>
+            <label for="checkbox-agree-callback-modal" class="custom-checkbox-label"></label>
+            <span class="checkbox-text">Согласен на обработку персональных данных</span>
+          </div>
+          <div class="checkbox-wrapper mb25">
+            <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
+            <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
+            <span class="checkbox-text">Ознакомлен с <a href="/tr/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
+          </div>
 
-        <div class="ticket-wrapper">
-          <div class="container-xl">
-            <div class="ticket">
-              <div class="ticket-text-string">sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı</div>
-              <div class="ticket-logo">
-                <img src="/img/logo.svg" alt="">
-              </div>
-              <div class="ticket-title">HEMEN TALEP BIRAKIN VE SERGİ <br><span class="accent">KATILIMCISI OLUN</span></div>
-              <div class="ticket-right-text ticket-seats-counter">SADECE SOL<br><span class="accent">50 YERDEN <span class="accentcolor">17'Sİ</span></span></div>
-              <form class="form callback-form">
-                <div class="flex-container">
-                  <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Kendinizi tanıtın">
-                  <input type="text" name="phone" id="modal-ticket-phone" class="input-field js-input-phone-mask" required placeholder="Телефон">
-                  <input type="email" name="email" id="modal-ticket-email" class="input-field" required placeholder="Email">
-                  <button type="button" class="callback-submit-btn primary-btn">GÖNDERMEK</button>
-                </div>
-                <div class="checkbox-wrapper">
-                  <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="modal-ticket-checkbox" checked required>
-                  <label for="modal-ticket-checkbox" class="custom-checkbox-label"></label>
-                  <span class="checkbox-text"><a href="/privacy-policy" class="privacy-policy-link" target="_blank">Kullanıcı sözleşmesini kabul ediyorum ve bu sitenin gizlilik politikasını okuyup <br> kabul ettiğimi onaylıyorum.</a></span>
-                </div>
-              </form>
-              <div class="ticket-label">
-                <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
-                <span class="ticket-label-text">elektronik bilet</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
+          @csrf
+          <button type="button" id="callback-submit-btn" class="primary-btn modal-submit-btn btn-415">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+        </form>
       </div>
     </div>
   </div>
