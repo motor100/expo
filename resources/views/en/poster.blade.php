@@ -1,4 +1,4 @@
-@section('title', 'Афиша')
+@section('title', 'Poster')
 
 @extends('layouts.main-en')
 
@@ -8,9 +8,9 @@
 
   <div class="main-section">
     <div class="container"> 
-      <div class="main-title _anim-items _anim-no-hide">Будьте в курсе событий - узнайте<br>о мероприятиях <span class="accentcolor">в своём городе</span></div>
-      <div class="main-text">100% обеспеченность активами, прибыль каждые 3 месяца!</div>
-      <button type="button" class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
+      <div class="main-title _anim-items _anim-no-hide">Stay up to date - find out about<br> <span class="accentcolor">events in your city</span></div>
+      <div class="main-text">100% asset security, profit every 3 months!</div>
+      <button type="button" class="main-accent-btn primary-btn">GET AN INVITATION</button>
     </div>
   </div>
 
@@ -19,8 +19,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <div class="section-title _anim-items _anim-no-hide">Мероприятия 2023-2024</div>
-            <div class="events-section-period">Ноябрь — 2023</div>
+            <div class="section-title _anim-items _anim-no-hide">events 2023-2024</div>
+            <div class="events-section-period">November - 2023</div>
           </div>
           <div class="col-md-4">
             <div class="events-title-image">
@@ -39,13 +39,13 @@
             <div class="events-item events-item-active">
               <div class="events-item-date">
                 <div class="events-item-date__day">10</div>
-                <div class="events-item-date__month">пятница</div>
+                <div class="events-item-date__month">Friday</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Москва</div>
+                <div class="city-name">Moscow</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
-                  <a href="/event" class="view-more-link">перейти к афише</a>
+                  <a href="/event" class="view-more-link">go to the poster</a>
                 </div>
               </div>
               <div class="events-item-image">
@@ -55,13 +55,13 @@
             <div class="events-item events-item-active">
               <div class="events-item-date">
                 <div class="events-item-date__day">10</div>
-                <div class="events-item-date__month">пятница</div>
+                <div class="events-item-date__month">Friday</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Санкт-Петербург</div>
+                <div class="city-name">Saint Petersburg</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
-                  <a href="/event" class="view-more-link">перейти к афише</a>
+                  <a href="/event" class="view-more-link">go to the poster</a>
                 </div>
               </div>
               <div class="events-item-image">
@@ -71,17 +71,17 @@
           </div>
 
           <div class="events-group">
-            <div class="events-section-period">Январь — 2024</div>
+            <div class="events-section-period">January - 2024</div>
             <div class="events-item">
               <div class="events-item-date">
                 <div class="events-item-date__day">01</div>
                 <div class="events-item-date__month">coming<br>soon</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Дубай</div>
+                <div class="city-name">Dubai</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
-                  <a href="/event" class="view-more-link">перейти к афише</a>
+                  <a href="/event" class="view-more-link">go to the poster</a>
                 </div>
               </div>
               <div class="events-item-image">
@@ -94,10 +94,10 @@
                 <div class="events-item-date__month">coming<br>soon</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Анталья</div>
+                <div class="city-name">Antalya</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
-                  <a href="/event" class="view-more-link">перейти к афише</a>
+                  <a href="/event" class="view-more-link">go to the poster</a>
                 </div>
               </div>
               <div class="events-item-image">
@@ -114,10 +114,10 @@
                 <div class="events-item-date__month">coming<br>soon</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Алания</div>
+                <div class="city-name">Alanya</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
-                  <a href="/event" class="view-more-link">перейти к афише</a>
+                  <a href="/event" class="view-more-link">go to the poster</a>
                 </div>
               </div>
               <div class="events-item-image">
@@ -127,13 +127,13 @@
             <div class="events-item events-item-active">
               <div class="events-item-date">
                 <div class="events-item-date__day">08</div>
-                <div class="events-item-date__month">вторник</div>
+                <div class="events-item-date__month">Tuesday</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Лимассол</div>
+                <div class="city-name">Limassol</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
-                  <a href="/event" class="view-more-link">перейти к афише</a>
+                  <a href="/event" class="view-more-link">go to the poster</a>
                 </div>
               </div>
               <div class="events-item-image">
@@ -143,13 +143,13 @@
             <div class="events-item events-item-active events-item-last">
               <div class="events-item-date">
                 <div class="events-item-date__day">22</div>
-                <div class="events-item-date__month">вторник</div>
+                <div class="events-item-date__month">Tuesday</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Баку</div>
+                <div class="city-name">Baku</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
-                  <a href="/event" class="view-more-link">перейти к афише</a>
+                  <a href="/event" class="view-more-link">go to the poster</a>
                 </div>
               </div>
               <div class="events-item-image">

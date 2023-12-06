@@ -7,7 +7,7 @@
 <div class="participants">
 
   <div class="main-section">
-    <div class="container">
+    <div class="container-xl">
       <div class="main-title _anim-items _anim-no-hide">Встречайте <span class="accentcolor">лидеров рынка</span> -<br> познакомьтесь с застройщиками и компаниями-участниками!</div>
       <div class="main-text">100% обеспеченность активами, прибыль каждые 3 месяца!</div>
       <div class="action-btns">
@@ -19,79 +19,15 @@
 
   <div id="participants-section" class="participants-section section">
     <div class="title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide">Участники<br><span class="accentcolor">выставки - конференции</span></div>
       </div>
     </div>
 
     <div class="participants-description">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
-          <div class="col-md-5">
-            <div class="logo-fragments">
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-white.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-accent.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-white.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-accent.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-              <div class="logo-fragments-item">
-                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-7">
+          <div class="col-lg-7 col-md-8 order-lg-2">
             <div class="participants-description-text">На нашей выставке представлены <span class="accent">лидеры рынка недвижимости</span>. Познакомьтесь с ведущими застройщиками, которые представят свои <span class="accent">уникальные проекты</span>. Узнайте о компаниях-участниках, которые предлагают широкий спектр услуг и решений в области недвижимости. Наши партнеры, информационные и организационные, поделятся своим опытом и будут рады помочь вам с вашими потребностями. <span class="accent">Присоединяйтесь к нам</span> и встречайте лидеров рынка на нашей выставке!</div>
             <div class="participants-description-counters">
               <div class="participants-description-counters-item">
@@ -108,12 +44,76 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-5 col-md-4 order-lg-1">
+            <div class="logo-fragments hidden-mobile">
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-white.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-accent.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-white.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-accent.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+              <div class="logo-fragments-item logo-fragments-item-hidden">
+                <img src="/img/participants-description-logo-fragment-grey.svg" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="participants-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="participants-cards">
           <div class="participants-item">
             <div class="participants-item-content">
@@ -232,15 +232,15 @@
     </div>
   </div>
 
-  <div class="projects-section section">
+  <div id="projects-section" class="projects-section section">
     <div class="title-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="section-title _anim-items _anim-no-hide">Проекты<br><span class="accentcolor">выставок-конференций</span></div>
       </div>
     </div>
 
     <div class="text-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
           <div class="col-md-5">
             <div class="text-item">На нашей выставке представлены <span class="accent">уникальные проекты лидеров рынка недвижимости</span>.</div>
@@ -254,9 +254,9 @@
     </div>
 
     <div class="projects-wrapper">
-      <div class="container">
+      <div class="container-xl">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-lg-7 col-md-6">
             <div class="projects-item vertical-projects-item">
               <div class="projects-item-content">
                 <div class="projects-item-image">
@@ -279,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-lg-5 col-md-6">
             <div class="projects-item horizontal-projects-item">
               <div class="projects-item-white">
                 <div class="projects-item-title">KONAK Construction</div>
@@ -300,7 +300,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-lg-5 col-md-6">
             <div class="projects-item horizontal-projects-item">
               <div class="projects-item-white">
                 <div class="projects-item-title">PRIME PROPERTY</div>
@@ -321,7 +321,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-lg-7 col-md-6">
             <div class="projects-item vertical-projects-item">
               <div class="projects-item-content">
                 <div class="projects-item-image">
@@ -344,7 +344,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-lg-7 col-md-6">
             <div class="projects-item vertical-projects-item">
               <div class="projects-item-content">
                 <div class="projects-item-image">
@@ -367,7 +367,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-lg-5 col-md-6">
             <div class="project-item-last">
               <div class="project-item-last-logo">
                 <img src="/img/logo.svg" alt="">

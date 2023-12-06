@@ -40,9 +40,9 @@
               <div class="descriptions-item-image">
                 <img src="/img/description-section-img3.png" alt="">
               </div>
-              <div class="descriptions-item-title"><span class="accentcolor">Старты продаж</span><br>в новостройках</div>
+              <div class="descriptions-item-title"><span class="accentcolor">Sales starts</span><br>in new buildings</div>
             </div>
-            <div class="descriptions-item-text"><span class="accentcolor">старты продаж проектов</span> и специальные условия от ведущих застройщиков</div>
+            <div class="descriptions-item-text"><span class="accentcolor">project sales starts </span>and special conditions from leading developers</div>
           </div>
         </div>
         <div class="col-md-6">
