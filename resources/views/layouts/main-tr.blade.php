@@ -16,7 +16,7 @@
 
 <body>
   
-  <!-- @include('preloader') -->
+  @include('preloader')
 
   <header class="header">
     <div class="header-top">
@@ -338,7 +338,7 @@
                   <div class="labels-item__image">
                     <img src="/img/ticket-label-form.svg" alt="">
                   </div>
-                  <div class="labels-item__title">Оставьте заявку на<br> участие в выставке</div>
+                  <div class="labels-item__title">Formu doldur</div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -346,7 +346,7 @@
                   <div class="labels-item__image">
                     <img src="/img/ticket-label-get.svg" alt="">
                   </div>
-                  <div class="labels-item__title">С вами свяжется VIP-<br>менеджер и расскажет про условия участия</div>
+                  <div class="labels-item__title">Bir e-bilet alın</div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -354,7 +354,7 @@
                   <div class="labels-item__image">
                     <img src="/img/ticket-label-show.svg" alt="">
                   </div>
-                  <div class="labels-item__title">Подпишем документы и<br> начнем готовить ваш<br> стенд к выставке</div>
+                  <div class="labels-item__title"><span class="accentcolor">28-29</span> Ekim tarihlerinde sergi girişinde biletinizi gösterin</div>
                 </div>
               </div>
             </div>
@@ -364,12 +364,11 @@
         <div class="ticket-wrapper">
           <div class="container-xl">
             <div class="ticket">
-              <div class="ticket-text-string">sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı</div>
+              <div class="ticket-text-string">sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı</div>
               <div class="ticket-logo">
                 <img src="/img/logo.svg" alt="">
               </div>
               <div class="ticket-title">HEMEN TALEP BIRAKIN VE SERGİ <br><span class="accent">KATILIMCISI OLUN</span></div>
-              <div class="ticket-right-text ticket-seats-counter">SADECE SOL<br><span class="accent">50 YERDEN <span class="accentcolor">17'Sİ</span></span></div>
               <form class="form callback-form">
                 <div class="flex-container">
                   <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Kendinizi tanıtın">
@@ -383,6 +382,7 @@
                   <span class="checkbox-text"><a href="/privacy-policy" class="privacy-policy-link" target="_blank">Kullanıcı sözleşmesini kabul ediyorum ve bu sitenin gizlilik politikasını okuyup <br> kabul ettiğimi onaylıyorum.</a></span>
                 </div>
               </form>
+              <div class="ticket-counter">SADECE SOL<br><span class="accent">50 YERDEN <span class="accentcolor">17'Sİ</span></span></div>
               <div class="ticket-label">
                 <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
                 <span class="ticket-label-text">elektronik bilet</span>

@@ -16,7 +16,7 @@
 
 <body>
   
-  <!-- @include('preloader') -->
+  @include('preloader')
 
   <header class="header">
     <div class="header-top">
@@ -372,7 +372,6 @@
                 <img src="/img/logo.svg" alt="">
               </div>
               <div class="ticket-title">LEAVE A REQUEST RIGHT NOW AND <br><span class="accent">BECOME A PARTICIPANT IN THE EXHIBITION</span></div>
-              <div class="ticket-right-text ticket-seats-counter">ONLY LEFT<br><span class="accent"><span class="accentcolor">17</span> OF 50 PLACES</span></div>
               <form class="form callback-form">
                 <div class="flex-container">
                   <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Name">
@@ -386,6 +385,7 @@
                   <span class="checkbox-text"><a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">I accept the user agreement and confirm that I have read and agree to the <br> privacy policy of this site.</a></span>
                 </div>
               </form>
+              <div class="ticket-counter">Only left<br><span class="accent"><span class="accentcolor">17</span> of 50 places</span></div>
               <div class="ticket-label">
                 <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
                 <span class="ticket-label-text">e-ticket</span>

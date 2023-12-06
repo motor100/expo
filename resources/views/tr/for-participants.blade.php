@@ -329,7 +329,6 @@
             <img src="/img/logo.svg" alt="">
           </div>
           <div class="ticket-title"><span class="accent">HEMEN TALEP BIRAKIN VE SERGİ</span><br>KATILIMCISI OLUN</div>
-          <div class="ticket-right-text ticket-seats-counter">SADECE SOL<br>50 YERDEN<span class="accentcolor">17'Sİ</span></div>
           <form class="form callback-form">
             <div class="flex-container">
               <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Kendinizi tanıtın">
@@ -343,6 +342,7 @@
               <span class="checkbox-text"><a href="/privacy-policy" class="privacy-policy-link" target="_blank">Kullanıcı sözleşmesini kabul ediyorum ve bu sitenin gizlilik politikasını okuyup <br> kabul ettiğimi onaylıyorum.</a></span>
             </div>
           </form>
+          <div class="ticket-counter">SADECE SOL<br>50 YERDEN <span class="accentcolor">17'Sİ</span></div>
           <div class="ticket-label">
             <img src="/img/ticket-label-desktop.png" class="ticket-label-image ticket-label-desktop-image hidden-mobile" alt="">
             <img src="/img/ticket-label-mobile.png" class="ticket-label-image ticket-label-mobile-image hidden-desktop" alt="">

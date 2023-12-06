@@ -262,11 +262,11 @@
     <div class="ticket-wrapper">
       <div class="container-xl">
         <div class="ticket">
-          <div class="ticket-text-string">sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı</div>
+          <div class="ticket-text-string">sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı&nbsp;&nbsp;&nbsp;sergi konferansı</div>
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
           </div>
-          <div class="ticket-title">Yurtdışında<br><span class="accent">пpremium ve <br>business class</span>gayrimenkuller</div>
+          <div class="ticket-title">Yurtdışında <span class="accent">premium ve <br>business class </span>gayrimenkuller</div>
           <div class="ticket-right-text ticket-date"><span class="accentcolor">28-29 Ekim 2023</div>
           <form class="form callback-form">
             <div class="flex-container">
@@ -278,10 +278,10 @@
             <div class="checkbox-wrapper">
               <input type="checkbox" name="ticket-checkbox" id="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal"  checked required>
               <label for="ticket-checkbox" class="custom-checkbox-label"></label>
-              <span class="checkbox-text"><a href="/privacy-policy" class="privacy-policy-link" target="_blank">Kullanıcı sözleşmesini kabul ediyorum ve bu sitenin gizlilik politikasını okuyup kabul ettiğimi onaylıyorum.</a></span>
+              <span class="checkbox-text"><a href="/privacy-policy" class="privacy-policy-link" target="_blank">Kullanıcı sözleşmesini kabul ediyorum ve bu sitenin gizlilik politikasını okuyup <br> kabul ettiğimi onaylıyorum.</a></span>
             </div>
           </form>
-          <div class="ticket-counter">Sadece sol<br> 1000 yerden<span class="accentcolor">281'i</span></div>
+          <div class="ticket-counter">Sadece sol<br> 1000 yerden <span class="accentcolor">281'i</span></div>
           <div class="ticket-label">
             <img src="/img/ticket-label-desktop.png" class="ticket-label-image ticket-label-desktop-image hidden-mobile" alt="">
             <img src="/img/ticket-label-mobile.png" class="ticket-label-image ticket-label-mobile-image hidden-desktop" alt="">

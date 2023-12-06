@@ -16,7 +16,7 @@
 
 <body>
   
-  <!-- @include('preloader') -->
+  @include('preloader')
 
   <header class="header">
     <div class="header-top">
@@ -371,8 +371,7 @@
               <div class="ticket-logo">
                 <img src="/img/logo.svg" alt="">
               </div>
-              <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И<br><span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
-              <div class="ticket-right-text ticket-seats-counter">ОСТАЛОСЬ ВСЕГО<br><span class="accent"><span class="accentcolor">17</span> ИЗ 50 МЕСТ</span></div>
+              <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И <br><span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
               <form class="form callback-form">
                 <div class="flex-container">
                   <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Представьтесь">
@@ -386,6 +385,7 @@
                   <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
                 </div>
               </form>
+              <div class="ticket-counter">Осталось всего<br><span class="accentcolor">17</span> из 50 мест</span></div>
               <div class="ticket-label">
                 <img src="/img/ticket-label-desktop.png" class="ticket-label-image" alt="">
                 <span class="ticket-label-text">электронный билет</span>

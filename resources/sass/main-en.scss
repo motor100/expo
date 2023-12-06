@@ -1689,15 +1689,6 @@ p {
   }
 }
 
-// ticket section секция билет
-.ticket-section {
-  .labels {
-    .labels-item {
-      margin: 0 0 20px 0;
-    }
-  }
-}
-
 // cities section секция города
 .cities-section {
   position: relative;
@@ -2098,11 +2089,13 @@ p {
     line-height: 1.2;
   }
   .callback-answer {
+    position: relative;
     margin: 0 0 20px 0;
     font-family: "manrope-bold";
     font-size: 34px;
     color: $accentcolor;
     line-height: 1.2;
+    z-index: 1;
   }
   .callback-text {
     margin: 0 0 40px 0;
@@ -2128,7 +2121,7 @@ p {
     left: 850px;
     width: 400px;
     height: 330px;
-    z-index: 1;
+    z-index: 0;
   }
   .callback-logo-fragment img {
     width: 100%;
@@ -2219,6 +2212,7 @@ p {
     position: relative;
     height: 150px;
     padding: 30px 30px 0 101px;
+    margin: 0 0 20px 0;
     border: 1px solid rgba(255, 255, 255, .1);
   }
   .labels-item__image {
@@ -2350,7 +2344,7 @@ p {
     position: fixed;
     left: 0;
     right: 0;
-    top: 10px;
+    top: 0;
     padding: 0;
     opacity: 0;
     visibility: hidden;
@@ -2856,6 +2850,16 @@ p {
       left: 780px;
     }
   }
+
+  .callback-modal {
+    .labels-item__title {
+      font-size: 19px;
+    }
+    .labels-item__title br {
+      display: none;
+    }
+  }
+  
 }
 
 @media only screen and (max-width : 1200px) {
@@ -2927,9 +2931,6 @@ p {
         .participants-counters .participants-counters-item__title {
           font-size: 36px;
         }
-        // .participants-counters .participants-counters-item {
-        //   margin: 15px 0 62px 0;
-        // }
       }
 
       .participants-wrapper {
@@ -4389,9 +4390,30 @@ p {
   .burger-menu-wrapper {
     display: block;
   }
+
   .mobile-menu {
     display: block;
   }
+
+  .modal-window {
+    .modal-wrapper {
+      max-height: 100%;
+      overflow-y: auto;
+    }
+    .modal-area {
+      height: 1400px;
+    }
+  } 
+
+  .callback-modal {
+    .labels .labels-item {
+      width: 100%;
+    }
+    .callback-form .checkbox-wrapper {
+      width: 100%;
+    }
+  }
+
 }
 
 @media only screen and (max-width : 576px) {
@@ -4626,6 +4648,13 @@ p {
       height: 230px;
     }
   }
+
+  .callback-modal {
+    .ticket-title br {
+      display: none;
+    }
+  }
+  
 }
 
 @media only screen and (max-width : 360px) {
@@ -4726,4 +4755,15 @@ p {
       width: 250px;
     }
   }
+
+  .callback-modal {
+    .labels .labels-item {
+      padding: 15px 15px 0 75px;
+    }
+    .labels .labels-item__title {
+      font-size: 17px;
+    }
+
+  }
+
 }
