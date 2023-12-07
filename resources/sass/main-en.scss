@@ -166,8 +166,6 @@ p {
 .preloader {
   position: fixed;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -176,10 +174,19 @@ p {
 }
 .preloader .preloader-image {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
   width: 758px;
-  transform: translate(-50%, -50%);
+  height: 154px;
+  // transform: translate(-50%, -50%);
+}
+.preloader .preloader-image svg {
+  // width: 758px;
+  // height: 148px;
+  width: 100%;
 }
 .preloader .preloader-image svg path {
   fill: $whitecolor;
@@ -2899,6 +2906,11 @@ p {
     padding: 50px 0;
   }
 
+  .preloader .preloader-image {
+    width: 600px;
+    height: 124px;
+  }
+
   .main-title br {
     display: none;
   }
@@ -3349,6 +3361,11 @@ p {
 @media only screen and (max-width : 992px) {
   .section {
     padding: 40px 0;
+  }
+
+  .preloader .preloader-image {
+    width: 500px;
+    height: 104px;
   }
 
   .primary-btn {
@@ -3908,6 +3925,11 @@ p {
     display: block;
   }
 
+  .preloader .preloader-image {
+    width: 420px;
+    height: 88px;
+  }
+
   .section-title {
     font-size: 30px;
   }
@@ -4458,6 +4480,11 @@ p {
 @media only screen and (max-width : 480px) {
   .section-title {
     font-size: 24px;
+  }
+
+  .preloader .preloader-image {
+    width: 90%;
+    height: max-content;
   }
 
   .main-section {
