@@ -219,7 +219,7 @@
               </div>
               <div class="participants-item-content__description">Здесь предоставлены постоянные участники наших мероприятий. Для того, чтобы посмотреть всех участников, перейдите по ссылке ниже.</div>
               <div class="participants-item-content__see-all">
-                <a href="#">Смотреть всех участников</a>
+                <a href="/participants">Смотреть всех участников</a>
               </div>
             </div>
           </div>

@@ -36,9 +36,9 @@ Route::get('/contacts', [MainRuController::class, 'contacts']);
 
 Route::get('/event', [MainRuController::class, 'event']);
 
-Route::get('/halal', [MainRuController::class, 'halal']);
+// Route::get('/halal', [MainRuController::class, 'halal']);
 
-Route::get('/faq', [MainRuController::class, 'faq']);
+// Route::get('/faq', [MainRuController::class, 'faq']);
 
 Route::get('/privacy-policy', [MainRuController::class, 'privacy_policy']);
 
@@ -56,9 +56,9 @@ Route::get('/en/contacts', [MainEnController::class, 'contacts']);
 
 Route::get('/en/event', [MainEnController::class, 'event']);
 
-Route::get('/en/halal', [MainEnController::class, 'halal']);
+// Route::get('/en/halal', [MainEnController::class, 'halal']);
 
-Route::get('/en/faq', [MainEnController::class, 'faq']);
+// Route::get('/en/faq', [MainEnController::class, 'faq']);
 
 Route::get('/en/privacy-policy', [MainEnController::class, 'privacy_policy']);
 
@@ -76,9 +76,9 @@ Route::get('/tr/contacts', [MainTrController::class, 'contacts']);
 
 Route::get('/tr/event', [MainTrController::class, 'event']);
 
-Route::get('/tr/halal', [MainTrController::class, 'halal']);
+// Route::get('/tr/halal', [MainTrController::class, 'halal']);
 
-Route::get('/tr/faq', [MainTrController::class, 'faq']);
+// Route::get('/tr/faq', [MainTrController::class, 'faq']);
 
 Route::get('/tr/privacy-policy', [MainTrController::class, 'privacy_policy']);
 

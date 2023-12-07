@@ -78,11 +78,11 @@
               <div class="cities-item cities-item-right baku">
                 <div class="cities-item-content">
                   <div class="cities-item-title">БАКУ</div>
-                  <a href="#" class="cities-item-date">Coming soon</a>
+                  <a href="/event" class="cities-item-date">Coming soon</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="#" class="cities-item-image__link">
+                    <a href="/event" class="cities-item-image__link">
                       <img src="/img/baku.png" alt="">
                     </a>
                   </div>
@@ -93,14 +93,14 @@
               <div class="cities-item cities-item-left baku">
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="#" class="cities-item-image__link">
+                    <a href="/event" class="cities-item-image__link">
                       <img src="/img/baku.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">БАКУ</div>
-                  <a href="#" class="cities-item-date">Coming soon</a>
+                  <a href="/event" class="cities-item-date">Coming soon</a>
                 </div>
               </div>
             </div>
@@ -108,11 +108,11 @@
             <div class="cities-item cities-item-right istanbul">
               <div class="cities-item-content">
                 <div class="cities-item-title">СТАМБУЛ</div>
-                <a href="#" class="cities-item-date">Coming soon</a>
+                <a href="/event" class="cities-item-date">Coming soon</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <a href="#" class="cities-item-image__link">
+                  <a href="/event" class="cities-item-image__link">
                     <img src="/img/istanbul.png" alt="">
                   </a>
                 </div>
@@ -122,25 +122,25 @@
             <div class="cities-item cities-item-left limassol">
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <a href="#" class="cities-item-image__link">
+                  <a href="/event" class="cities-item-image__link">
                     <img src="/img/limassol.png" alt="">
                   </a>
                 </div>
               </div>
               <div class="cities-item-content">
                 <div class="cities-item-title">ЛИМАССОЛ</div>
-                <a href="#" class="cities-item-date">Coming soon</a>
+                <a href="/event" class="cities-item-date">Coming soon</a>
               </div>
             </div>
 
             <div class="cities-item cities-item-right antalya">
               <div class="cities-item-content">
                 <div class="cities-item-title">Анталия</div>
-                <a href="#" class="cities-item-date">Coming soon</a>
+                <a href="/event" class="cities-item-date">Coming soon</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <a href="#" class="cities-item-image__link">
+                  <a href="/event" class="cities-item-image__link">
                     <img src="/img/antalya.png" alt="">
                   </a>
                 </div>
@@ -151,11 +151,11 @@
               <div class="cities-item cities-item-right dubai">
                 <div class="cities-item-content">
                   <div class="cities-item-title">ДУБАЙ</div>
-                  <a href="#" class="cities-item-date">Coming soon</a>
+                  <a href="/event" class="cities-item-date">Coming soon</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="#" class="cities-item-image__link">
+                    <a href="/event" class="cities-item-image__link">
                       <img src="/img/dubai.png" alt="">
                     </a>
                   </div>
@@ -166,14 +166,14 @@
               <div class="cities-item cities-item-left dubai">
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="#" class="cities-item-image__link">
+                    <a href="/event" class="cities-item-image__link">
                       <img src="/img/dubai.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">ДУБАЙ</div>
-                  <a href="#" class="cities-item-date">Coming soon</a>
+                  <a href="/event" class="cities-item-date">Coming soon</a>
                 </div>
               </div>
             </div>

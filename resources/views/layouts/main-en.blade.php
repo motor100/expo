@@ -189,19 +189,19 @@
 
           <div class="col-lg-4 col-md-3">
             <div class="socials">
-              <a href="#" class="social-item">
+              <a href="/en/#" class="social-item">
                 <img src="/img/footer-telegram.svg" alt="">
               </a>
-              <a href="#" class="social-item">
+              <a href="/en/#" class="social-item">
                 <img src="/img/footer-whatsapp.svg" alt="">
               </a>
-              <a href="#" class="social-item">
+              <a href="/en/#" class="social-item">
                 <img src="/img/footer-facebook.svg" alt="">
               </a>
-              <a href="#" class="social-item">
+              <a href="/en/#" class="social-item">
                 <img src="/img/footer-youtube.svg" alt="">
               </a>
-              <a href="#" class="social-item">
+              <a href="/en/#" class="social-item">
                 <img src="/img/footer-twitter.svg" alt="">
               </a>
             </div>
