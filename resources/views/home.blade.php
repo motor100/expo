@@ -77,6 +77,12 @@
           <div class="right-blur">
             <img src="/img/advantages-right-blur.png" alt="">
           </div>
+          <div class="advantages-right-logo-fragment">
+            <img src="/img/advantages-right-logo-fragment.png" alt="">
+          </div>
+          <div class="advantages-right-logo">
+            <img src="/img/advantages-right-logo.svg" alt="">
+          </div>
           <div class="right-label">
             <img src="/img/advantages-right-label.svg" alt="">
           </div>
