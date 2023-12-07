@@ -10,7 +10,7 @@
     <div class="container"> 
       <div class="main-title _anim-items _anim-no-hide">Stay up to date - find out about<br> <span class="accentcolor">events in your city</span></div>
       <div class="main-text">100% asset security, profit every 3 months!</div>
-      <button type="button" class="main-accent-btn primary-btn">GET AN INVITATION</button>
+      <button type="button" class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION</button>
     </div>
   </div>
 

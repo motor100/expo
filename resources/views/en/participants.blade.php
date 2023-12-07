@@ -11,8 +11,8 @@
       <div class="main-title _anim-items _anim-no-hide">Meet the <span class="accentcolor">market leaders</span> -<br> meet the <br> developers and participating companies!</div>
       <div class="main-text">100% asset security, profit every 3 months!</div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn">GET AN INVITATION</button>
-        <button class="become-a-member-btn secondary-btn">BECOME A MEMBER</button>
+        <button class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION</button>
+        <a href="/en/for-participants" class="become-a-member-btn secondary-btn">BECOME A MEMBER</a>
       </div>
     </div>
   </div>

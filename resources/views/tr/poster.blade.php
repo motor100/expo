@@ -10,7 +10,7 @@
     <div class="container-xl"> 
       <div class="main-title _anim-items _anim-no-hide">Güncel kalın - şehrinizdeki etkinlikler <br>о мероприятиях <span class="accentcolor">hakkında bilgi edinin</span></div>
       <div class="main-text">100% varlık güvenliği, 3 ayda bir kâr!</div>
-      <button type="button" class="main-accent-btn primary-btn">DAVET ALIN</button>
+      <button type="button" class="main-accent-btn primary-btn js-callback-btn">DAVET ALIN</button>
     </div>
   </div>
 

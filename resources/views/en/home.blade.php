@@ -18,7 +18,7 @@
         <button class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION
           <span class="flash lighting"></span>
         </button>
-        <a href="/for-participants" class="become-a-member-btn secondary-btn">BECOME A MEMBER</a>
+        <a href="/en/for-participants" class="become-a-member-btn secondary-btn">BECOME A MEMBER</a>
       </div>
     </div>
     <div class="main-slider-wrapper">

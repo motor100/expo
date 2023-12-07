@@ -11,8 +11,8 @@
       <div class="main-title _anim-items _anim-no-hide">Встречайте <span class="accentcolor">лидеров рынка</span> -<br> познакомьтесь с застройщиками и компаниями-участниками!</div>
       <div class="main-text">100% обеспеченность активами, прибыль каждые 3 месяца!</div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
-        <button class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</button>
+        <button class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
+        <a href="/for-participants" class="become-a-member-btn secondary-btn">СТАТЬ УЧАСТНИКОМ</a>
       </div>
     </div>
   </div>

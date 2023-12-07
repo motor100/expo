@@ -10,7 +10,7 @@
     <div class="container-xl"> 
       <div class="main-title _anim-items _anim-no-hide">Будьте в курсе событий - узнайте <br>о мероприятиях <span class="accentcolor">в своём городе</span></div>
       <div class="main-text">100% обеспеченность активами, прибыль каждые 3 месяца!</div>
-      <button type="button" class="main-accent-btn primary-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
+      <button type="button" class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
     </div>
   </div>
 

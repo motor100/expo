@@ -11,8 +11,8 @@
       <div class="main-title _anim-items _anim-no-hide">Pazar <span class="accentcolor">liderleriyle tanışın</span> -<br> geliştiricilerle ve katılımcı şirketlerle tanışın!</div>
       <div class="main-text">%100 varlık güvenliği, 3 ayda bir kâr!</div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn">DAVET ALIN</button>
-        <button class="become-a-member-btn secondary-btn">ÜYE OL</button>
+        <button class="main-accent-btn primary-btn js-callback-btn">DAVET ALIN</button>
+        <a href="/tr/for-participants" class="become-a-member-btn secondary-btn">ÜYE OL</a>
       </div>
     </div>
   </div>

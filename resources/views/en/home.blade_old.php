@@ -15,10 +15,10 @@
       <div class="main-title _anim-items _anim-no-hide">Exhibition of <span class="accentcolor">elite </span>foreign <br>real estate</div>
       <div class="main-text">The best foreign projects for relaxation and investment, the largest real estate<br> exhibition in <span class="text-bold">Europe and Asia</span></div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION
+        <button class="main-accent-btn primary-btn js-callback-btn js-callback-btn">GET AN INVITATION
           <span class="flash lighting"></span>
         </button>
-        <a href="/for-participants" class="become-a-member-btn secondary-btn">BECOME A MEMBER</a>
+        <a href="/en/for-participants" class="become-a-member-btn secondary-btn">BECOME A MEMBER</a>
       </div>
     </div>
     <div class="main-slider-wrapper">

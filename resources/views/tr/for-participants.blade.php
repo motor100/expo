@@ -328,7 +328,7 @@
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
           </div>
-          <div class="ticket-title"><span class="accent">HEMEN TALEP BIRAKIN VE SERGİ</span><br>KATILIMCISI OLUN</div>
+          <div class="ticket-title"><span class="accent">HEMEN TALEP BIRAKIN VE SERGİ</span> <br> KATILIMCISI OLUN</div>
           <form class="form callback-form">
             <div class="flex-container">
               <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Kendinizi tanıtın">

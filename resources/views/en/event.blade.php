@@ -10,7 +10,7 @@
     <div class="container">
       <div class="main-title _anim-items _anim-no-hide">Real estate exhibition in <span class="accentcolor">Moscow<br>October 12, 2023</span></div>
       <div class="main-text">Moskow, Ritz Carlton Hotel</div>
-      <button type="button" class="main-accent-btn primary-btn">GET AN INVITATION</button>
+      <button type="button" class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION</button>
     </div>
   </div>
 

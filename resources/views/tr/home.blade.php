@@ -15,10 +15,10 @@
       <div class="main-title _anim-items _anim-no-hide">Elit <span class="accentcolor">yabancı </span><br>gayrimenkul fuarı</div>
       <div class="main-text">Rahatlama ve yatırım için en iyi denizaşırı projeler,<span class="text-bold">Avrupa ve Asya'daki </span> en büyük <br>gayrimenkul fuarı</div>
       <div class="action-btns">
-        <button class="main-accent-btn primary-btn js-callback-btn">DAVET ALIN
+        <button class="main-accent-btn primary-btn js-callback-btn js-callback-btn">DAVET ALIN
           <span class="flash lighting"></span>
         </button>
-        <a href="/for-participants" class="become-a-member-btn secondary-btn">ÜYE OL</a>
+        <a href="/tr/for-participants" class="become-a-member-btn secondary-btn">ÜYE OL</a>
       </div>
     </div>
     <div class="main-slider-wrapper">

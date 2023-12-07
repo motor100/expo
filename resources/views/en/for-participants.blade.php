@@ -328,7 +328,7 @@
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
           </div>
-          <div class="ticket-title">LEAVE A REQUEST RIGHT NOW AND<br><span class="accent">BECOME A PARTICIPANT IN THE EXHIBITION</span></div>
+          <div class="ticket-title">LEAVE A REQUEST RIGHT NOW AND <br> <span class="accent">BECOME A PARTICIPANT IN THE EXHIBITION</span></div>
           <div class="ticket-right-text ticket-seats-counter">ONLY LEFT<br><span class="accent"><span class="accentcolor">17</span> OF 50 PLACES</span></div>
           <form class="form callback-form">
             <div class="flex-container">

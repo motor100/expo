@@ -4660,6 +4660,9 @@ p {
     .callback-form .flex-container {
       width: 100%;
     }
+    .ticket-title br {
+      display: none;
+    }
   }
 
   .ticket-section {
@@ -4704,13 +4707,6 @@ p {
       height: 230px;
     }
   }
-
-  .callback-modal {
-    .ticket-title br {
-      display: none;
-    }
-  }
-  
 }
 
 @media only screen and (max-width : 360px) {
