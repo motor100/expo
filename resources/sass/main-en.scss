@@ -130,7 +130,7 @@ p {
   transition: none;
 }
 .lighting {
-  webkit-animation: moving 3s ease-in-out infinite;
+  -webkit-animation: moving 3s ease-in-out infinite;
   -moz-animation: moving 3s ease-in-out infinite;
   -ms-animation: moving 3s ease-in-out infinite;
   -o-animation: moving 3s ease-in-out infinite;
@@ -181,11 +181,8 @@ p {
   margin: auto;
   width: 758px;
   height: 154px;
-  // transform: translate(-50%, -50%);
 }
 .preloader .preloader-image svg {
-  // width: 758px;
-  // height: 148px;
   width: 100%;
 }
 .preloader .preloader-image svg path {
@@ -225,7 +222,6 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  overflow-x: hidden;
   z-index: 1;
   .header-top {
     padding: 21px 0;
@@ -491,7 +487,6 @@ p {
         height: 100%;
         object-fit: cover;
       }
-      // .right-logo-wrapper {
       .advantages-right-logo-fragment {
         position: absolute;
         width: 64%;
@@ -514,9 +509,6 @@ p {
         bottom: 185px;
         margin: 0 auto;
       }
-      // .advantages-right-logo {
-      //   width: 50%;
-      // }
       .right-label {
         position: absolute;
         top: -4px;
@@ -613,7 +605,6 @@ p {
       z-index: 1;
       .participants-cards {
         .participants-item {
-          // width: 338px;
           width: 358px;
         }
         .participants-last-item {
@@ -849,8 +840,6 @@ p {
       z-index: 1;
       .labels-item {
         margin: 0 0 40px 0;
-        // background: url(/resources/img/labels-item-bg.png) center no-repeat;
-        // background-size: cover;
         background: rgba(38, 41, 38, 0.10);
         backdrop-filter: blur(15px);
       }
@@ -1087,22 +1076,10 @@ p {
         margin: 0 20px 0 0;
         padding: 40px 40px 0 40px;
         width: 65%;
-
         border-radius: 40px;
         background: linear-gradient(180deg, rgba(22, 23, 22, 0.20) 0%, rgba(255, 255, 255, 0.08) 31.25%, rgba(22, 23, 22, 0.12) 63.54%, rgba(22, 23, 22, 0.20) 100%);
         backdrop-filter: blur(3px);
-        // .good-deal-bg {
-        //   position: absolute;
-        //   top: 0;
-        //   left: 0;
-        //   width: 100%;
-        //   height: 100%;
-        //   z-index: -1;
-        // }
-        // .good-deal-bg img {
-        //   width: 100%;
-        // }
-         .good-deal-text__top {
+        .good-deal-text__top {
           margin: 0 0 30px 0;
           font-size: 32px;
           color: $lightgreycolor;
@@ -1487,9 +1464,6 @@ p {
         bottom: 0;
         width: 230px;
       }
-      .projects-item-white {
-        
-      }
       .projects-item-image {
         position: absolute;
         top: 0;
@@ -1843,7 +1817,6 @@ p {
 .event-advantages-section {
   padding-bottom: 40px;
   .advantages-item {
-    // position: relative;
     display: flex;
     margin: 0 0 40px 0;
   }
@@ -2482,6 +2455,7 @@ p {
   &.menu-is-open .burger-menu:before,
   &.menu-is-open .burger-menu:after {
     top: 15px;
+    width: 36px;
   }
   &.menu-is-open .burger-menu:before {
     transform: rotate(-45deg);
@@ -2502,7 +2476,7 @@ p {
   display: none;
   width: 100%;
   height: 100vh;
-  padding: 80px 30px 30px 30px;
+  padding: 40px 30px 30px 30px;
   background-color: $blackcolor;
   z-index: 9;
   opacity: 0;
@@ -2512,44 +2486,55 @@ p {
     opacity: 1;
     visibility: visible;
   }
-  .city-select {
-    margin: 0 0 20px 0;
-    cursor: pointer;
+  .logo {
+    width: 160px;
+    margin: 0 0 80px 0;
   }
-  .lk-login {
-    position: relative;
-    display: flex;
-    margin: 0 0 20px 0;
-  }
-  .lk-login__image {
-    margin: 0 10px 0 0;
-  }
-  .lk-login__text {
-    font-size: 20px;
+  .logo img {
+    width: 100%;
   }
   .menu {
-    margin: 0 0 35px 0;
+    margin: 0 0 55px 0;
     padding: 0;
     list-style: none;
   }
   .menu-item {
-    margin: 15px 0;
+    margin: 20px 0;
   }
   .menu-item a {
-    font-size: 18px;
+    font-size: 20px;
     color: $whitecolor;
     text-transform: uppercase;
   }
-  .callback-btn {
-    width: 170px;
-    margin: 0 0 35px 0;
-    padding: 2px 0px;
-    font-size: 16px;
+  .phone-wrapper {
+    display: flex;
+    margin: 0 0 20px 0;
   }
-  .info .phone {
-    margin: 0 0 5px 0;
-    font-size: 20px;
-    color: $accentcolor;
+  .phone-img {
+    width: 16px;
+    margin: 0 5px 0 0;
+  }
+  .phone-text a {
+    font-family: "opensans-bold";
+    font-size: 16px;
+    color: #fff;
+  }
+  .socials {
+    margin: 0 0 50px 0;
+  }
+  .socials .social-item {
+    display: inline-block;
+    width: 24px;
+  }
+  .lang-select .lang-select-link {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    font-size: 16px;
+    color: $lightgreycolor;
+    text-transform: uppercase;
+  }
+  .lang-select .lang-select-link.active {
+    color: $whitecolor;
   }
 }
 
@@ -3735,7 +3720,6 @@ p {
       font-size: 22px;
     }
     .left-logo-fragment {
-      // display: none;
       width: 250px;
       height: 234px;
     }

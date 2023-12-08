@@ -302,6 +302,10 @@
 
   <div class="mobile-menu">
 
+    <div class="logo">
+      <img src="/img/mobile-menu-logo.svg" alt="">
+    </div>
+
     <ul class="menu">
       <li class="menu-item">
         <a href="/">Главная</a>
@@ -319,6 +323,39 @@
         <a href="/contacts">Контакты</a>
       </li>
     </ul>
+
+    <div class="phone-wrapper">
+      <div class="phone-img">
+        <img src="/img/header-phone.svg" alt="">
+      </div>
+      <div class="phone-text">
+        <a href="tel:+78002700700">8 800 2700 700</a>
+      </div>
+    </div>
+
+    <div class="socials">
+      <a href="#" class="social-item">
+        <img src="/img/footer-telegram.svg" alt="">
+      </a>
+      <a href="#" class="social-item">
+        <img src="/img/footer-whatsapp.svg" alt="">
+      </a>
+      <a href="#" class="social-item">
+        <img src="/img/footer-facebook.svg" alt="">
+      </a>
+      <a href="#" class="social-item">
+        <img src="/img/footer-youtube.svg" alt="">
+      </a>
+      <a href="#" class="social-item">
+        <img src="/img/footer-twitter.svg" alt="">
+      </a>
+    </div>
+
+    <div class="lang-select">
+      <a href="/" class="lang-select-link active">RU</a>
+      <a href="/en" class="lang-select-link">EN</a>
+      <a href="/tr" class="lang-select-link">TR</a>
+    </div>
 
   </div>
 
