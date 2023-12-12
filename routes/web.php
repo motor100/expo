@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainRuController;
 use App\Http\Controllers\MainEnController;
 use App\Http\Controllers\MainTrController;
+use App\Http\Controllers\Admin\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -82,21 +83,26 @@ Route::get('/tr/event', [MainTrController::class, 'event']);
 
 Route::get('/tr/privacy-policy', [MainTrController::class, 'privacy_policy']);
 
-
 Route::get('/ru', [MainRuController::class, 'home_ru']);
 
 
+// Admin
+Route::middleware(['auth', 'verified'])->group(function () {
+    
+    Route::get('/dashboard', [AdminController::class, 'index'])->name('admin.index');
+
+});
 
 /*
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+*/
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-*/
 
 require __DIR__.'/auth.php';
