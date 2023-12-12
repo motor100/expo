@@ -36,48 +36,48 @@
               <div class="city-mobile hidden-desktop">Москва</div>
               <div class="cities-menu hidden-mobile">
                 <div class="cities-menu-item">
-                  <a href="/event" class="cities-menu-item__link">Москва</a>
+                  <a href="/moscow" class="cities-menu-item__link">Москва</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/event" class="cities-menu-item__link">Санкт-Петербург</a>
+                  <a href="/saint-petersburg" class="cities-menu-item__link">Санкт-Петербург</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/event" class="cities-menu-item__link">Дубай</a>
+                  <a href="/dubai" class="cities-menu-item__link">Дубай</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/event" class="cities-menu-item__link">Анталья</a>
+                  <a href="/antalya" class="cities-menu-item__link">Анталья</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/event" class="cities-menu-item__link">Алания</a>
+                  <a href="/alanya" class="cities-menu-item__link">Алания</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/event" class="cities-menu-item__link">Лимассол</a>
+                  <a href="/limassol" class="cities-menu-item__link">Лимассол</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/event" class="cities-menu-item__link">Баку</a>
+                  <a href="/baku" class="cities-menu-item__link">Баку</a>
                 </div>
               </div>
               <div class="city-mobile-dropdown hidden-desktop">
                 <div class="city-mobile-dropdown-item">
-                  <a href="/event">Москва</a>
+                  <a href="/moscow">Москва</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/event">Санкт-Петербург</a>
+                  <a href="/saint-petersburg">Санкт-Петербург</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/event">Дубай</a>
+                  <a href="/dubai">Дубай</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/event">Анталья</a>
+                  <a href="/antalya">Анталья</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/event">Алания</a>
+                  <a href="/alanya">Алания</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/event">Лимассол</a>
+                  <a href="/limassol">Лимассол</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/event">Баку</a>
+                  <a href="/baku">Баку</a>
                 </div>
               </div> 
             </div>
@@ -259,12 +259,12 @@
         <div class="footer-menu-item events">
           <div class="footer-menu-item__title">Афиша</div>
           <div class="nav">
-            <a href="/event" class="nav-item">Москва</a>
-            <a href="/event" class="nav-item">Анталия</a>
-            <a href="/event" class="nav-item">Дубай</a>
-            <a href="/event" class="nav-item">Лимассол</a>
-            <a href="/event" class="nav-item">Баку</a>
-            <a href="/event" class="nav-item">Санкт-Петербург</a>
+            <a href="/moscow" class="nav-item">Москва</a>
+            <a href="/antalya" class="nav-item">Анталья</a>
+            <a href="/dubai" class="nav-item">Дубай</a>
+            <a href="/limassol" class="nav-item">Лимассол</a>
+            <a href="/baku" class="nav-item">Баку</a>
+            <a href="/saint-petersburg" class="nav-item">Санкт-Петербург</a>
           </div>
         </div>
         <div class="footer-menu-item info">

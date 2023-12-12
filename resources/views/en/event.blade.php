@@ -24,8 +24,4 @@
 
 </div>
 
-<script>
-  const menuItem = 1;
-</script>
-
 @endsection

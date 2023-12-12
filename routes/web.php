@@ -39,6 +39,20 @@ Route::get('/event', [MainRuController::class, 'event']);
 
 Route::get('/moscow', [MainRuController::class, 'moscow']);
 
+Route::get('/saint-petersburg', [MainRuController::class, 'saint_petersburg']);
+
+Route::get('/dubai', [MainRuController::class, 'dubai']);
+
+Route::get('/antalya', [MainRuController::class, 'antalya']);
+
+Route::get('/alanya', [MainRuController::class, 'alanya']);
+
+Route::get('/limassol', [MainRuController::class, 'limassol']);
+
+Route::get('/baku', [MainRuController::class, 'baku']);
+
+Route::get('/istanbul', [MainRuController::class, 'istanbul']);
+
 // Route::get('/halal', [MainRuController::class, 'halal']);
 
 // Route::get('/faq', [MainRuController::class, 'faq']);

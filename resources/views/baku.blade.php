@@ -8,8 +8,8 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title _anim-items _anim-no-hide">Выставка недвижимости <span class="accentcolor">в Москве<br>12 октября 2023</span></div>
-      <div class="main-text">Москва, Ritz Carlton Hotel </div>
+      <div class="main-title _anim-items _anim-no-hide">Выставка недвижимости <span class="accentcolor">в Баку<br>19 августа 2023</span></div>
+      <div class="main-text">Баку, Park Bulvar</div>
       <button type="button" class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
     </div>
   </div>
