@@ -37,6 +37,8 @@ Route::get('/contacts', [MainRuController::class, 'contacts']);
 
 Route::get('/event', [MainRuController::class, 'event']);
 
+Route::get('/moscow', [MainRuController::class, 'moscow']);
+
 // Route::get('/halal', [MainRuController::class, 'halal']);
 
 // Route::get('/faq', [MainRuController::class, 'faq']);

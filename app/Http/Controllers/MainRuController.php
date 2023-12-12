@@ -43,6 +43,11 @@ class MainRuController extends Controller
         return view('event');
     }
 
+    public function moscow(): View
+    {
+        return view('moscow');
+    }
+
     public function halal(): View
     {
         return view('halal');

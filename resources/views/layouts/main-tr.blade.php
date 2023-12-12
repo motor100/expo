@@ -441,59 +441,17 @@
       </div>
     </div>
   @ endif
+ -->
 
-  <div class="fixed-bottom-menu">
-    <div class="menu-wrapper">
-      <div class="menu-item">
-        <div class="menu-item__image">
-          <img src="/img/fixed-bottom-menu-house.svg" alt="">
-        </div>
-        <div class="menu-item__title">Главная</div>
-        <a href="/" class="full-link"></a>
-      </div>
-      <div class="menu-item">
-        <div class="menu-item__image">
-          <img src="/img/fixed-bottom-menu-rectangle.svg" alt="">
-        </div>
-        <div class="menu-item__title">Каталог</div>
-        <a href="/catalog" class="full-link"></a>
-      </div>
-      <div class="menu-item cart-menu-item">
-        <div class="menu-item__image">
-          <img src="/img/fixed-bottom-menu-cart.svg" alt="">
-        </div>
-        <div class="menu-item__title">Корзина</div>
-        <div id="mobile-cart-counter" class="badge-counter {{ isset($cart_count) ? 'active' : '' }}">{{ isset($cart_count) ? $cart_count : '' }}</div>
-        <a href="/cart" class="full-link"></a>
-      </div>
-      <div class="menu-item cart-menu-item">
-        <div class="menu-item__image">
-          <img src="/img/fixed-bottom-menu-heart.svg" alt="">
-        </div>
-        <div class="menu-item__title">Избранное</div>
-        <div id="mobile-favourites-counter" class="badge-counter {{ isset($favourites_count) ? 'active' : '' }}">{{ isset($favourites_count) ? $favourites_count : '' }}</div>
-        <a href="/favourites" class="full-link"></a>
-      </div>
-      <div class="menu-item cart-menu-item">
-        <div class="menu-item__image">
-          <img src="/img/fixed-bottom-menu-chart.svg" alt="">
-        </div>
-        <div class="menu-item__title">Сравнение</div>
-        <div id="mobile-comparison-counter" class="badge-counter {{ isset($comparison_count) ? 'active' : '' }}">{{ isset($comparison_count) ? $comparison_count : '' }}</div>
-        <a href="/comparison" class="full-link"></a>
-      </div>
-    </div>
-  </div>
-
-  @ if(Auth::guard('admin')->user())
+  @if(auth()->user())
     <div class="top-line-is-login">
       <div class="container-fluid">
         <div class="text-wrapper">
           <div class="top-line__text dashboard">
-            <a href="/admin">Панель управления</a>
+            <a href="/dashboard">Панель управления</a>
           </div>
           <div class="top-line__text logout">
-            <form class="form" action="{{-- route('admin.logout') --}}" method="POST">
+            <form class="form" action="{{ route('logout') }}" method="POST">
               @csrf
               <button class="logout-btn" type="submit">Выйти</button>
             </form>
@@ -501,8 +459,7 @@
         </div>
       </div>
     </div>
-  @ endif
- -->
+  @endif
 
   @yield('script')
   @vite(['resources/js/main.js'])
