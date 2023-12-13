@@ -435,16 +435,14 @@
     </div>
   </div>
 
-<!-- 
-  @ if(!request()->cookie('we-use-cookie'))
+  @if(!request()->cookie('we-use-cookie'))
     <div class="we-use-cookie">
       <div class="we-use-cookie-wrapper">
-        <div class="we-use-cookie-text">Этот сайт использует cookie-файлы и другие технологии для улучшения его работы. Продолжая работу с сайтом, вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</div>
-        <button class="primary-btn btn-195 we-use-cookie-close">ХОРОШО</button>
+        <div class="we-use-cookie-text">Этот сайт использует cookies, не пугайтесь.</div>
+        <button class="we-use-cookie-close">ОК</button>
       </div>
     </div>
-  @ endif
- -->
+  @endif
 
   @if(auth()->user())
     <div class="top-line-is-login">
