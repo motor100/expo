@@ -105,30 +105,30 @@
               </div>
             </div>
 
-            <div class="cities-item cities-item-right istanbul">
+            <div class="cities-item cities-item-right northern-cyprus">
               <div class="cities-item-content">
-                <div class="cities-item-title">ISTANBUL</div>
+                <div class="cities-item-title">Northern Cyprus</div>
                 <a href="/en/#" class="cities-item-date">Coming soon</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
                   <a href="/en/#" class="cities-item-image__link">
-                    <img src="/img/istanbul.png" alt="">
+                    <img src="/img/northern-cyprus.png" alt="">
                   </a>
                 </div>
               </div>
             </div>
 
-            <div class="cities-item cities-item-left limassol">
+            <div class="cities-item cities-item-left northern-cyprus">
               <div class="cities-item-circle">
                 <div class="cities-item-image">
                   <a href="/en/#" class="cities-item-image__link">
-                    <img src="/img/limassol.png" alt="">
+                    <img src="/img/northern-cyprus.png" alt="">
                   </a>
                 </div>
               </div>
               <div class="cities-item-content">
-                <div class="cities-item-title">LIMASSOL</div>
+                <div class="cities-item-title">Northern Cyprus</div>
                 <a href="/en/#" class="cities-item-date">Coming soon</a>
               </div>
             </div>

@@ -1,4 +1,4 @@
-@section('title', 'Событие')
+@section('title', 'Northen Cyprus')
 
 @extends('layouts.main-en')
 
@@ -8,8 +8,8 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title _anim-items _anim-no-hide">Real estate exhibition in <span class="accentcolor">Moscow<br>October 12, 2023</span></div>
-      <div class="main-text">Moskow, Ritz Carlton Hotel</div>
+      <div class="main-title _anim-items _anim-no-hide">Real estate exhibition in <br> <span class="accentcolor">Northen Cyprus <br> 16 August 2023</span></div>
+      <div class="main-text">Northen Cyprus, My Mall</div>
       <button type="button" class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION</button>
     </div>
   </div>

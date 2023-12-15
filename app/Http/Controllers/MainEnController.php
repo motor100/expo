@@ -32,20 +32,50 @@ class MainEnController extends Controller
         return view('en.contacts');
     }
 
-    public function event(): View
+    public function moscow(): View
     {
-        return view('en.event');
+        return view('en.moscow');
     }
 
-    public function halal(): View
+    public function saint_petersburg(): View
     {
-        return view('en.halal');
+        return view('en.saint-petersburg');
     }
 
-    public function faq(): View
+    public function dubai(): View
     {
-        return view('en.faq');
+        return view('en.dubai');
     }
+
+    public function antalya(): View
+    {
+        return view('en.antalya');
+    }
+
+    public function alanya(): View
+    {
+        return view('en.alanya');
+    }
+
+    public function northern_cyprus(): View
+    {
+        return view('en.northern-cyprus');
+    }
+
+    public function baku(): View
+    {
+        return view('en.baku');
+    }
+
+    // public function halal(): View
+    // {
+    //     return view('en.halal');
+    // }
+
+    // public function faq(): View
+    // {
+    //     return view('en.faq');
+    // }
 
     public function privacy_policy(): View
     {

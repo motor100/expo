@@ -137,7 +137,7 @@
                 </div>
               </div>
               <div class="events-item-image">
-                <img src="/img/events-limassol.png" alt="">
+                <img src="/img/events-northern-cyprus.png" alt="">
               </div>
             </div>
             <div class="events-item events-item-active events-item-last">

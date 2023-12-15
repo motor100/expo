@@ -1,4 +1,4 @@
-@section('title', 'Событие')
+@section('title', 'Анталья')
 
 @extends('layouts.main-ru')
 

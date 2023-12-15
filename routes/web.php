@@ -36,8 +36,6 @@ Route::get('/participants', [MainRuController::class, 'participants']);
 
 Route::get('/contacts', [MainRuController::class, 'contacts']);
 
-Route::get('/event', [MainRuController::class, 'event']);
-
 Route::get('/moscow', [MainRuController::class, 'moscow']);
 
 Route::get('/saint-petersburg', [MainRuController::class, 'saint_petersburg']);
@@ -70,7 +68,19 @@ Route::get('/en/participants', [MainEnController::class, 'participants']);
 
 Route::get('/en/contacts', [MainEnController::class, 'contacts']);
 
-Route::get('/en/event', [MainEnController::class, 'event']);
+Route::get('/en/moscow', [MainEnController::class, 'moscow']);
+
+Route::get('/en/saint-petersburg', [MainEnController::class, 'saint_petersburg']);
+
+Route::get('/en/dubai', [MainEnController::class, 'dubai']);
+
+Route::get('/en/antalya', [MainEnController::class, 'antalya']);
+
+Route::get('/en/alanya', [MainEnController::class, 'alanya']);
+
+Route::get('/en/northern-cyprus', [MainEnController::class, 'northern_cyprus']);
+
+Route::get('/en/baku', [MainEnController::class, 'baku']);
 
 // Route::get('/en/halal', [MainEnController::class, 'halal']);
 
@@ -90,13 +100,26 @@ Route::get('/tr/participants', [MainTrController::class, 'participants']);
 
 Route::get('/tr/contacts', [MainTrController::class, 'contacts']);
 
-Route::get('/tr/event', [MainTrController::class, 'event']);
+Route::get('/tr/moscow', [MainTrController::class, 'moscow']);
+
+Route::get('/tr/saint-petersburg', [MainTrController::class, 'saint_petersburg']);
+
+Route::get('/tr/dubai', [MainTrController::class, 'dubai']);
+
+Route::get('/tr/antalya', [MainTrController::class, 'antalya']);
+
+Route::get('/tr/alanya', [MainTrController::class, 'alanya']);
+
+Route::get('/tr/northern-cyprus', [MainTrController::class, 'northern_cyprus']);
+
+Route::get('/tr/baku', [MainTrController::class, 'baku']);
 
 // Route::get('/tr/halal', [MainTrController::class, 'halal']);
 
 // Route::get('/tr/faq', [MainTrController::class, 'faq']);
 
 Route::get('/tr/privacy-policy', [MainTrController::class, 'privacy_policy']);
+
 
 Route::get('/ru', [MainRuController::class, 'home_ru']);
 

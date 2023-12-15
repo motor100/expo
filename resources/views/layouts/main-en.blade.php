@@ -36,48 +36,48 @@
               <div class="city-mobile hidden-desktop">Moscow</div>
               <div class="cities-menu hidden-mobile">
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Moscow</a>
+                  <a href="/en/moscow" class="cities-menu-item__link">Moscow</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">St. Petersburg</a>
+                  <a href="/en/saint-petersburg" class="cities-menu-item__link">St. Petersburg</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Dubai</a>
+                  <a href="/en/dubai" class="cities-menu-item__link">Dubai</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Antalya</a>
+                  <a href="/en/antalya" class="cities-menu-item__link">Antalya</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Alania</a>
+                  <a href="/en/alanya" class="cities-menu-item__link">Alania</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Limassol</a>
+                  <a href="/en/northern-cyprus" class="cities-menu-item__link">Northern Cyprus</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/en/event" class="cities-menu-item__link">Baku</a>
+                  <a href="/en/baku" class="cities-menu-item__link">Baku</a>
                 </div>
               </div>
               <div class="city-mobile-dropdown hidden-desktop">
                 <div class="city-mobile-dropdown-item">
-                  <a href="/en/event">Moscow</a>
+                  <a href="/en/moscow">Moscow</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/en/event">St. Petersburg</a>
+                  <a href="/en/saint-petersburg">St. Petersburg</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/en/event">Dubai</a>
+                  <a href="/en/dubai">Dubai</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/en/event">Antalya</a>
+                  <a href="/en/antalya">Antalya</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/en/event">Alania</a>
+                  <a href="/en/alanya">Alania</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/en/event">Limassol</a>
+                  <a href="/en/northern-cyprus">Northern Cyprus</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/en/event">Baku</a>
+                  <a href="/en/baku">Baku</a>
                 </div>
               </div> 
             </div>
@@ -259,12 +259,12 @@
         <div class="footer-menu-item events">
           <div class="footer-menu-item__title">Poster</div>
           <div class="nav">
-            <a href="/en/event" class="nav-item">Moscow</a>
-            <a href="/en/event" class="nav-item">Antalya</a>
-            <a href="/en/event" class="nav-item">Dubai</a>
-            <a href="/en/event" class="nav-item">Limassol</a>
-            <a href="/en/event" class="nav-item">Baku</a>
-            <a href="/en/event" class="nav-item">Saint Petersburg</a>
+            <a href="/en/moscow" class="nav-item">Moscow</a>
+            <a href="/en/antalya" class="nav-item">Antalya</a>
+            <a href="/en/dubai" class="nav-item">Dubai</a>
+            <a href="/en/northern-cyprus" class="nav-item">Northern Cyprus</a>
+            <a href="/en/baku" class="nav-item">Baku</a>
+            <a href="/en/saint-petersburg" class="nav-item">Saint Petersburg</a>
           </div>
         </div>
         <div class="footer-menu-item info">

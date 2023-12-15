@@ -36,48 +36,48 @@
               <div class="city-mobile hidden-desktop">Moskova</div>
               <div class="cities-menu hidden-mobile">
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">Moskova</a>
+                  <a href="/tr/moscow" class="cities-menu-item__link">Moskova</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">St.Petersburg</a>
+                  <a href="/tr/saint-petersburg" class="cities-menu-item__link">St.Petersburg</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">Dubai</a>
+                  <a href="/tr/dubai" class="cities-menu-item__link">Dubai</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">Antalya</a>
+                  <a href="/tr/antalya" class="cities-menu-item__link">Antalya</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">Alanya</a>
+                  <a href="/tr/alanya" class="cities-menu-item__link">Alanya</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">Limassol</a>
+                  <a href="/tr/northern-cyprus" class="cities-menu-item__link">Northern Cyprus</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">Bakü</a>
+                  <a href="/tr/baku" class="cities-menu-item__link">Bakü</a>
                 </div>
               </div>
               <div class="city-mobile-dropdown hidden-desktop">
                 <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Moskova</a>
+                  <a href="/tr/moscow">Moskova</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">St.Petersburg</a>
+                  <a href="/tr/saint-petersburg">St.Petersburg</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Dubai</a>
+                  <a href="/tr/dubai">Dubai</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Antalya</a>
+                  <a href="/tr/antalya">Antalya</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Alanya</a>
+                  <a href="/tr/alanya">Alanya</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Limassol</a>
+                  <a href="/tr/northern-cyprus">Northern Cyprus</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/tr/event">Bakü</a>
+                  <a href="/tr/baku">Bakü</a>
                 </div>
               </div> 
             </div>
@@ -256,12 +256,12 @@
         <div class="footer-menu-item events">
           <div class="footer-menu-item__title">Poster</div>
           <div class="nav">
-            <a href="/tr/event" class="nav-item">Moskova</a>
-            <a href="/tr/event" class="nav-item">Antalya</a>
-            <a href="/tr/event" class="nav-item">Dubai</a>
-            <a href="/tr/event" class="nav-item">Limasol</a>
-            <a href="/tr/event" class="nav-item">Bakü</a>
-            <a href="/tr/event" class="nav-item">St. Petersburg</a>
+            <a href="/tr/moscow" class="nav-item">Moskova</a>
+            <a href="/tr/antalya" class="nav-item">Antalya</a>
+            <a href="/tr/dubai" class="nav-item">Dubai</a>
+            <a href="/tr/northern-cyprus" class="nav-item">Northern Cyprus</a>
+            <a href="/tr/baku" class="nav-item">Bakü</a>
+            <a href="/tr/saint-petersburg" class="nav-item">St. Petersburg</a>
           </div>
         </div>
         <div class="footer-menu-item info">

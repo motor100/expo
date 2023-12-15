@@ -47,7 +47,7 @@
                   <a href="/tr/event" class="cities-menu-item__link">Alanya</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/tr/event" class="cities-menu-item__link">Limassol</a>
+                  <a href="/tr/event" class="cities-menu-item__link">Northern Cyprus</a>
                 </div>
                 <div class="cities-menu-item">
                   <a href="/tr/event" class="cities-menu-item__link">Bakü</a>
@@ -190,7 +190,7 @@
             <a href="/tr/event" class="nav-item">Moskova</a>
             <a href="/tr/event" class="nav-item">Antalya</a>
             <a href="/tr/event" class="nav-item">Dubai</a>
-            <a href="/tr/event" class="nav-item">Limasol</a>
+            <a href="/tr/event" class="nav-item">Northern Cyprus</a>
             <a href="/tr/event" class="nav-item">Bakü</a>
             <a href="/tr/event" class="nav-item">St. Petersburg</a>
           </div>

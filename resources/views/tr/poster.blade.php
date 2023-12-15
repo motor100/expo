@@ -130,14 +130,14 @@
                 <div class="events-item-date__month">Salı</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Limasol</div>
+                <div class="city-name">Northern Cyprus</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
                   <a href="/event" class="view-more-link">postere git</a>
                 </div>
               </div>
               <div class="events-item-image">
-                <img src="/img/events-limassol.png" alt="">
+                <img src="/img/events-northern-cyprus.png" alt="">
               </div>
             </div>
             <div class="events-item events-item-active events-item-last">
