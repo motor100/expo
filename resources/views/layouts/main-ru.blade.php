@@ -51,7 +51,7 @@
                   <a href="/alanya" class="cities-menu-item__link">Алания</a>
                 </div>
                 <div class="cities-menu-item">
-                  <a href="/limassol" class="cities-menu-item__link">Лимассол</a>
+                  <a href="/northern-cyprus" class="cities-menu-item__link">Северный Кипр</a>
                 </div>
                 <div class="cities-menu-item">
                   <a href="/baku" class="cities-menu-item__link">Баку</a>
@@ -74,7 +74,7 @@
                   <a href="/alanya">Алания</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
-                  <a href="/limassol">Лимассол</a>
+                  <a href="/northern-cyprus">Северный Кипр</a>
                 </div>
                 <div class="city-mobile-dropdown-item">
                   <a href="/baku">Баку</a>
@@ -262,7 +262,7 @@
             <a href="/moscow" class="nav-item">Москва</a>
             <a href="/antalya" class="nav-item">Анталья</a>
             <a href="/dubai" class="nav-item">Дубай</a>
-            <a href="/limassol" class="nav-item">Лимассол</a>
+            <a href="/northern-cyprus" class="nav-item">Северный Кипр</a>
             <a href="/baku" class="nav-item">Баку</a>
             <a href="/saint-petersburg" class="nav-item">Санкт-Петербург</a>
           </div>

@@ -48,11 +48,9 @@ Route::get('/antalya', [MainRuController::class, 'antalya']);
 
 Route::get('/alanya', [MainRuController::class, 'alanya']);
 
-Route::get('/limassol', [MainRuController::class, 'limassol']);
+Route::get('/northern-cyprus', [MainRuController::class, 'northern_cyprus']);
 
 Route::get('/baku', [MainRuController::class, 'baku']);
-
-Route::get('/istanbul', [MainRuController::class, 'istanbul']);
 
 // Route::get('/halal', [MainRuController::class, 'halal']);
 

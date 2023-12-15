@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
 
@@ -38,11 +38,6 @@ class MainRuController extends Controller
         return view('contacts');
     }
 
-    // public function event(): View
-    // {
-    //     return view('event');
-    // }
-
     public function moscow(): View
     {
         return view('moscow');
@@ -68,21 +63,15 @@ class MainRuController extends Controller
         return view('alanya');
     }
 
-    public function limassol(): View
+    public function northern_cyprus(): View
     {
-        return view('limassol');
+        return view('northern-cyprus');
     }
 
     public function baku(): View
     {
         return view('baku');
     }
-
-    public function istanbul(): View
-    {
-        return view('istanbul');
-    }
-
 
 
     // public function halal(): View
