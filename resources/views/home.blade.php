@@ -173,7 +173,7 @@
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg1.png" alt="">
               </div>
-              <!-- <div class="participants-item-dark-bg"></div> -->
+              <div class="participants-item-dark-bg"></div>
             </div>
           </div>
           <div class="participants-item">
@@ -183,6 +183,7 @@
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg2.png" alt="">
               </div>
+              <div class="participants-item-dark-bg"></div>
             </div>
           </div>
           <div class="participants-item">
@@ -192,6 +193,7 @@
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg3.png" alt="">
               </div>
+              <div class="participants-item-dark-bg"></div>
             </div>
           </div>
           <div class="participants-item">
@@ -201,6 +203,7 @@
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg4.png" alt="">
               </div>
+              <div class="participants-item-dark-bg"></div>
             </div>
           </div>
           <div class="participants-item">
@@ -210,6 +213,7 @@
               <div class="participants-item-content__bg">
                 <img src="/img/participants-bg5.png" alt="">
               </div>
+              <div class="participants-item-dark-bg"></div>
             </div>
           </div>
           <div class="participants-last-item">
