@@ -166,56 +166,9 @@
     <div class="participants-wrapper">
       <div class="container-xl">
         <div class="participants-cards">
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Ellington'ın özellikleri</div>
-              <div class="participants-item-content__text">Lüks geliştirici Dubai 6 yeni projesiyle</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg1.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Whitewill</div>
-              <div class="participants-item-content__text">Emaar'a göre ilk 3 emlakçı, projeler Moskova, Dubai, Londra, Miami</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg2.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Güneşli Alanya'da lüks projelerin elit geliştiricisi</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg3.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">KONAK Construction</div>
-              <div class="participants-item-content__text">1987'den bu yana kurulan Türkiye'deki premium projeler</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg4.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">PRIME PROPERTY</div>
-              <div class="participants-item-content__text">Kuzey Kıbrıs'ın elit geliştiricisi, 237'den fazla proje</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg5.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
+          @foreach($participants as $value)
+            @include('tr.participants-item')
+          @endforeach
           <div class="participants-last-item">
             <div class="participants-item-content">
               <div class="participants-item-content__logo">

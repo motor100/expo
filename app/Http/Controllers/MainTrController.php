@@ -9,7 +9,11 @@ class MainTrController extends Controller
 {
     public function home(): View
     {
-        return view('tr.home');
+        $participants = \App\Models\Participant::orderBy('id', 'desc')
+                                                ->limit(5)
+                                                ->get();
+        
+        return view('tr.home', compact('participants'));
     }
 
     public function for_participants(): View
@@ -24,7 +28,10 @@ class MainTrController extends Controller
 
     public function participants(): View
     {
-        return view('tr.participants');
+        $participants = \App\Models\Participant::orderBy('id', 'desc')
+                                                ->get();
+        
+        return view('tr.participants', compact('participants'));
     }
 
     public function contacts(): View

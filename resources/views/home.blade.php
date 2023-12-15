@@ -166,56 +166,9 @@
     <div class="participants-wrapper">
       <div class="container-xl">
         <div class="participants-cards">
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Ellington properties</div>
-              <div class="participants-item-content__text">Элитный застройщик Дубай со своими 6 новыми проектами</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg1.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Whitewill</div>
-              <div class="participants-item-content__text">ТОП-3 агенств недвижимости по версии Emaar, проекты Москва, Дубай, Лондон, Майами</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg2.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Элитный застройщик делюкс проектов в солнечной Алании</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg3.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">KONAK Construction</div>
-              <div class="participants-item-content__text">Премиальные проекты в Турции, основана с 1987 года</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg4.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">PRIME PROPERTY</div>
-              <div class="participants-item-content__text">Элитный застройщик северного Кипра, более 237 проектов</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg5.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
+          @foreach($participants as $value)
+            @include('participants-item')
+          @endforeach
           <div class="participants-last-item">
             <div class="participants-item-content">
               <div class="participants-item-content__logo">

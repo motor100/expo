@@ -10,7 +10,11 @@ class MainRuController extends Controller
 {
     public function home(): View
     {
-        return view('home');
+        $participants = \App\Models\Participant::orderBy('id', 'desc')
+                                                ->limit(5)
+                                                ->get();
+        
+        return view('home', compact('participants'));
     }
 
     public function home_ru(): RedirectResponse
@@ -30,7 +34,10 @@ class MainRuController extends Controller
 
     public function participants(): View
     {
-        return view('participants');
+        $participants = \App\Models\Participant::orderBy('id', 'desc')
+                                                ->get();
+        
+        return view('participants', compact('participants'));
     }
 
     public function contacts(): View

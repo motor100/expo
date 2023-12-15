@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\ParticipantController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,22 @@ use App\Http\Controllers\Admin\AdminController;
 Route::middleware(['auth', 'verified'])->group(function () {
     
     Route::get('/dashboard', [AdminController::class, 'index'])->name('admin.index');
+    
+
+    Route::get('/dashboard/participants', [ParticipantController::class, 'index']);
+
+    Route::get('/dashboard/participants/create', [ParticipantController::class, 'create'])->name('admin.participants-create');
+
+    Route::post('/dashboard/participants/store', [ParticipantController::class, 'store'])->name('admin.participants-store');
+
+    Route::get('/dashboard/participants/{id}', [ParticipantController::class, 'show'])->name('admin.participants-show');
+
+    Route::get('/dashboard/participants/{id}/edit', [ParticipantController::class, 'edit'])->name('admin.participants-edit');
+
+    Route::post('/dashboard/participants/{id}/update', [ParticipantController::class, 'update'])->name('admin.participants-update');
+
+    Route::get('/dashboard/participants/{id}/destroy', [ParticipantController::class, 'destroy'])->name('admin.participants-destroy');
+
 
 });
 

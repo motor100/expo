@@ -8,7 +8,7 @@
 
   <div class="main-section">
     <div class="container-xl">
-      <div class="main-title _anim-items _anim-no-hide">Meet the <span class="accentcolor">market leaders</span> -<br> meet the <br> developers and participating companies!</div>
+      <div class="main-title _anim-items _anim-no-hide">Meet the <span class="accentcolor">market leaders</span> -<br> developers and participating companies!</div>
       <div class="main-text">100% asset security, profit every 3 months!</div>
       <div class="action-btns">
         <button class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION</button>
@@ -115,116 +115,9 @@
     <div class="participants-wrapper">
       <div class="container-xl">
         <div class="participants-cards">
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Ellington properties</div>
-              <div class="participants-item-content__text">Luxury developer Dubai with its 6 new projects</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg1.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Whitewill</div>
-              <div class="participants-item-content__text">TOP 3 real estate agencies according to Emaar, projects Moscow, Dubai, London, Miami</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg2.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Elite developer of deluxe projects in sunny Alanya</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg3.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">KONAK Construction</div>
-              <div class="participants-item-content__text">Premium projects in Turkey, founded since 1987</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg4.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">PRIME PROPERTY</div>
-              <div class="participants-item-content__text">Elite developer of northern Cyprus, more than 237 projects</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg5.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Ellington properties</div>
-              <div class="participants-item-content__text">Luxury developer Dubai with its 6 new projects</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg1.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">Whitewill</div>
-              <div class="participants-item-content__text">TOP 3 real estate agencies according to Emaar, projects Moscow, Dubai, London, Miami</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg2.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Elite developer of deluxe projects in sunny Alanya</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg3.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">KONAK Construction</div>
-              <div class="participants-item-content__text">Premium projects in Turkey, founded since 1987</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg4.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">PRIME PROPERTY</div>
-              <div class="participants-item-content__text">Elite developer of northern Cyprus, more than 237 projects</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg5.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
-          <div class="participants-item">
-            <div class="participants-item-content">
-              <div class="participants-item-content__title">OXO Construction</div>
-              <div class="participants-item-content__text">Elite developer of deluxe projects in sunny Alanya</div>
-              <div class="participants-item-content__bg">
-                <img src="/img/participants-bg3.png" alt="">
-              </div>
-              <div class="participants-item-dark-bg"></div>
-            </div>
-          </div>
+          @foreach($participants as $value)
+            @include('en.participants-item')
+          @endforeach
           <div class="participants-last-item">
             <div class="participants-item-content">
               <div class="participants-item-content__logo">

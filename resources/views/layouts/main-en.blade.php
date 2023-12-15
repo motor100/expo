@@ -127,7 +127,7 @@
                   <a href="/en/poster" class="menu-item-link">Poster</a>
                 </li>
                 <li class="menu-item">
-                  <a href="/en/participants" class="menu-item-link">Attendance</a>
+                  <a href="/en/participants" class="menu-item-link">Participants</a>
                 </li>
                 <li class="menu-item">
                   <a href="/en/contacts" class="menu-item-link">Contacts</a>
@@ -317,7 +317,7 @@
         <a href="/en/poster">Poster</a>
       </li>
       <li class="menu-item">
-        <a href="/en/participants">Attendance</a>
+        <a href="/en/participants">Participants</a>
       </li>
       <li class="menu-item">
         <a href="/en/contacts">Contacts</a>

@@ -9,7 +9,11 @@ class MainEnController extends Controller
 {
     public function home(): View
     {
-        return view('en.home');
+        $participants = \App\Models\Participant::orderBy('id', 'desc')
+                                                ->limit(5)
+                                                ->get();
+        
+        return view('en.home', compact('participants'));
     }
 
     public function for_participants(): View
@@ -24,7 +28,10 @@ class MainEnController extends Controller
 
     public function participants(): View
     {
-        return view('en.participants');
+        $participants = \App\Models\Participant::orderBy('id', 'desc')
+                                                ->get();
+        
+        return view('en.participants', compact('participants'));
     }
 
     public function contacts(): View
