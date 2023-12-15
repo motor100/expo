@@ -1,11 +1,9 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainRuController;
 use App\Http\Controllers\MainEnController;
 use App\Http\Controllers\MainTrController;
-use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\AjaxController;
 
 /*
@@ -127,24 +125,5 @@ Route::get('/ru', [MainRuController::class, 'home_ru']);
 // Ajax
 Route::get('/ajax/we-use-cookie', [AjaxController::class, 'we_use_cookie']);
 
-
-// Admin
-Route::middleware(['auth', 'verified'])->group(function () {
-    
-    Route::get('/dashboard', [AdminController::class, 'index'])->name('admin.index');
-
-});
-
-/*
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-*/
-
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
 
 require __DIR__.'/auth.php';
