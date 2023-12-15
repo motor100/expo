@@ -6,6 +6,7 @@ use App\Http\Controllers\MainRuController;
 use App\Http\Controllers\MainEnController;
 use App\Http\Controllers\MainTrController;
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\AjaxController;
 
 /*
 |--------------------------------------------------------------------------
@@ -100,6 +101,10 @@ Route::get('/tr/event', [MainTrController::class, 'event']);
 Route::get('/tr/privacy-policy', [MainTrController::class, 'privacy_policy']);
 
 Route::get('/ru', [MainRuController::class, 'home_ru']);
+
+
+// Ajax
+Route::get('/ajax/we-use-cookie', [AjaxController::class, 'we_use_cookie']);
 
 
 // Admin

@@ -1,8 +1,4 @@
 import IMask from 'imask';
-// import Swiper from 'swiper';
-// import { Navigation, Pagination } from 'swiper/modules';
-
-// import mainSectionBg from '/public/img/main-section-bg.png';
 
 
 // Common
@@ -219,5 +215,25 @@ if (animItems.length > 0) {
   setTimeout(() => {
     animOnScroll();
   }, 300);
+}
+
+// We use cookie
+const weUseCookie = document.querySelector('.we-use-cookie');
+const weUseCookieClose = document.querySelector('.we-use-cookie-close');
+
+if (weUseCookie) {
+
+  weUseCookieClose.onclick = () => {
+    weUseCookie.classList.add('hidden');
+
+    fetch('/ajax/we-use-cookie', {
+      method: 'GET',
+      cache: 'no-cache',
+    })
+    .catch((error) => {
+      console.log(error);
+    })
+  }
+
 }
 
