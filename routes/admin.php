@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\ParticipantController;
+use App\Http\Controllers\Admin\CityController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,21 @@ use App\Http\Controllers\Admin\ParticipantController;
 Route::middleware(['auth', 'verified'])->group(function () {
     
     Route::get('/dashboard', [AdminController::class, 'index'])->name('admin.index');
+
+
+    Route::get('/dashboard/cities', [CityController::class, 'index']);
+
+    Route::get('/dashboard/cities/create', [CityController::class, 'create'])->name('admin.cities-create');
+
+    Route::post('/dashboard/cities/store', [CityController::class, 'store'])->name('admin.cities-store');
+
+    Route::get('/dashboard/cities/{id}', [CityController::class, 'show'])->name('admin.cities-show');
+
+    Route::get('/dashboard/cities/{id}/edit', [CityController::class, 'edit'])->name('admin.cities-edit');
+
+    Route::post('/dashboard/cities/{id}/update', [CityController::class, 'update'])->name('admin.cities-update');
+
+    Route::get('/dashboard/cities/{id}/destroy', [CityController::class, 'destroy'])->name('admin.cities-destroy');
     
 
     Route::get('/dashboard/participants', [ParticipantController::class, 'index']);

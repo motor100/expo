@@ -1,4 +1,4 @@
-@section('title', 'Moskova'da')
+@section('title', 'Moskova')
 
 @extends('layouts.main-tr')
 

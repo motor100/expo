@@ -39,3 +39,15 @@ if (inputMainFile) {
   }
 }
 
+
+// Init air datepicker
+// Date picker
+let datepickers = document.querySelectorAll('.datepicker');
+
+datepickers.forEach((item) => {
+  const dp = new AirDatepicker(item, {
+    minDate: new Date(),
+    autoClose: true
+  });
+});
+
