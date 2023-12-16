@@ -6,7 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Support\Facades\Storage;
+// use Illuminate\Support\Facades\Storage;
+use Carbon\Carbon;
 use App\Models\City;
 
 class CityController extends Controller
@@ -40,7 +41,7 @@ class CityController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(string $id): View
     {
         $city = City::findOrFail($id);
         
@@ -50,7 +51,7 @@ class CityController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(string $id): View
     {
         $city = City::findOrFail($id);
         
@@ -60,7 +61,7 @@ class CityController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, string $id): RedirectResponse
     {
         $validated = $request->validate([
             'title_ru' => 'required|min:4|max:255',
@@ -81,17 +82,23 @@ class CityController extends Controller
 
         $city = City::findOrFail($id);
 
+        $date = Carbon::createFromFormat('d.m.Y', $validated['date']);
+
         $image = (new \App\Services\ImageUpdate($city, $validated, 'cities'))->update();
 
         $city->update([
-            // 'title' => $validated["title"],
-            // 'image' => $image,
-            // 'desc_ru' => $validated["desc-ru"],
-            // 'desc_en' => $validated["desc-en"],
-            // 'desc_tr' => $validated["desc-tr"]
+            'title_ru' => $validated["title_ru"],
+            'title_en' => $validated["title_en"],
+            'title_tr' => $validated["title_tr"],
+            'date' => $date,
+            'day_ru' => $validated["day_ru"],
+            'day_en' => $validated["day_en"],
+            'day_tr' => $validated["day_tr"],
+            'place' => $validated["place"],
+            'image' => $image,
         ]);
 
-        return redirect('/dashboard/participants');
+        return redirect()->back();
     }
 
     /**

@@ -26,7 +26,7 @@
         <a href="{{ route('admin.cities-edit', $value->id) }}" class="btn btn-primary">
           <i class="fas fa-pen"></i>
         </a>
-        <form class="form" action="{{ route('admin.cities-destroy', $value->id) }}" method="get">
+        <form class="form" action="" method="get">
           @csrf
           <button type="submit" class="btn btn-danger">
             <i class="fas fa-trash"></i>

@@ -35,6 +35,31 @@
       <div class="container-xl">
         <div class="events">
 
+          @foreach($cities_array as $item)
+            <div class="events-group">
+              <div class="events-section-period">{{ $item['text'] }}</div>
+              @foreach($item['cities'] as $city)
+                <div class="events-item events-item-active">
+                  <div class="events-item-date">
+                    <div class="events-item-date__day">{{ $city->date->format('d') }}</div>
+                    <div class="events-item-date__month">{{ $city->day_ru }}</div>
+                  </div>
+                  <div class="events-item-place">
+                    <div class="city-name">{{ $city->title_ru }}</div>
+                    <div class="place-name">{{ $city->place }}</div>
+                    <div class="view-more">
+                      <a href="/{{ $city->slug }}" class="view-more-link">перейти к афише</a>
+                    </div>
+                  </div>
+                  <div class="events-item-image">
+                    <img src="{{ Storage::url($city->image) }}" alt="">
+                  </div>
+                </div>
+              @endforeach
+            </div>
+          @endforeach
+
+          <!-- 
           <div class="events-group">
             <div class="events-item events-item-active">
               <div class="events-item-date">
@@ -157,7 +182,8 @@
               </div>
             </div>
           </div>
-
+           -->
+           
         </div>
       </div>
     </div>

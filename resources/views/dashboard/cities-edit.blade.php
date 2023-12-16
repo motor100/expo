@@ -35,8 +35,8 @@
       <input type="text" name="title_tr" id="title_tr" class="form-control" required readonly value="{{ $city->title_tr }}">
     </div>
     <div class="form-group mb-3">
-      <label for="title_tr" class="form-check-label mb-1">Дата</label>
-      <input type="text" name="title_tr" id="title_tr" class="form-control datepicker" required>
+      <label for="date" class="form-check-label mb-1">Дата</label>
+      <input type="text" name="date" id="date" class="form-control datepicker" required value="{{ $city->date->format('d.m.Y') }}">
     </div>
     <div class="form-group mb-3">
       <label for="day_ru" class="form-check-label mb-1">День RU</label>
