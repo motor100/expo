@@ -155,7 +155,7 @@
                 <div class="events-item-date__month">вторник</div>
               </div>
               <div class="events-item-place">
-                <div class="city-name">Лимассол</div>
+                <div class="city-name">Северный Кипр</div>
                 <div class="place-name">Crocus City Hall</div>
                 <div class="view-more">
                   <a href="/event" class="view-more-link">перейти к афише</a>

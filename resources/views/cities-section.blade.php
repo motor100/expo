@@ -105,31 +105,35 @@
               </div>
             </div>
 
-            <div class="cities-item cities-item-right northern-cyprus">
-              <div class="cities-item-content">
-                <div class="cities-item-title">Северный Кипр</div>
-                <a href="/northern-cyprus" class="cities-item-date">Coming soon</a>
-              </div>
-              <div class="cities-item-circle">
-                <div class="cities-item-image">
-                  <a href="/northern-cyprus" class="cities-item-image__link">
-                    <img src="/img/northern-cyprus.png" alt="">
-                  </a>
+            <div class="cities-item-wrapper hidden-mobile">
+              <div class="cities-item cities-item-right northern-cyprus">
+                <div class="cities-item-content">
+                  <div class="cities-item-title">Северный Кипр</div>
+                  <a href="/northern-cyprus" class="cities-item-date">Coming soon</a>
+                </div>
+                <div class="cities-item-circle">
+                  <div class="cities-item-image">
+                    <a href="/northern-cyprus" class="cities-item-image__link">
+                      <img src="/img/northern-cyprus.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="cities-item cities-item-left northern-cyprus">
-              <div class="cities-item-circle">
-                <div class="cities-item-image">
-                  <a href="/northern-cyprus" class="cities-item-image__link">
-                    <img src="/img/northern-cyprus.png" alt="">
-                  </a>
+            <div class="cities-item-wrapper hidden-desktop">
+              <div class="cities-item cities-item-left northern-cyprus">
+                <div class="cities-item-circle">
+                  <div class="cities-item-image">
+                    <a href="/northern-cyprus" class="cities-item-image__link">
+                      <img src="/img/northern-cyprus.png" alt="">
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="cities-item-content">
-                <div class="cities-item-title">ЛИМАССОЛ</div>
-                <a href="/northern-cyprus" class="cities-item-date">Coming soon</a>
+                <div class="cities-item-content">
+                  <div class="cities-item-title">Северный Кипр</div>
+                  <a href="/northern-cyprus" class="cities-item-date">Coming soon</a>
+                </div>
               </div>
             </div>
 

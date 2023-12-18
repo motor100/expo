@@ -40,6 +40,13 @@
             </a>
           </div>
 
+          <div class="nav-item">
+            <a href="/dashboard/main-slider" class="item-link">
+              <i class="nav-icon fas fa-images"></i>
+              <span>Слайдер</span>
+            </a>
+          </div>
+
         </div>
       </div>
       

@@ -9,7 +9,7 @@
   <div class="main-section">
     <div class="container">
       <div class="main-title _anim-items _anim-no-hide">Выставка недвижимости <br> <span class="accentcolor">в Северном Кипре <br> 16 августа 2023</span></div>
-      <div class="main-text">Лимассол, My Mall</div>
+      <div class="main-text">Северный Кипр, My Mall</div>
       <button type="button" class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
     </div>
   </div>

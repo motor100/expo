@@ -178,7 +178,7 @@
       <div class="offices-section-item">
         <div class="office">
           <div class="offices-section-item__title">Отделение</div>
-          <div class="offices-section-item__text">Отделение Лимассол</div>
+          <div class="offices-section-item__text">Отделение Северный Кипр</div>
         </div>
         <div class="address">
           <div class="offices-section-item__title">Адрес</div>
