@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class MainTrController extends Controller
@@ -12,8 +12,10 @@ class MainTrController extends Controller
         $participants = \App\Models\Participant::orderBy('id', 'desc')
                                                 ->limit(5)
                                                 ->get();
+
+        $cities = \App\Models\City::all();
         
-        return view('tr.home', compact('participants'));
+        return view('tr.home', compact('participants', 'cities'));
     }
 
     public function for_participants(): View
@@ -36,42 +38,58 @@ class MainTrController extends Controller
 
     public function contacts(): View
     {
-        return view('tr.contacts');
+        $cities = \App\Models\City::all();
+        
+        return view('tr.contacts', 'cities');
     }
 
     public function moscow(): View
     {
-        return view('tr.moscow');
+        $city = \App\Models\City::where('id', 1)->first();
+        
+        return view('tr.moscow', compact('city'));
     }
 
     public function saint_petersburg(): View
     {
-        return view('tr.saint-petersburg');
+        $city = \App\Models\City::where('id', 2)->first();
+        
+        return view('tr.saint-petersburg', compact('city'));
     }
 
     public function dubai(): View
     {
-        return view('tr.dubai');
+        $city = \App\Models\City::where('id', 3)->first();
+        
+        return view('tr.dubai', compact('city'));
     }
 
     public function antalya(): View
     {
-        return view('tr.antalya');
+        $city = \App\Models\City::where('id', 4)->first();
+        
+        return view('tr.antalya', compact('city'));
     }
 
     public function alanya(): View
     {
-        return view('tr.alanya');
+        $city = \App\Models\City::where('id', 5)->first();
+        
+        return view('tr.alanya', compact('city'));
     }
 
     public function northern_cyprus(): View
     {
-        return view('tr.northern-cyprus');
+        $city = \App\Models\City::where('id', 6)->first();
+        
+        return view('tr.northern-cyprus', compact('city'));
     }
 
     public function baku(): View
     {
-        return view('tr.baku');
+        $city = \App\Models\City::where('id', 7)->first();
+        
+        return view('tr.baku', compact('city'));
     }
 
     // public function halal(): View

@@ -1182,7 +1182,8 @@ p {
       font-size: 32px;
     }
     .events-section-title-wrapper {
-      margin: 0 0 90px 0;
+      // margin: 0 0 90px 0;
+      margin: 0 0 70px 0;
       .section-title {
         margin: 0 0 5px 0;
       }
@@ -1224,6 +1225,7 @@ p {
         font-size: 30px;
         color: #3E3E3E;
         line-height: 1;
+        text-transform: lowercase;
       }
       .events-item-active .events-item-date__month {
         color: $lightgreycolor;
@@ -1243,6 +1245,7 @@ p {
         font-family: 'manrope-light';
         font-size: 18px;
         color: #3E3E3E;
+        text-transform: capitalize;
       }
       .events-item-active .place-name {
         color: $lightgreycolor;
@@ -1769,6 +1772,7 @@ p {
   }
   .cities-item-right .cities-item-content {
     margin: 0 30px 0 0;
+    flex-shrink: 0;
   }
   .saint-petersburg {
     top: 74px;
@@ -1784,7 +1788,7 @@ p {
   }
   .northern-cyprus {
     top: 580px;
-    left: 391px;
+    left: 421px;
   }
   .antalya {
     top: 624px;
@@ -1792,7 +1796,7 @@ p {
   }
   .dubai {
     top: 774px;
-    left: 582px;
+    left: 565px;
   }
   .cities-section-bg {
     position: absolute;
@@ -2903,13 +2907,13 @@ p {
       left: 314px;
     }
     .northern-cyprus {
-      left: 311px;
+      left: 331px;
     }
     .antalya {
       left: 21px;
     }
     .dubai {
-      left: 502px;
+      left: 442px;
     }
   }
 

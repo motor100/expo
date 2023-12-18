@@ -20,6 +20,7 @@
         <div class="row">
           <div class="col-md-8">
             <div class="section-title _anim-items _anim-no-hide">Мероприятия 2023-2024</div>
+            <div class="events-section-period">Ноябрь — 2023</div>
           </div>
           <div class="col-md-4">
             <div class="events-title-image">

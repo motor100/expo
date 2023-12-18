@@ -8,8 +8,8 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title _anim-items _anim-no-hide">Real estate exhibition in <br> <span class="accentcolor">Baku <br> 19 August 2023</span></div>
-      <div class="main-text">Baku, Park Bulvar</div>
+      <div class="main-title _anim-items _anim-no-hide">Real estate exhibition in <br> <span class="accentcolor">Baku <br> 14 May 2024</span></div>
+      <div class="main-text">{{ $city->title_en }}, {{ $city->place }}</div>
       <button type="button" class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION</button>
     </div>
   </div>

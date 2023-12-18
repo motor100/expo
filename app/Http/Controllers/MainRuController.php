@@ -13,8 +13,10 @@ class MainRuController extends Controller
         $participants = \App\Models\Participant::orderBy('id', 'desc')
                                                 ->limit(5)
                                                 ->get();
+
+        $cities = \App\Models\City::all();
         
-        return view('home', compact('participants'));
+        return view('home', compact('participants', 'cities'));
     }
 
     public function home_ru(): RedirectResponse
@@ -132,42 +134,58 @@ class MainRuController extends Controller
 
     public function contacts(): View
     {
-        return view('contacts');
+        $cities = \App\Models\City::all();
+        
+        return view('contacts', 'cities');
     }
 
     public function moscow(): View
     {
-        return view('moscow');
+        $city = \App\Models\City::where('id', 1)->first();
+        
+        return view('moscow', compact('city'));
     }
 
     public function saint_petersburg(): View
     {
-        return view('saint-petersburg');
+        $city = \App\Models\City::where('id', 2)->first();
+        
+        return view('saint-petersburg', compact('city'));
     }
 
     public function dubai(): View
     {
-        return view('dubai');
+        $city = \App\Models\City::where('id', 3)->first();
+        
+        return view('dubai', compact('city'));
     }
 
     public function antalya(): View
     {
-        return view('antalya');
+        $city = \App\Models\City::where('id', 4)->first();
+        
+        return view('antalya', compact('city'));
     }
 
     public function alanya(): View
     {
-        return view('alanya');
+        $city = \App\Models\City::where('id', 5)->first();
+        
+        return view('alanya', compact('city'));
     }
 
     public function northern_cyprus(): View
     {
-        return view('northern-cyprus');
+        $city = \App\Models\City::where('id', 6)->first();
+        
+        return view('northern-cyprus', compact('city'));
     }
 
     public function baku(): View
     {
-        return view('baku');
+        $city = \App\Models\City::where('id', 7)->first();
+        
+        return view('baku', compact('city'));
     }
 
 

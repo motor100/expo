@@ -16,7 +16,7 @@
               <div class="cities-item cities-item-right moscow">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Москва</div>
-                  <a href="/moscow" class="cities-item-date">29 марта 2023<br>Конгресс-Холл</a>
+                  <a href="/moscow" class="cities-item-date">22 декабря 2023<br>{{ $cities[0]->place }}</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">Москва</div>
-                  <a href="/moscow" class="cities-item-date">29 марта 2023<br>Конгресс-Холл</a>
+                  <a href="/moscow" class="cities-item-date">29 марта 2023<br>{{ $cities[0]->place }}</a>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">Санкт-Петербург</div>
-                  <a href="/saint-petersburg" class="cities-item-date">30 марта 2023</a>
+                  <a href="/saint-petersburg" class="cities-item-date">11 января 2024<br>{{ $cities[1]->place }}</a>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@
               <div class="cities-item cities-item-right saint-petersburg hidden-desktop">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Санкт-Петербург</div>
-                  <a href="/saint-petersburg" class="cities-item-date">30 марта 2023</a>
+                  <a href="/saint-petersburg" class="cities-item-date">11 января 2024<br>{{ $cities[1]->place }}</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
@@ -78,7 +78,7 @@
               <div class="cities-item cities-item-right baku">
                 <div class="cities-item-content">
                   <div class="cities-item-title">БАКУ</div>
-                  <a href="/baku" class="cities-item-date">Coming soon</a>
+                  <a href="/baku" class="cities-item-date">14 мая 2024<br>{{ $cities[6]->place }}</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
@@ -100,83 +100,66 @@
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">БАКУ</div>
-                  <a href="/baku" class="cities-item-date">Coming soon</a>
+                  <a href="/baku" class="cities-item-date">14 мая 2024<br>{{ $cities[6]->place }}</a>
                 </div>
               </div>
             </div>
 
-            <div class="cities-item-wrapper hidden-mobile">
-              <div class="cities-item cities-item-right northern-cyprus">
-                <div class="cities-item-content">
-                  <div class="cities-item-title">Северный Кипр</div>
-                  <a href="/northern-cyprus" class="cities-item-date">Coming soon</a>
-                </div>
-                <div class="cities-item-circle">
-                  <div class="cities-item-image">
-                    <a href="/northern-cyprus" class="cities-item-image__link">
-                      <img src="/img/northern-cyprus.png" alt="">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="cities-item-wrapper hidden-desktop">
-              <div class="cities-item cities-item-left northern-cyprus">
-                <div class="cities-item-circle">
-                  <div class="cities-item-image">
-                    <a href="/northern-cyprus" class="cities-item-image__link">
-                      <img src="/img/northern-cyprus.png" alt="">
-                    </a>
-                  </div>
-                </div>
-                <div class="cities-item-content">
-                  <div class="cities-item-title">Северный Кипр</div>
-                  <a href="/northern-cyprus" class="cities-item-date">Coming soon</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="cities-item cities-item-right antalya">
+            <div class="cities-item cities-item-right northern-cyprus">
               <div class="cities-item-content">
-                <div class="cities-item-title">Анталия</div>
-                <a href="/antalya" class="cities-item-date">Coming soon</a>
+                <div class="cities-item-title">Северный Кипр</div>
+                <a href="/northern-cyprus" class="cities-item-date">7 мая 2024<br>{{ $cities[5]->place }}</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <a href="/antalya" class="cities-item-image__link">
-                    <img src="/img/antalya.png" alt="">
+                  <a href="/northern-cyprus" class="cities-item-image__link">
+                    <img src="/img/northern-cyprus.png" alt="">
                   </a>
                 </div>
               </div>
             </div>
 
             <div class="cities-item-wrapper hidden-mobile">
-              <div class="cities-item cities-item-right dubai">
+              <div class="cities-item cities-item-right antalya">
                 <div class="cities-item-content">
-                  <div class="cities-item-title">ДУБАЙ</div>
-                  <a href="/dubai" class="cities-item-date">Coming soon</a>
+                  <div class="cities-item-title">Анталия</div>
+                  <a href="/antalya" class="cities-item-date">22 марта 2024<br>{{ $cities[3]->place }}</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/dubai" class="cities-item-image__link">
-                      <img src="/img/dubai.png" alt="">
+                    <a href="/antalya" class="cities-item-image__link">
+                      <img src="/img/antalya.png" alt="">
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="cities-item-wrapper hidden-desktop">
-              <div class="cities-item cities-item-left dubai">
+              <div class="cities-item cities-item-left antalya">
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/dubai" class="cities-item-image__link">
-                      <img src="/img/dubai.png" alt="">
+                    <a href="/antalya" class="cities-item-image__link">
+                      <img src="/img/antalya.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="cities-item-content">
-                  <div class="cities-item-title">ДУБАЙ</div>
-                  <a href="/dubai" class="cities-item-date">Coming soon</a>
+                  <div class="cities-item-title">Анталия</div>
+                  <a href="/antalya" class="cities-item-date">22 марта 2024<br>{{ $cities[3]->place }}</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cities-item cities-item-right dubai">
+              <div class="cities-item-content">
+                <div class="cities-item-title">ДУБАЙ</div>
+                <a href="/dubai" class="cities-item-date">31 января 2024<br>{{ $cities[2]->place }}</a>
+              </div>
+              <div class="cities-item-circle">
+                <div class="cities-item-image">
+                  <a href="/dubai" class="cities-item-image__link">
+                    <img src="/img/dubai.png" alt="">
+                  </a>
                 </div>
               </div>
             </div>

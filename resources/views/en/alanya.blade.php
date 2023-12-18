@@ -8,8 +8,8 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title _anim-items _anim-no-hide">Real estate exhibition in <br> <span class="accentcolor">Alanya <br> 3 July 2023</span></div>
-      <div class="main-text">Alanya, Mall of Antalya</div>
+      <div class="main-title _anim-items _anim-no-hide">Real estate exhibition in <br> <span class="accentcolor">Alanya <br> 26 March 2024</span></div>
+      <div class="main-text">{{ $city->title_en }}, {{ $city->place }}</div>
       <button type="button" class="main-accent-btn primary-btn js-callback-btn">GET AN INVITATION</button>
     </div>
   </div>

@@ -8,8 +8,8 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title _anim-items _anim-no-hide">Dubai emlak fuarı <br> <span class="accentcolor">12 Ekim 2023</span></div>
-      <div class="main-text">Dubai, Dubai Mall</div>
+      <div class="main-title _anim-items _anim-no-hide">Dubai emlak fuarı <br> <span class="accentcolor">31 Ocak 2024</span></div>
+      <div class="main-text">{{ $city->title_tr }}, {{ $city->place }}</div>
       <button type="button" class="main-accent-btn primary-btn js-callback-btn">DAVET ALIN</button>
     </div>
   </div>
