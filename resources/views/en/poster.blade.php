@@ -20,7 +20,6 @@
         <div class="row">
           <div class="col-md-8">
             <div class="section-title _anim-items _anim-no-hide">events 2023-2024</div>
-            <div class="events-section-period">November - 2023</div>
           </div>
           <div class="col-md-4">
             <div class="events-title-image">
@@ -35,128 +34,29 @@
       <div class="container">
         <div class="events">
 
-          <div class="events-group">
-            <div class="events-item events-item-active">
-              <div class="events-item-date">
-                <div class="events-item-date__day">10</div>
-                <div class="events-item-date__month">Friday</div>
-              </div>
-              <div class="events-item-place">
-                <div class="city-name">Moscow</div>
-                <div class="place-name">Crocus City Hall</div>
-                <div class="view-more">
-                  <a href="/event" class="view-more-link">go to the poster</a>
+          @foreach($cities_array as $item)
+            <div class="events-group">
+              <div class="events-section-period">{{ $item['text'] }}</div>
+              @foreach($item['cities'] as $city)
+                <div class="events-item events-item-active">
+                  <div class="events-item-date">
+                    <div class="events-item-date__day">{{ $city->date->format('d') }}</div>
+                    <div class="events-item-date__month">{{ $city->day_en }}</div>
+                  </div>
+                  <div class="events-item-place">
+                    <div class="city-name">{{ $city->title_en }}</div>
+                    <div class="place-name">{{ $city->place }}</div>
+                    <div class="view-more">
+                      <a href="/en/{{ $city->slug }}" class="view-more-link">go to the poster</a>
+                    </div>
+                  </div>
+                  <div class="events-item-image">
+                    <img src="{{ Storage::url($city->image) }}" alt="">
+                  </div>
                 </div>
-              </div>
-              <div class="events-item-image">
-                <img src="/img/events-moscow.png" alt="">
-              </div>
+              @endforeach
             </div>
-            <div class="events-item events-item-active">
-              <div class="events-item-date">
-                <div class="events-item-date__day">10</div>
-                <div class="events-item-date__month">Friday</div>
-              </div>
-              <div class="events-item-place">
-                <div class="city-name">Saint Petersburg</div>
-                <div class="place-name">Crocus City Hall</div>
-                <div class="view-more">
-                  <a href="/event" class="view-more-link">go to the poster</a>
-                </div>
-              </div>
-              <div class="events-item-image">
-                <img src="/img/events-saint-petersburg.png" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="events-group">
-            <div class="events-section-period">January - 2024</div>
-            <div class="events-item">
-              <div class="events-item-date">
-                <div class="events-item-date__day">01</div>
-                <div class="events-item-date__month">coming<br>soon</div>
-              </div>
-              <div class="events-item-place">
-                <div class="city-name">Dubai</div>
-                <div class="place-name">Crocus City Hall</div>
-                <div class="view-more">
-                  <a href="/event" class="view-more-link">go to the poster</a>
-                </div>
-              </div>
-              <div class="events-item-image">
-                <img src="/img/events-dubai.png" alt="">
-              </div>
-            </div>
-            <div class="events-item">
-              <div class="events-item-date">
-                <div class="events-item-date__day">01</div>
-                <div class="events-item-date__month">coming<br>soon</div>
-              </div>
-              <div class="events-item-place">
-                <div class="city-name">Antalya</div>
-                <div class="place-name">Crocus City Hall</div>
-                <div class="view-more">
-                  <a href="/event" class="view-more-link">go to the poster</a>
-                </div>
-              </div>
-              <div class="events-item-image">
-                <img src="/img/events-antalya.png" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="events-group">
-            <div class="events-section-period">Февраль 2024</div>
-            <div class="events-item">
-              <div class="events-item-date">
-                <div class="events-item-date__day">01</div>
-                <div class="events-item-date__month">coming<br>soon</div>
-              </div>
-              <div class="events-item-place">
-                <div class="city-name">Alanya</div>
-                <div class="place-name">Crocus City Hall</div>
-                <div class="view-more">
-                  <a href="/event" class="view-more-link">go to the poster</a>
-                </div>
-              </div>
-              <div class="events-item-image">
-                <img src="/img/events-alanya.png" alt="">
-              </div>
-            </div>
-            <div class="events-item events-item-active">
-              <div class="events-item-date">
-                <div class="events-item-date__day">08</div>
-                <div class="events-item-date__month">Tuesday</div>
-              </div>
-              <div class="events-item-place">
-                <div class="city-name">Northern Cyprus</div>
-                <div class="place-name">Crocus City Hall</div>
-                <div class="view-more">
-                  <a href="/event" class="view-more-link">go to the poster</a>
-                </div>
-              </div>
-              <div class="events-item-image">
-                <img src="/img/events-northern-cyprus.png" alt="">
-              </div>
-            </div>
-            <div class="events-item events-item-active events-item-last">
-              <div class="events-item-date">
-                <div class="events-item-date__day">22</div>
-                <div class="events-item-date__month">Tuesday</div>
-              </div>
-              <div class="events-item-place">
-                <div class="city-name">Baku</div>
-                <div class="place-name">Crocus City Hall</div>
-                <div class="view-more">
-                  <a href="/event" class="view-more-link">go to the poster</a>
-                </div>
-              </div>
-              <div class="events-item-image">
-                <img src="/img/events-baku.png" alt="">
-              </div>
-            </div>
-          </div>
+          @endforeach
 
         </div>
       </div>

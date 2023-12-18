@@ -25,7 +25,9 @@ class MainTrController extends Controller
 
     public function poster(): View
     {
-        return view('tr.poster');
+        $cities_array = (new \App\Services\Cities())->tr();
+        
+        return view('tr.poster', compact('cities_array'));
     }
 
     public function participants(): View

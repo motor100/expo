@@ -25,7 +25,9 @@ class MainEnController extends Controller
 
     public function poster(): View
     {
-        return view('en.poster');
+        $cities_array = (new \App\Services\Cities())->en();
+
+        return view('en.poster', compact('cities_array'));
     }
 
     public function participants(): View
