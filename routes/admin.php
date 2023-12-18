@@ -5,6 +5,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\ParticipantController;
 use App\Http\Controllers\Admin\CityController;
+use App\Http\Controllers\Admin\MainSliderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,6 +54,20 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
     Route::get('/dashboard/participants/{id}/destroy', [ParticipantController::class, 'destroy'])->name('admin.participants-destroy');
 
+
+    Route::get('/dashboard/main-slider', [MainSliderController::class, 'index']);
+
+    // Route::get('/dashboard/main-slider/create', [MainSliderController::class, 'create'])->name('admin.main-slider-create');
+
+    // Route::post('/dashboard/main-slider/store', [MainSliderController::class, 'store'])->name('admin.main-slider-store');
+
+    Route::get('/dashboard/main-slider/{id}', [MainSliderController::class, 'show'])->name('admin.main-slider-show');
+
+    Route::get('/dashboard/main-slider/{id}/edit', [MainSliderController::class, 'edit'])->name('admin.main-slider-edit');
+
+    Route::post('/dashboard/main-slider/{id}/update', [MainSliderController::class, 'update'])->name('admin.main-slider-update');
+
+    // Route::get('/dashboard/main-slider/{id}/destroy', [MainSliderController::class, 'destroy'])->name('admin.main-slider-destroy');
 
 });
 

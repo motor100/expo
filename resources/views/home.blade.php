@@ -263,24 +263,11 @@
       <div class="sn-slider-wrapper">
         <div class="sn-slider swiper">
           <div class="swiper-wrapper">
-            <div class="sn-slider-item swiper-slide">
-              <img src="/img/sn-slide1.jpg" alt="">
-            </div>
-            <div class="sn-slider-item swiper-slide">
-              <img src="/img/sn-slide2.jpg" alt="">
-            </div>
-            <div class="sn-slider-item swiper-slide">
-              <img src="/img/sn-slide3.jpg" alt="">
-            </div>
-            <div class="sn-slider-item swiper-slide">
-              <img src="/img/sn-slide4.jpg" alt="">
-            </div>
-            <div class="sn-slider-item swiper-slide">
-              <img src="/img/sn-slide5.jpg" alt="">
-            </div>
-            <div class="sn-slider-item swiper-slide">
-              <img src="/img/sn-slide6.jpg" alt="">
-            </div>
+            @foreach($sliders as $slide)
+              <div class="sn-slider-item swiper-slide">
+                <img src="{{ Storage::url($slide->image) }}" alt="">
+              </div>
+            @endforeach
           </div>
         </div>
         <div class="swiper-button-next"></div>

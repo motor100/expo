@@ -14,8 +14,10 @@ class MainEnController extends Controller
                                                 ->get();
 
         $cities = \App\Models\City::all();
+
+        $sliders = \App\Models\MainSlider::all();
         
-        return view('en.home', compact('participants', 'cities'));
+        return view('en.home', compact('participants', 'cities', 'sliders'));
     }
 
     public function for_participants(): View
