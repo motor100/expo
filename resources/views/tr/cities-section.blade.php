@@ -16,11 +16,11 @@
               <div class="cities-item cities-item-right moscow">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Moskova</div>
-                  <a href="/event" class="cities-item-date">29 марта 2023<br>Kongre Merkezi</a>
+                  <a href="/tr/moscow" class="cities-item-date">29 марта 2023<br>Kongre Merkezi</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/event" class="cities-item-image__link">
+                    <a href="/tr/moscow" class="cities-item-image__link">
                       <img src="/img/moscow.png" alt="">
                     </a>
                   </div>
@@ -31,14 +31,14 @@
               <div class="cities-item cities-item-left moscow">
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/event" class="cities-item-image__link">
+                    <a href="/tr/moscow" class="cities-item-image__link">
                       <img src="/img/moscow.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">Moskova</div>
-                  <a href="/event" class="cities-item-date">29 марта 2023<br>Kongre Merkezi</a>
+                  <a href="/tr/moscow" class="cities-item-date">29 марта 2023<br>Kongre Merkezi</a>
                 </div>
               </div>
             </div>
@@ -47,14 +47,14 @@
               <div class="cities-item cities-item-left saint-petersburg">
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/event" class="cities-item-image__link">
+                    <a href="/tr/saint-petersburg" class="cities-item-image__link">
                       <img src="/img/saint-petersburg.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">Saint Petersburg</div>
-                  <a href="/event" class="cities-item-date">30 Mart 2023</a>
+                  <a href="/tr/saint-petersburg" class="cities-item-date">30 Mart 2023</a>
                 </div>
               </div>
             </div>
@@ -62,11 +62,11 @@
               <div class="cities-item cities-item-right saint-petersburg hidden-desktop">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Saint Petersburg</div>
-                  <a href="/event" class="cities-item-date">30 Mart 2023</a>
+                  <a href="/tr/saint-petersburg" class="cities-item-date">30 Mart 2023</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/event" class="cities-item-image__link">
+                    <a href="/tr/saint-petersburg" class="cities-item-image__link">
                       <img src="/img/saint-petersburg.png" alt="">
                     </a>
                   </div>
@@ -78,11 +78,11 @@
               <div class="cities-item cities-item-right baku">
                 <div class="cities-item-content">
                   <div class="cities-item-title">BAKÜ</div>
-                  <a href="/tr/event" class="cities-item-date">Yakında <br>sinemalarda</a>
+                  <a href="/tr/baku" class="cities-item-date">Yakında <br>sinemalarda</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/tr/event" class="cities-item-image__link">
+                    <a href="/tr/baku" class="cities-item-image__link">
                       <img src="/img/baku.png" alt="">
                     </a>
                   </div>
@@ -93,54 +93,57 @@
               <div class="cities-item cities-item-left baku">
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/tr/event" class="cities-item-image__link">
+                    <a href="/tr/baku" class="cities-item-image__link">
                       <img src="/img/baku.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">BAKÜ</div>
-                  <a href="/tr/event" class="cities-item-date">Yakında <br>sinemalarda</a>
+                  <a href="/tr/baku" class="cities-item-date">Yakında <br>sinemalarda</a>
                 </div>
               </div>
             </div>
 
-            <div class="cities-item cities-item-right northern-cyprus">
-              <div class="cities-item-content">
-                <div class="cities-item-title">Northern Cyprus</div>
-                <a href="/tr/event" class="cities-item-date">Yakında <br>sinemalarda</a>
-              </div>
-              <div class="cities-item-circle">
-                <div class="cities-item-image">
-                  <a href="/tr/event" class="cities-item-image__link">
-                    <img src="/img/northern-cyprus.png" alt="">
-                  </a>
+            <div class="cities-item-wrapper hidden-mobile">
+              <div class="cities-item cities-item-right northern-cyprus">
+                <div class="cities-item-content">
+                  <div class="cities-item-title">Northern Cyprus</div>
+                  <a href="/tr/northern-cyprus" class="cities-item-date">Yakında <br>sinemalarda</a>
+                </div>
+                <div class="cities-item-circle">
+                  <div class="cities-item-image">
+                    <a href="/tr/northern-cyprus" class="cities-item-image__link">
+                      <img src="/img/northern-cyprus.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="cities-item cities-item-left northern-cyprus">
-              <div class="cities-item-circle">
-                <div class="cities-item-image">
-                  <a href="/tr/event" class="cities-item-image__link">
-                    <img src="/img/northern-cyprus.png" alt="">
-                  </a>
+            <div class="cities-item-wrapper hidden-desktop">
+              <div class="cities-item cities-item-left northern-cyprus">
+                <div class="cities-item-circle">
+                  <div class="cities-item-image">
+                    <a href="/tr/northern-cyprus" class="cities-item-image__link">
+                      <img src="/img/northern-cyprus.png" alt="">
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="cities-item-content">
-                <div class="cities-item-title">LİMASOL</div>
-                <a href="/tr/event" class="cities-item-date">Yakında <br>sinemalarda</a>
+                <div class="cities-item-content">
+                  <div class="cities-item-title">LİMASOL</div>
+                  <a href="/tr/northern-cyprus" class="cities-item-date">Yakında <br>sinemalarda</a>
+                </div>
               </div>
             </div>
 
             <div class="cities-item cities-item-right antalya">
               <div class="cities-item-content">
                 <div class="cities-item-title">Antalya</div>
-                <a href="/tr/event" class="cities-item-date">Yakında <br>sinemalarda</a>
+                <a href="/tr/antalya" class="cities-item-date">Yakında <br>sinemalarda</a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
-                  <a href="/tr/event" class="cities-item-image__link">
+                  <a href="/tr/antalya" class="cities-item-image__link">
                     <img src="/img/antalya.png" alt="">
                   </a>
                 </div>
@@ -151,11 +154,11 @@
               <div class="cities-item cities-item-right dubai">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Dubai</div>
-                  <a href="/tr/event" class="cities-item-date">Yakında <br>sinemalarda</a>
+                  <a href="/tr/dubai" class="cities-item-date">Yakında <br>sinemalarda</a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/tr/event" class="cities-item-image__link">
+                    <a href="/tr/dubai" class="cities-item-image__link">
                       <img src="/img/dubai.png" alt="">
                     </a>
                   </div>
@@ -166,14 +169,14 @@
               <div class="cities-item cities-item-left dubai">
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
-                    <a href="/tr/event" class="cities-item-image__link">
+                    <a href="/tr/dubai" class="cities-item-image__link">
                       <img src="/img/dubai.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">ДУБАЙ</div>
-                  <a href="/tr/event" class="cities-item-date">Yakında <br>sinemalarda</a>
+                  <a href="/tr/dubai" class="cities-item-date">Yakında <br>sinemalarda</a>
                 </div>
               </div>
             </div>

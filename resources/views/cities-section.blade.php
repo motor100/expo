@@ -120,7 +120,6 @@
                 </div>
               </div>
             </div>
-
             <div class="cities-item-wrapper hidden-desktop">
               <div class="cities-item cities-item-left northern-cyprus">
                 <div class="cities-item-circle">
