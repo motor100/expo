@@ -44,7 +44,7 @@ class MainEnController extends Controller
     {
         $cities = \App\Models\City::all();
         
-        return view('en.contacts', 'cities');
+        return view('en.contacts', compact('cities'));
     }
 
     public function moscow(): View

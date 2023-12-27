@@ -50,7 +50,7 @@ class MainRuController extends Controller
     {
         $cities = \App\Models\City::all();
         
-        return view('contacts', 'cities');
+        return view('contacts', compact('cities'));
     }
 
     public function moscow(): View

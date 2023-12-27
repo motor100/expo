@@ -44,7 +44,7 @@ class MainTrController extends Controller
     {
         $cities = \App\Models\City::all();
         
-        return view('tr.contacts', 'cities');
+        return view('tr.contacts', compact('cities'));
     }
 
     public function moscow(): View
