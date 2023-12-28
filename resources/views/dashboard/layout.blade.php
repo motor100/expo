@@ -47,6 +47,20 @@
             </a>
           </div>
 
+          <div class="nav-item">
+            <a href="/dashboard/offices" class="item-link">
+              <i class="nav-icon fas fa-map-marker-alt"></i>
+              <span>Офисы</span>
+            </a>
+          </div>
+
+          <div class="nav-item">
+            <a href="/dashboard/contacts" class="item-link">
+              <i class="nav-icon fas fa-phone"></i>
+              <span>Контакты</span>
+            </a>
+          </div>
+
         </div>
       </div>
       

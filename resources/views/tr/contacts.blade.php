@@ -1,4 +1,4 @@
-@section('title', 'Контакты')
+@section('title', 'Contacst')
 
 @extends('layouts.main-tr')
 
@@ -87,139 +87,32 @@
 
   <div class="offices-section section">
     <div class="container-xl">
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Dal</div>
-          <div class="offices-section-item__text">Dubai Şubesi</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Adres</div>
-          <div class="offices-section-item__text">66, Al Marsa Caddesi 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Telefon</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">E-posta</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Çalışma saatleri</div>
-          <div class="offices-section-item__text">8:00 - 19:00 arası</div>
-        </div>
+      <div class="offices">
+        @foreach($offices as $office)
+          <div class="offices-item">
+            <div class="office">
+              <div class="offices-item__title">Отделение</div>
+              <div class="offices-item__text">{{ $office->title_tr }}</div>
+            </div>
+            <div class="address">
+              <div class="offices-item__title">Адрес</div>
+              <div class="offices-item__text">{{ $office->address_tr }}</div>
+            </div>
+            <div class="phone">
+              <div class="offices-item__title">Телефон</div>
+              <div class="offices-item__text">{{ $office->phone }}</div>
+            </div>
+            <div class="email">
+              <div class="offices-item__title">Email</div>
+              <div class="offices-item__text">{{ $office->email }}</div>
+            </div>
+            <div class="working-time">
+              <div class="offices-item__title">Время работы</div>
+              <div class="offices-item__text">{{ $office->time }}</div>
+            </div>
+          </div>
+        @endforeach
       </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Dal</div>
-          <div class="offices-section-item__text">Dubai Şubesi</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Adres</div>
-          <div class="offices-section-item__text">66, Al Marsa Caddesi 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Telefon</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">E-posta</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Çalışma saatleri</div>
-          <div class="offices-section-item__text">8:00 - 19:00 arası</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Dal</div>
-          <div class="offices-section-item__text">Dubai Şubesi</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Adres</div>
-          <div class="offices-section-item__text">66, Al Marsa Caddesi 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Telefon</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">E-posta</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Çalışma saatleri</div>
-          <div class="offices-section-item__text">8:00 - 19:00 arası</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Dal</div>
-          <div class="offices-section-item__text">Dubai Şubesi</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Adres</div>
-          <div class="offices-section-item__text">66, Al Marsa Caddesi 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Telefon</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">E-posta</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Çalışma saatleri</div>
-          <div class="offices-section-item__text">8:00 - 19:00 arası</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Dal</div>
-          <div class="offices-section-item__text">Dubai Şubesi</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Adres</div>
-          <div class="offices-section-item__text">66, Al Marsa Caddesi 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Telefon</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">E-posta</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Çalışma saatleri</div>
-          <div class="offices-section-item__text">8:00 - 19:00 arası</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Dal</div>
-          <div class="offices-section-item__text">Dubai Şubesi</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Adres</div>
-          <div class="offices-section-item__text">66, Al Marsa Caddesi 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Telefon</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">E-posta</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Çalışma saatleri</div>
-          <div class="offices-section-item__text">8:00 - 19:00 arası</div>
-        </div>
-      </div>
-
     </div>
   </div>
 

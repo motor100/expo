@@ -1,4 +1,4 @@
-@section('title', 'Участники')
+@section('title', 'Participants')
 
 @extends('layouts.main-tr')
 

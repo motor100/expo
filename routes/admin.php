@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\ParticipantController;
 use App\Http\Controllers\Admin\CityController;
 use App\Http\Controllers\Admin\MainSliderController;
+use App\Http\Controllers\Admin\OfficeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -68,6 +69,26 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::post('/dashboard/main-slider/{id}/update', [MainSliderController::class, 'update'])->name('admin.main-slider-update');
 
     // Route::get('/dashboard/main-slider/{id}/destroy', [MainSliderController::class, 'destroy'])->name('admin.main-slider-destroy');
+
+
+    Route::get('/dashboard/offices', [OfficeController::class, 'index']);
+
+    Route::get('/dashboard/offices/create', [OfficeController::class, 'create'])->name('admin.offices-create');
+
+    Route::post('/dashboard/offices/store', [OfficeController::class, 'store'])->name('admin.offices-store');
+
+    Route::get('/dashboard/offices/{id}', [OfficeController::class, 'show'])->name('admin.offices-show');
+
+    Route::get('/dashboard/offices/{id}/edit', [OfficeController::class, 'edit'])->name('admin.offices-edit');
+
+    Route::post('/dashboard/offices/{id}/update', [OfficeController::class, 'update'])->name('admin.offices-update');
+
+    Route::get('/dashboard/offices/{id}/destroy', [OfficeController::class, 'destroy'])->name('admin.offices-destroy');
+
+
+    Route::get('/dashboard/contacts/edit', [OfficeController::class, 'edit'])->name('admin.contacts-edit');
+
+    Route::post('/dashboard/contacts/update', [OfficeController::class, 'update'])->name('admin.contacts-update');
 
 });
 

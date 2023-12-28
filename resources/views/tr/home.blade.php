@@ -1,4 +1,4 @@
-@section('title', 'Главная')
+@section('title', 'Home')
 
 @extends('layouts.main-tr')
 

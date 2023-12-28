@@ -1582,7 +1582,7 @@ p {
   }
 
   .offices-section {
-    .offices-section-item {
+    .offices-item {
       display: flex;
       padding: 30px 0 20px 0;
       border-top: 1px solid #5A5A5A;
@@ -1600,11 +1600,11 @@ p {
     .working-time {
       width: 12%;
     }
-    .offices-section-item__title {
+    .offices-item__title {
       margin: 0 0 5px 0;
       color: $lightgreycolor;
     }
-    .offices-section-item__text {
+    .offices-item__text {
       padding: 0 10px 0 0;
       font-family: 'manrope-medium';
       font-size: 18px;
@@ -2838,7 +2838,7 @@ p {
       
     }
     .offices-section {
-      .offices-section-item__text {
+      .offices-item__text {
         font-size: 17px;
       }
     }
@@ -4291,14 +4291,14 @@ p {
       }
     }
     .offices-section {
-      .offices-section-item {
+      .offices-item {
         padding: 15px 0 10px 0;
         flex-wrap: wrap;
       }
-      .offices-section-item__title {
+      .offices-item__title {
         font-size: 15px;
       }
-      .offices-section-item__text {
+      .offices-item__text {
         font-size: 15px;
       }
       .office {
@@ -4309,7 +4309,7 @@ p {
         width: 50%;
         margin: 0 0 10px 0;
       }
-      .address .offices-section-item__text {
+      .address .offices-item__text {
         padding: 0;
       }
       .phone {

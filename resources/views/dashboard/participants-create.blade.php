@@ -7,7 +7,7 @@
 <div class="dashboard-content">
 
   @if($errors->any())
-    <div class="alert alert-danger cart-errors">
+    <div class="alert alert-danger">
       <ul>
         @foreach($errors->all() as $error)
           <li>{{ $error }}</li>

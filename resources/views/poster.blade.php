@@ -1,4 +1,4 @@
-@section('title', 'Афиша')
+@section('title', 'Poster')
 
 @extends('layouts.main-ru')
 

@@ -48,9 +48,13 @@ class MainRuController extends Controller
 
     public function contacts(): View
     {
+        // Cities
         $cities = \App\Models\City::all();
+
+        // Offices
+        $offices = \App\Models\Office::orderBy('id', 'desc')->get();
         
-        return view('contacts', compact('cities'));
+        return view('contacts', compact('cities', 'offices'));
     }
 
     public function moscow(): View

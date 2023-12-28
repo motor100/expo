@@ -7,7 +7,7 @@
 <div class="dashboard-content">
 
   @if($errors->any())
-    <div class="alert alert-danger cart-errors">
+    <div class="alert alert-danger">
       <ul>
         @foreach($errors->all() as $error)
           <li>{{ $error }}</li>
@@ -45,7 +45,6 @@
       <label for="input-main-file" class="custom-inputfile-label">Выберите файл</label>
       <span class="namefile main-file-text">Файл не выбран</span>
     </div>
-
 
     @csrf
     <button type="submit" class="btn btn-primary">Обновить</button>

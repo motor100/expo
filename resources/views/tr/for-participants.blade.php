@@ -1,4 +1,4 @@
-@section('title', 'Главная')
+@section('title', 'for exhibitors')
 
 @extends('layouts.main-tr')
 

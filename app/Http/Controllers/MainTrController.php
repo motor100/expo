@@ -42,9 +42,13 @@ class MainTrController extends Controller
 
     public function contacts(): View
     {
+        // Cities
         $cities = \App\Models\City::all();
+
+        // Offices
+        $offices = \App\Models\Office::orderBy('id', 'desc')->get();
         
-        return view('tr.contacts', compact('cities'));
+        return view('tr.contacts', compact('cities', 'offices'));
     }
 
     public function moscow(): View

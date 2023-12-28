@@ -83,7 +83,7 @@ class ParticipantController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, string $id): RedirectResponse
     {
         $validated = $request->validate([
             'title' => 'required|min:4|max:255',

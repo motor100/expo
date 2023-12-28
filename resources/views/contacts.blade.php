@@ -87,137 +87,31 @@
 
   <div class="offices-section section">
     <div class="container-xl">
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Отделение</div>
-          <div class="offices-section-item__text">Отделение Дубай</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Адрес</div>
-          <div class="offices-section-item__text">66, Al Marsa Street 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Телефон</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">Email</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Время работы</div>
-          <div class="offices-section-item__text">с 8:00 до 19:00</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Отделение</div>
-          <div class="offices-section-item__text">Отделение Санкт-Петербург</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Адрес</div>
-          <div class="offices-section-item__text">66, Al Marsa Street 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Телефон</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">Email</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Время работы</div>
-          <div class="offices-section-item__text">с 8:00 до 19:00</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Отделение</div>
-          <div class="offices-section-item__text">Отделение Анталья</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Адрес</div>
-          <div class="offices-section-item__text">66, Al Marsa Street 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Телефон</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">Email</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Время работы</div>
-          <div class="offices-section-item__text">с 8:00 до 19:00</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Отделение</div>
-          <div class="offices-section-item__text">Отделение Алания</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Адрес</div>
-          <div class="offices-section-item__text">66, Al Marsa Street 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Телефон</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">Email</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Время работы</div>
-          <div class="offices-section-item__text">с 8:00 до 19:00</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Отделение</div>
-          <div class="offices-section-item__text">Отделение Северный Кипр</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Адрес</div>
-          <div class="offices-section-item__text">66, Al Marsa Street 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Телефон</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">Email</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Время работы</div>
-          <div class="offices-section-item__text">с 8:00 до 19:00</div>
-        </div>
-      </div>
-      <div class="offices-section-item">
-        <div class="office">
-          <div class="offices-section-item__title">Отделение</div>
-          <div class="offices-section-item__text">Отделение Баку</div>
-        </div>
-        <div class="address">
-          <div class="offices-section-item__title">Адрес</div>
-          <div class="offices-section-item__text">66, Al Marsa Street 12464 74780 Marsa Dubai, Dubai</div>
-        </div>
-        <div class="phone">
-          <div class="offices-section-item__title">Телефон</div>
-          <div class="offices-section-item__text">+971 4 4367777</div>
-        </div>
-        <div class="email">
-          <div class="offices-section-item__title">Email</div>
-          <div class="offices-section-item__text">support@luxpropertyexpo.com</div>
-        </div>
-        <div class="working-time">
-          <div class="offices-section-item__title">Время работы</div>
-          <div class="offices-section-item__text">с 8:00 до 19:00</div>
-        </div>
+      <div class="offices">
+        @foreach($offices as $office)
+          <div class="offices-item">
+            <div class="office">
+              <div class="offices-item__title">Отделение</div>
+              <div class="offices-item__text">{{ $office->title_ru }}</div>
+            </div>
+            <div class="address">
+              <div class="offices-item__title">Адрес</div>
+              <div class="offices-item__text">{{ $office->address_ru }}</div>
+            </div>
+            <div class="phone">
+              <div class="offices-item__title">Телефон</div>
+              <div class="offices-item__text">{{ $office->phone }}</div>
+            </div>
+            <div class="email">
+              <div class="offices-item__title">Email</div>
+              <div class="offices-item__text">{{ $office->email }}</div>
+            </div>
+            <div class="working-time">
+              <div class="offices-item__title">Время работы</div>
+              <div class="offices-item__text">{{ $office->time }}</div>
+            </div>
+          </div>
+        @endforeach
       </div>
     </div>
   </div>
