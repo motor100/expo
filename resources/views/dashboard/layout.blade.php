@@ -55,7 +55,7 @@
           </div>
 
           <div class="nav-item">
-            <a href="/dashboard/contacts" class="item-link">
+            <a href="/dashboard/contacts/edit" class="item-link">
               <i class="nav-icon fas fa-phone"></i>
               <span>Контакты</span>
             </a>

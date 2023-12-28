@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\ParticipantController;
 use App\Http\Controllers\Admin\CityController;
 use App\Http\Controllers\Admin\MainSliderController;
 use App\Http\Controllers\Admin\OfficeController;
+use App\Http\Controllers\Admin\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -86,9 +87,9 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard/offices/{id}/destroy', [OfficeController::class, 'destroy'])->name('admin.offices-destroy');
 
 
-    Route::get('/dashboard/contacts/edit', [OfficeController::class, 'edit'])->name('admin.contacts-edit');
+    Route::get('/dashboard/contacts/edit', [ContactController::class, 'edit'])->name('admin.contacts-edit');
 
-    Route::post('/dashboard/contacts/update', [OfficeController::class, 'update'])->name('admin.contacts-update');
+    Route::post('/dashboard/contacts/update', [ContactController::class, 'update'])->name('admin.contacts-update');
 
 });
 

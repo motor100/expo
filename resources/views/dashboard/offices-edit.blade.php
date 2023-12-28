@@ -16,7 +16,7 @@
     </div>
   @endif
 
-  <form class="form" action="{{ route('admin.offices-update', $office->id) }}" enctype="multipart/form-data" method="post">
+  <form class="form" action="{{ route('admin.offices-update', $office->id) }}" method="post">
 
     <div class="form-group mb-3">
       <label for="title_ru" class="form-check-label mb-1">Название RU</label>

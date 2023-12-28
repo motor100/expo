@@ -140,16 +140,12 @@
               <div class="phone-img">
                 <img src="/img/header-phone.svg" alt="">
               </div>
-              <div class="phone-text">
-                <a href="tel:+78002700700">8 800 2700 700</a>
-              </div>
+              <div class="phone-text">{{ $contacts->phone }}</div>
             </div>
           </div>
         </div>
       </div>
-      
-      
-      
+
     </div>
     
   </header>
@@ -159,7 +155,6 @@
     @yield('content')
 
   </div>
-
 
   <footer class="footer">
     <div class="container-xl">
@@ -171,19 +166,17 @@
         <div class="row">
           <div class="col-lg-4 col-md-4">
             <div class="contacts">
-              <div class="phone">
-                <a href="tel:+78002700700">8 800 2700 700</a>
-              </div>
+              <div class="phone">{{ $contacts->phone }}</div>
               <div class="email">
-                <a href="mailto:support@luxpropertyexpo.com">support@luxpropertyexpo.com</a>
+                <a href="mailto:{{ $contacts->email }}">{{ $contacts->email }}</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-5">
             <div class="address-wrapper">
-              <div class="address">Москва, Столярный переулок</div>
-              <div class="working-time">Мы работаем с 08:00 до 20:00</div>
+              <div class="address">{{ $contacts->address_ru }}</div>
+              <div class="working-time">Мы работаем {{ $contacts->time }}</div>
             </div>
           </div>
 
@@ -212,14 +205,12 @@
 
       <div class="footer-menu">
         <div class="footer-menu-contacts">
-          <div class="phone">
-            <a href="tel:+78002700700">8 800 2700 700</a>
-          </div>
+          <div class="phone">{{ $contacts->phone }}</div>
           <div class="email">
-            <a href="mailto:support@luxpropertyexpo.com">support@luxpropertyexpo.com</a>
+            <a href="mailto:{{ $contacts->email }}">{{ $contacts->email }}</a>
           </div>
           <div class="address">Москва, Столярный переулок</div>
-          <div class="working-time">Мы работаем с 08:00 до 20:00</div>
+          <div class="working-time">Мы работаем {{ $contacts->time }}</div>
           <div class="socials">
             <a href="#" class="social-item">
               <img src="/img/footer-telegram.svg" alt="">
@@ -328,9 +319,7 @@
       <div class="phone-img">
         <img src="/img/header-phone.svg" alt="">
       </div>
-      <div class="phone-text">
-        <a href="tel:+78002700700">8 800 2700 700</a>
-      </div>
+      <div class="phone-text">{{ $contacts->phone }}</div>
     </div>
 
     <div class="socials">

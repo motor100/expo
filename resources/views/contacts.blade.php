@@ -11,23 +11,23 @@
       <div class="main-title _anim-items _anim-no-hide">Наши <span class="accentcolor">контакты</span></div>
 
       <div class="main-contacts">
-        <div class="main-contacts-office">Головной офис<br>«LPE Luxury Property Expo»</div>
+        <div class="main-contacts-office">Головной офис<br>«{{ $contacts->title }}»</div>
         <div class="contacts">
           <div class="contacts-item">
             <div class="contacts-item-left">Телефон</div>
-            <div class="contacts-item-right">8 800 2700 700</div>
+            <div class="contacts-item-right">{{ $contacts->phone }}</div>
           </div>
           <div class="contacts-item">
             <div class="contacts-item-left">E-mail</div>
-            <div class="contacts-item-right">support@luxpropertyexpo.com</div>
+            <div class="contacts-item-right">{{ $contacts->email }}</div>
           </div>
           <div class="contacts-item">
             <div class="contacts-item-left">Часы работы</div>
-            <div class="contacts-item-right">с 08:00 до 20:00</div>
+            <div class="contacts-item-right">{{ $contacts->time }}</div>
           </div>
           <div class="contacts-item">
             <div class="contacts-item-left">Адрес</div>
-            <div class="contacts-item-right">Москва, Столярной переулок</div>
+            <div class="contacts-item-right">{{ $contacts->address_ru }}</div>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
       <div class="container-xl">
         <div class="row">
           <div class="col-md-7">
-            <div class="about-title">ОБЩАЯ ИНФОРМАЦИЯ ОБ ОРГАНИЗАЦИИ<br>«LPE Luxury Property Expo» </div>
+            <div class="about-title">ОБЩАЯ ИНФОРМАЦИЯ ОБ ОРГАНИЗАЦИИ<br>«{{ $contacts->title }}» </div>
           </div>
           <div class="col-md-5">
             <div class="rectangles hidden-mobile">
@@ -55,29 +55,29 @@
           <div class="col-md-7">
             <div class="about-contacts-item">
               <div class="contacts-item-left">Телефон</div>
-              <div class="contacts-item-right">8 800 2700 700</div>
+              <div class="contacts-item-right">{{ $contacts->phone }}</div>
             </div>
             <div class="about-contacts-item">
               <div class="contacts-item-left">E-mail</div>
-              <div class="contacts-item-right">support@luxpropertyexpo.com</div>
+              <div class="contacts-item-right">{{ $contacts->email }}</div>
             </div>
             <div class="about-contacts-item">
               <div class="contacts-item-left">Часы работы</div>
-              <div class="contacts-item-right">с 08:00 до 20:00</div>
+              <div class="contacts-item-right">{{ $contacts->time }}</div>
             </div>
           </div>
           <div class="col-md-5">
             <div class="company-info-item">
               <div class="company-info-item-top">Фирменное наименование:</div>
-              <div class="company-info-item-bottom">Luxury Property Expo</div>
+              <div class="company-info-item-bottom">{{ $contacts->title }}</div>
             </div>
             <div class="company-info-item">
               <div class="company-info-item-top">Сокращенное фирменное наименование:</div>
-              <div class="company-info-item-bottom">LPE</div>
+              <div class="company-info-item-bottom">{{ $contacts->title_short }}</div>
             </div>
             <div class="company-info-item">
               <div class="company-info-item-top">Юридический адрес:</div>
-              <div class="company-info-item-bottom">Москва, Столярной переулок</div>
+              <div class="company-info-item-bottom">{{ $contacts->address_ru }}</div>
             </div>
           </div>
         </div>

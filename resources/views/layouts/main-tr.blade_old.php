@@ -112,9 +112,7 @@
               <div class="phone-img">
                 <img src="/img/header-phone.svg" alt="">
               </div>
-              <div class="phone-text">
-                <a href="tel:+78002700700">8 800 2700 700</a>
-              </div>
+              <div class="phone-text">{{ $contacts->phone }}</div>
             </div>
           </div>
         </div>
@@ -140,14 +138,12 @@
       </div>
       <div class="footer-menu">
         <div class="footer-menu-contacts">
-          <div class="phone">
-            <a href="tel:+78002700700">8 800 2700 700</a>
-          </div>
+          <div class="phone">{{ $contacts->phone }}</div>
           <div class="email">
-            <a href="mailto:support@luxpropertyexpo.com">support@luxpropertyexpo.com</a>
+            <a href="mailto:{{ $contacts->email }}">{{ $contacts->email }}</a>
           </div>
-          <div class="address">Moskova, Stolyarny Yolu</div>
-          <div class="working-time">08:00 - 20:00 saatleri arasında çalışıyoruz</div>
+          <div class="address">{{ $contacts->address_tr }}</div>
+          <div class="working-time">{{ $contacts->time }} saatleri arasında çalışıyoruz</div>
           <div class="socials">
             <a href="/tr/#" class="social-item">
               <img src="/img/footer-telegram.svg" alt="">

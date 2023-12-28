@@ -367,10 +367,14 @@ p {
     .phone-img img {
       width: 100%;
     }
-    .phone-text a {
+    .phone-text {
       font-family: "opensans-bold";
       color: $whitecolor;
     }
+    // .phone-text a {
+    //   font-family: "opensans-bold";
+    //   color: $whitecolor;
+    // }
   }
 }
 
@@ -2528,11 +2532,16 @@ p {
     width: 16px;
     margin: 0 5px 0 0;
   }
-  .phone-text a {
+  .phone-text {
     font-family: "opensans-bold";
     font-size: 16px;
     color: #fff;
   }
+  // .phone-text a {
+  //   font-family: "opensans-bold";
+  //   font-size: 16px;
+  //   color: #fff;
+  // }
   .socials {
     margin: 0 0 50px 0;
   }
@@ -3472,9 +3481,12 @@ p {
       .phone-img {
         display: none;
       }
-      .phone-text a {
+      .phone-text {
         font-size: 13px;
       }
+      // .phone-text a {
+      //   font-size: 13px;
+      // }
     }
   }
 
@@ -4029,9 +4041,12 @@ p {
     .header-bottom .phone-img {
       display: block;
     }
-    .header-bottom .phone-text a {
+    .header-bottom .phone-text {
       font-size: 15px;
     }
+    // .header-bottom .phone-text a {
+    //   font-size: 15px;
+    // }
   }
 
   .home {
