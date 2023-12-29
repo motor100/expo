@@ -18,8 +18,17 @@ class MainEnController extends Controller
         $sliders = \App\Models\MainSlider::all();
 
         $partners = \App\Models\Partner::all();
+
+        // ticket date
+        $ticket = \App\Models\Ticket::find(1);
         
-        return view('en.home', compact('participants', 'cities', 'sliders', 'partners'));
+        $ticket->day = $ticket->date->format('d');
+
+        $ticket->month = (new \App\Services\Month())->en($ticket->date->format('m'));
+
+        $ticket->year = $ticket->date->format('Y');
+        
+        return view('en.home', compact('participants', 'cities', 'sliders', 'partners', 'ticket'));
     }
 
     public function for_participants(): View

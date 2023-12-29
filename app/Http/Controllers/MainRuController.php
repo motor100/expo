@@ -19,8 +19,17 @@ class MainRuController extends Controller
         $sliders = \App\Models\MainSlider::all();
 
         $partners = \App\Models\Partner::all();
+
+        // ticket date
+        $ticket = \App\Models\Ticket::find(1);
         
-        return view('home', compact('participants', 'cities', 'sliders', 'partners'));
+        $ticket->day = $ticket->date->format('d');
+
+        $ticket->month = (new \App\Services\Month())->ru($ticket->date->format('m'));
+
+        $ticket->year = $ticket->date->format('Y');
+        
+        return view('home', compact('participants', 'cities', 'sliders', 'partners', 'ticket'));
     }
 
     public function home_ru(): RedirectResponse

@@ -231,7 +231,7 @@
             <img src="/img/logo.svg" alt="">
           </div>
           <div class="ticket-title">Yurtdışında <span class="accent">premium ve <br> business class </span>gayrimenkuller</div>
-          <div class="ticket-right-text ticket-date"><span class="accentcolor">28-29 Ekim 2023</div>
+          <div class="ticket-right-text ticket-date"><span class="accentcolor">{{ $ticket->day }} {{ $ticket->month }}</span> {{ $ticket->year }}</div>
           <form class="form callback-form">
             <div class="flex-container">
               <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Kendinizi tanıtın">

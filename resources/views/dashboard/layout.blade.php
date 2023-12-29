@@ -68,6 +68,13 @@
             </a>
           </div>
 
+          <div class="nav-item">
+            <a href="/dashboard/ticket/edit" class="item-link">
+              <i class="nav-icon fas fa-ticket-alt"></i>
+              <span>Билет</span>
+            </a>
+          </div>
+
         </div>
       </div>
       

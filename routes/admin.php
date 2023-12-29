@@ -9,6 +9,7 @@ use App\Http\Controllers\Admin\MainSliderController;
 use App\Http\Controllers\Admin\OfficeController;
 use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\PartnerController;
+use App\Http\Controllers\Admin\TicketController;
 
 /*
 |--------------------------------------------------------------------------
@@ -106,6 +107,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::post('/dashboard/partners/{id}/update', [PartnerController::class, 'update'])->name('admin.partners-update');
 
     Route::get('/dashboard/partners/{id}/destroy', [PartnerController::class, 'destroy'])->name('admin.partners-destroy');
+
+
+    Route::get('/dashboard/ticket/edit', [TicketController::class, 'edit'])->name('admin.ticket-edit');
+
+    Route::post('/dashboard/ticket/update', [TicketController::class, 'update'])->name('admin.ticket-update');
 
 });
 

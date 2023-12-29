@@ -231,7 +231,7 @@
             <img src="/img/logo.svg" alt="">
           </div> 
           <div class="ticket-title"><span class="accent">Premium and business class </span> <br> real estate abroad</div>
-          <div class="ticket-right-text ticket-date"><span class="accentcolor">October 28-29, 2023</div>
+          <div class="ticket-right-text ticket-date"><span class="accentcolor">{{ $ticket->month }} {{ $ticket->day }}</span>, {{ $ticket->year }}</div>
           <form class="form callback-form">
             <div class="flex-container">
               <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Name">
