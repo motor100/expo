@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\CityController;
 use App\Http\Controllers\Admin\MainSliderController;
 use App\Http\Controllers\Admin\OfficeController;
 use App\Http\Controllers\Admin\ContactController;
+use App\Http\Controllers\Admin\PartnerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -90,6 +91,21 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard/contacts/edit', [ContactController::class, 'edit'])->name('admin.contacts-edit');
 
     Route::post('/dashboard/contacts/update', [ContactController::class, 'update'])->name('admin.contacts-update');
+
+
+    Route::get('/dashboard/partners', [PartnerController::class, 'index']);
+
+    Route::get('/dashboard/partners/create', [PartnerController::class, 'create'])->name('admin.partners-create');
+
+    Route::post('/dashboard/partners/store', [PartnerController::class, 'store'])->name('admin.partners-store');
+
+    Route::get('/dashboard/partners/{id}', [PartnerController::class, 'show'])->name('admin.partners-show');
+
+    Route::get('/dashboard/partners/{id}/edit', [PartnerController::class, 'edit'])->name('admin.partners-edit');
+
+    Route::post('/dashboard/partners/{id}/update', [PartnerController::class, 'update'])->name('admin.partners-update');
+
+    Route::get('/dashboard/partners/{id}/destroy', [PartnerController::class, 'destroy'])->name('admin.partners-destroy');
 
 });
 

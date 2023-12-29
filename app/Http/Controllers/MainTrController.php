@@ -16,8 +16,10 @@ class MainTrController extends Controller
         $cities = \App\Models\City::all();
 
         $sliders = \App\Models\MainSlider::all();
+
+        $partners = \App\Models\Partner::all();
         
-        return view('tr.home', compact('participants', 'cities', 'sliders'));
+        return view('tr.home', compact('participants', 'cities', 'sliders', 'partners'));
     }
 
     public function for_participants(): View

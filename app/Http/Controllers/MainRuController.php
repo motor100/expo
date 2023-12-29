@@ -17,8 +17,10 @@ class MainRuController extends Controller
         $cities = \App\Models\City::all();
 
         $sliders = \App\Models\MainSlider::all();
+
+        $partners = \App\Models\Partner::all();
         
-        return view('home', compact('participants', 'cities', 'sliders'));
+        return view('home', compact('participants', 'cities', 'sliders', 'partners'));
     }
 
     public function home_ru(): RedirectResponse

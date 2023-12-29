@@ -311,21 +311,30 @@
             <div class="partners-item">
               <div class="partners-item-number">01</div>
               <div class="vertikal-line"></div>
-              <div class="partners-item-title">Журнал<br> <span class="accentcolor">«Недвижимость и строительство»</span></div>
+              <div class="partners-item-title">
+                <div class="title">{{ $partners[0]->title_ru }}</div>
+                <div class="accentcolor">{{ $partners[0]->name_ru }}</div>
+              </div>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="partners-item">
               <div class="partners-item-number">02</div>
               <div class="vertikal-line"></div>
-              <div class="partners-item-title">Портал<br> <span class="accentcolor">«Недвижимость Today»</span></div>
+              <div class="partners-item-title">
+                <div class="title">{{ $partners[1]->title_ru }}</div>
+                <div class="accentcolor">{{ $partners[1]->name_ru }}</div>
+              </div>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="partners-item">
               <div class="partners-item-number">03</div>
               <div class="vertikal-line"></div>
-              <div class="partners-item-title">И другие<br> <span class="accentcolor">известные издания</span><br>и интернет-площадки</div>
+              <div class="partners-item-title">
+                <div class="title">{{ $partners[2]->title_ru }}</div>
+                <div class="accentcolor">{{ $partners[2]->name_ru }}</div>
+              </div>
             </div>
           </div>
         </div>
@@ -334,46 +343,15 @@
     <div class="partners-logo">
       <div class="container-xl">
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="partners-logo-item">
-              <img src="/img/partners-logo-temp.png" alt="">
-            </div>
-          </div>
+          @foreach($partners as $partner)
+            @if($loop->index > 2)
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="partners-logo-item">
+                  <img src="/img/partners-logo-temp.png" alt="">
+                </div>
+              </div>
+            @endif
+          @endforeach
         </div>
       </div>
     </div>

@@ -61,6 +61,13 @@
             </a>
           </div>
 
+          <div class="nav-item">
+            <a href="/dashboard/partners" class="item-link">
+              <i class="nav-icon fas fa-handshake"></i>
+              <span>Партнеры</span>
+            </a>
+          </div>
+
         </div>
       </div>
       
