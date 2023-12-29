@@ -400,7 +400,7 @@
               <div class="ticket-logo">
                 <img src="/img/logo.svg" alt="">
               </div>
-              <div class="ticket-title">LEAVE A REQUEST RIGHT NOW AND <br><span class="accent">BECOME A PARTICIPANT IN THE EXHIBITION</span></div>
+              <div class="ticket-title">LEAVE A REQUEST RIGHT NOW AND <br> <span class="accent">BECOME A PARTICIPANT IN THE EXHIBITION</span></div>
               <form class="form callback-form">
                 <div class="flex-container">
                   <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Name">

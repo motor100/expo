@@ -230,7 +230,7 @@
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
           </div>
-          <div class="ticket-title">Недвижимость за рубежом<br><span class="accent">премиум и бизнес-класса</span></div>
+          <div class="ticket-title">Недвижимость за рубежом <br> <span class="accent">премиум и бизнес-класса</span></div>
           <div class="ticket-right-text ticket-date"><span class="accentcolor">28-29 Октября</span> 2023</div>
           <form class="form callback-form">
             <div class="flex-container">

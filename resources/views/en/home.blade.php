@@ -230,7 +230,7 @@
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
           </div> 
-          <div class="ticket-title"><span class="accent">Premium and business class </span><br>real estate abroad</div>
+          <div class="ticket-title"><span class="accent">Premium and business class </span> <br> real estate abroad</div>
           <div class="ticket-right-text ticket-date"><span class="accentcolor">October 28-29, 2023</div>
           <form class="form callback-form">
             <div class="flex-container">
@@ -242,7 +242,7 @@
             <div class="checkbox-wrapper">
               <input type="checkbox" name="ticket-checkbox" id="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal"  checked required>
               <label for="ticket-checkbox" class="custom-checkbox-label"></label>
-              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен <br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
             </div>
           </form> 
           <div class="ticket-counter">Only left<br> <span class="accentcolor">281</span> out of 1000 places</div>

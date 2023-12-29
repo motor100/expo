@@ -329,7 +329,7 @@
             <img src="/img/logo.svg" alt="">
           </div>
           <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И <br> <span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
-          <div class="ticket-right-text ticket-seats-counter">ОСТАЛОСЬ ВСЕГО<br><span class="accent"><span class="accentcolor">17</span> ИЗ 50 МЕСТ</span></div>
+          <div class="ticket-right-text ticket-seats-counter">ОСТАЛОСЬ ВСЕГО <br> <span class="accent"><span class="accentcolor">17</span> ИЗ 50 МЕСТ</span></div>
           <form class="form callback-form">
             <div class="flex-container">
               <input type="text" name="name" id="ticket-name" class="input-field" required placeholder="Представьтесь">

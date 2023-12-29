@@ -397,7 +397,7 @@
               <div class="ticket-logo">
                 <img src="/img/logo.svg" alt="">
               </div>
-              <div class="ticket-title">HEMEN TALEP BIRAKIN VE SERGİ <br><span class="accent">KATILIMCISI OLUN</span></div>
+              <div class="ticket-title">HEMEN TALEP BIRAKIN VE SERGİ <br> <span class="accent">KATILIMCISI OLUN</span></div>
               <form class="form callback-form">
                 <div class="flex-container">
                   <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Kendinizi tanıtın">

@@ -259,7 +259,7 @@
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
           </div>
-          <div class="ticket-title">Недвижимость за рубежом<br><span class="accent">премиум и бизнес-класса</span></div>
+          <div class="ticket-title">Недвижимость за рубежом <br> <span class="accent">премиум и бизнес-класса</span></div>
           <div class="ticket-right-text ticket-date"><span class="accentcolor">28-29 Октября</span> 2023</div>
           <form class="form callback-form">
             <div class="flex-container">
@@ -271,7 +271,7 @@
             <div class="checkbox-wrapper">
               <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="ticket-checkbox" checked required>
               <label for="ticket-checkbox" class="custom-checkbox-label"></label>
-              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+              <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен <br> и согласен с <a href="/en/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
             </div>
           </form>
           <div class="ticket-counter">Осталось всего<br> <span class="accentcolor">281</span> из 1000 мест</div>

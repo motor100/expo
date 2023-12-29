@@ -230,7 +230,7 @@
           <div class="ticket-logo">
             <img src="/img/logo.svg" alt="">
           </div>
-          <div class="ticket-title">Yurtdışında <span class="accent">premium ve <br>business class </span>gayrimenkuller</div>
+          <div class="ticket-title">Yurtdışında <span class="accent">premium ve <br> business class </span>gayrimenkuller</div>
           <div class="ticket-right-text ticket-date"><span class="accentcolor">28-29 Ekim 2023</div>
           <form class="form callback-form">
             <div class="flex-container">

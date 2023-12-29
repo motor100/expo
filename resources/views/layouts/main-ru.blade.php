@@ -397,7 +397,7 @@
               <div class="ticket-logo">
                 <img src="/img/logo.svg" alt="">
               </div>
-              <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И <br><span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
+              <div class="ticket-title">ОСТАВЬ ЗАЯВКУ ПРЯМО СЕЙЧАС И <br> <span class="accent">СТАНЬ УЧАСТНИКОМ ВЫСТАВКИ</span></div>
               <form class="form callback-form">
                 <div class="flex-container">
                   <input type="text" name="name" id="modal-ticket-name" class="input-field" required placeholder="Представьтесь">
@@ -408,7 +408,7 @@
                 <div class="checkbox-wrapper">
                   <input type="checkbox" name="ticket-checkbox" class="custom-checkbox js-checkbox-callback-modal" id="modal-ticket-checkbox" checked required>
                   <label for="modal-ticket-checkbox" class="custom-checkbox-label"></label>
-                  <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен<br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
+                  <span class="checkbox-text">Я принимаю пользовательское соглашение и подтверждаю, что ознакомлен <br> и согласен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a> данного сайта.</span>
                 </div>
               </form>
               <div class="ticket-counter">Осталось всего<br><span class="accentcolor">17</span> из 50 мест</span></div>
