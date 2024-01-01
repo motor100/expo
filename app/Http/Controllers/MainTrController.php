@@ -9,17 +9,26 @@ class MainTrController extends Controller
 {
     public function home(): View
     {
+        // Participants
         $participants = \App\Models\Participant::orderBy('id', 'desc')
                                                 ->limit(5)
                                                 ->get();
-
+        // Cities
         $cities = \App\Models\City::all();
 
+        $cities->each(function ($item) {
+            $item->day = $item->date->format('d');
+            $item->month = (new \App\Services\Month())->tr($item->date->format('m'));
+            $item->year = $item->date->format('Y');
+        });
+
+        // Slider
         $sliders = \App\Models\MainSlider::all();
 
+        // Partners
         $partners = \App\Models\Partner::all();
 
-        // ticket date
+        // Ticket date
         $ticket = \App\Models\Ticket::find(1);
         
         $ticket->day = $ticket->date->format('d');
@@ -53,11 +62,17 @@ class MainTrController extends Controller
 
     public function contacts(): View
     {
+        // Offices
+        $offices = \App\Models\Office::orderBy('id', 'desc')->get();
+
         // Cities
         $cities = \App\Models\City::all();
 
-        // Offices
-        $offices = \App\Models\Office::orderBy('id', 'desc')->get();
+        $cities->each(function ($item) {
+            $item->day = $item->date->format('d');
+            $item->month = (new \App\Services\Month())->tr($item->date->format('m'));
+            $item->year = $item->date->format('Y');
+        });
         
         return view('tr.contacts', compact('cities', 'offices'));
     }
@@ -65,6 +80,8 @@ class MainTrController extends Controller
     public function moscow(): View
     {
         $city = \App\Models\City::where('id', 1)->first();
+
+        $city = (new \App\Services\CityDateString($city))->tr();
         
         return view('tr.moscow', compact('city'));
     }
@@ -72,6 +89,8 @@ class MainTrController extends Controller
     public function saint_petersburg(): View
     {
         $city = \App\Models\City::where('id', 2)->first();
+
+        $city = (new \App\Services\CityDateString($city))->tr();
         
         return view('tr.saint-petersburg', compact('city'));
     }
@@ -79,6 +98,8 @@ class MainTrController extends Controller
     public function dubai(): View
     {
         $city = \App\Models\City::where('id', 3)->first();
+
+        $city = (new \App\Services\CityDateString($city))->tr();
         
         return view('tr.dubai', compact('city'));
     }
@@ -86,6 +107,8 @@ class MainTrController extends Controller
     public function antalya(): View
     {
         $city = \App\Models\City::where('id', 4)->first();
+
+        $city = (new \App\Services\CityDateString($city))->tr();
         
         return view('tr.antalya', compact('city'));
     }
@@ -93,6 +116,8 @@ class MainTrController extends Controller
     public function alanya(): View
     {
         $city = \App\Models\City::where('id', 5)->first();
+
+        $city = (new \App\Services\CityDateString($city))->tr();
         
         return view('tr.alanya', compact('city'));
     }
@@ -100,6 +125,8 @@ class MainTrController extends Controller
     public function northern_cyprus(): View
     {
         $city = \App\Models\City::where('id', 6)->first();
+
+        $city = (new \App\Services\CityDateString($city))->tr();
         
         return view('tr.northern-cyprus', compact('city'));
     }
@@ -107,6 +134,8 @@ class MainTrController extends Controller
     public function baku(): View
     {
         $city = \App\Models\City::where('id', 7)->first();
+
+        $city = (new \App\Services\CityDateString($city))->tr();
         
         return view('tr.baku', compact('city'));
     }

@@ -8,7 +8,7 @@
 
   <div class="main-section">
     <div class="container">
-      <div class="main-title _anim-items _anim-no-hide">Выставка недвижимости  <br> <span class="accentcolor">в Дубае <br> 31 января 2024</span></div>
+      <div class="main-title _anim-items _anim-no-hide">Выставка недвижимости  <br> <span class="accentcolor">в Дубае <br> {{ $city->dmy }}</span></div>
       <div class="main-text">{{ $city->title_ru }}, {{ $city->place }}</div>
       <button type="button" class="main-accent-btn primary-btn js-callback-btn">ПОЛУЧИТЬ ПРИГЛАШЕНИЕ</button>
     </div>

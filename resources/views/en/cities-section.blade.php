@@ -16,7 +16,10 @@
               <div class="cities-item cities-item-right moscow">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Moscow</div>
-                  <a href="/en/moscow" class="cities-item-date">December 22, 2023<br>{{ $cities[0]->place }}</a>
+                  <a href="/en/moscow" class="cities-item-date">
+                    <div class="date">{{ $cities[0]->day }} {{ $cities[0]->month }} {{ $cities[0]->year }}</div>
+                    <div class="place">{{ $cities[0]->place }}</div>
+                  </a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
@@ -38,7 +41,10 @@
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">Moscow</div>
-                  <a href="/en/moscow" class="cities-item-date">December 22, 2023<br>{{ $cities[0]->place }}</a>
+                  <a href="/en/moscow" class="cities-item-date">
+                    <div class="date">{{ $cities[0]->day }} {{ $cities[0]->month }} {{ $cities[0]->year }}</div>
+                    <div class="place">{{ $cities[0]->place }}</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -54,7 +60,10 @@
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">Saint Petersburg</div>
-                  <a href="/en/saint-petersburg" class="cities-item-date">January 11, 2024<br>{{ $cities[1]->place }}</a>
+                  <a href="/en/saint-petersburg" class="cities-item-date">
+                    <div class="date">{{ $cities[1]->day }} {{ $cities[1]->month }} {{ $cities[1]->year }}</div>
+                    <div class="place">{{ $cities[1]->place }}</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -62,7 +71,10 @@
               <div class="cities-item cities-item-right saint-petersburg hidden-desktop">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Saint Petersburg</div>
-                  <a href="/en/saint-petersburg" class="cities-item-date">January 11, 2024<br>{{ $cities[1]->place }}</a>
+                  <a href="/en/saint-petersburg" class="cities-item-date">
+                    <div class="date">{{ $cities[1]->day }} {{ $cities[1]->month }} {{ $cities[1]->year }}</div>
+                    <div class="place">{{ $cities[1]->place }}</div>
+                  </a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
@@ -78,7 +90,10 @@
               <div class="cities-item cities-item-right baku">
                 <div class="cities-item-content">
                   <div class="cities-item-title">BAKU</div>
-                  <a href="/en/baku" class="cities-item-date">May 14 2024<br>{{ $cities[6]->place }}</a>
+                  <a href="/en/baku" class="cities-item-date">
+                    <div class="date">{{ $cities[6]->day }} {{ $cities[6]->month }} {{ $cities[6]->year }}</div>
+                    <div class="place">{{ $cities[6]->place }}</div>
+                  </a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
@@ -100,7 +115,10 @@
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">BAKU</div>
-                  <a href="/en/baku" class="cities-item-date">May 14 2024<br>{{ $cities[6]->place }}</a>
+                  <a href="/en/baku" class="cities-item-date">
+                    <div class="date">{{ $cities[6]->day }} {{ $cities[6]->month }} {{ $cities[6]->year }}</div>
+                    <div class="place">{{ $cities[6]->place }}</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -108,7 +126,10 @@
             <div class="cities-item cities-item-right northern-cyprus">
               <div class="cities-item-content">
                 <div class="cities-item-title">Northern Cyprus</div>
-                <a href="/en/northern-cyprus" class="cities-item-date">May 7 2024{{ $cities[5]->place }}</a>
+                <a href="/en/northern-cyprus" class="cities-item-date">
+                  <div class="date">{{ $cities[5]->day }} {{ $cities[5]->month }} {{ $cities[5]->year }}</div>
+                  <div class="place">{{ $cities[5]->place }}</div>
+                </a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">
@@ -123,7 +144,10 @@
               <div class="cities-item cities-item-right antalya">
                 <div class="cities-item-content">
                   <div class="cities-item-title">Antalya</div>
-                  <a href="/en/antalya" class="cities-item-date">March 22 2024<br>{{ $cities[3]->place }}</a>
+                  <a href="/en/antalya" class="cities-item-date">
+                    <div class="date">{{ $cities[3]->day }} {{ $cities[3]->month }} {{ $cities[3]->year }}</div>
+                    <div class="place">{{ $cities[3]->place }}</div>
+                  </a>
                 </div>
                 <div class="cities-item-circle">
                   <div class="cities-item-image">
@@ -145,7 +169,10 @@
                 </div>
                 <div class="cities-item-content">
                   <div class="cities-item-title">Antalya</div>
-                  <a href="/en/antalya" class="cities-item-date">March 22 2024<br>{{ $cities[3]->place }}</a>
+                  <a href="/en/antalya" class="cities-item-date">
+                    <div class="date">{{ $cities[3]->day }} {{ $cities[3]->month }} {{ $cities[3]->year }}</div>
+                    <div class="place">{{ $cities[3]->place }}</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -153,7 +180,10 @@
             <div class="cities-item cities-item-right dubai">
               <div class="cities-item-content">
                 <div class="cities-item-title">DUBAI</div>
-                <a href="/en/dubai" class="cities-item-date">January 31 2024<br>{{ $cities[2]->place }}</a>
+                <a href="/en/dubai" class="cities-item-date">
+                  <div class="date">{{ $cities[2]->day }} {{ $cities[2]->month }} {{ $cities[2]->year }}</div>
+                  <div class="place">{{ $cities[2]->place }}</div>
+                </a>
               </div>
               <div class="cities-item-circle">
                 <div class="cities-item-image">

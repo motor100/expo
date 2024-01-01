@@ -1711,7 +1711,7 @@ p {
     z-index: 1;
   }
   .section-title {
-    padding-top: 252px;
+    padding: 252px 0 40px 0;
     line-height: 1.2;
   }
   .cities-section-description {
@@ -1771,6 +1771,8 @@ p {
     text-transform: uppercase;
   }
   .cities-item-date {
+    display: block;
+    width: max-content;
     color: $whitecolor;
     text-decoration: underline;
   }

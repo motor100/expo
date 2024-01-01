@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-// use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
 
@@ -10,17 +9,27 @@ class MainRuController extends Controller
 {
     public function home(): View
     {
+        // Participants
         $participants = \App\Models\Participant::orderBy('id', 'desc')
                                                 ->limit(5)
                                                 ->get();
 
+        // Cities
         $cities = \App\Models\City::all();
 
+        $cities->each(function ($item) {
+            $item->day = $item->date->format('d');
+            $item->month = (new \App\Services\Month())->ru($item->date->format('m'));
+            $item->year = $item->date->format('Y');
+        });
+
+        // Slider
         $sliders = \App\Models\MainSlider::all();
 
+        // Partners
         $partners = \App\Models\Partner::all();
 
-        // ticket date
+        // Ticket date
         $ticket = \App\Models\Ticket::find(1);
         
         $ticket->day = $ticket->date->format('d');
@@ -59,18 +68,26 @@ class MainRuController extends Controller
 
     public function contacts(): View
     {
-        // Cities
-        $cities = \App\Models\City::all();
-
         // Offices
         $offices = \App\Models\Office::orderBy('id', 'desc')->get();
         
-        return view('contacts', compact('cities', 'offices'));
+        // Cities
+        $cities = \App\Models\City::all();
+
+        $cities->each(function ($item) {
+            $item->day = $item->date->format('d');
+            $item->month = (new \App\Services\Month())->ru($item->date->format('m'));
+            $item->year = $item->date->format('Y');
+        });
+
+        return view('contacts', compact('offices', 'cities'));
     }
 
     public function moscow(): View
     {
         $city = \App\Models\City::where('id', 1)->first();
+
+        $city = (new \App\Services\CityDateString($city))->ru();
         
         return view('moscow', compact('city'));
     }
@@ -78,6 +95,8 @@ class MainRuController extends Controller
     public function saint_petersburg(): View
     {
         $city = \App\Models\City::where('id', 2)->first();
+
+        $city = (new \App\Services\CityDateString($city))->ru();
         
         return view('saint-petersburg', compact('city'));
     }
@@ -85,6 +104,8 @@ class MainRuController extends Controller
     public function dubai(): View
     {
         $city = \App\Models\City::where('id', 3)->first();
+
+        $city = (new \App\Services\CityDateString($city))->ru();
         
         return view('dubai', compact('city'));
     }
@@ -92,6 +113,8 @@ class MainRuController extends Controller
     public function antalya(): View
     {
         $city = \App\Models\City::where('id', 4)->first();
+
+        $city = (new \App\Services\CityDateString($city))->ru();
         
         return view('antalya', compact('city'));
     }
@@ -99,6 +122,8 @@ class MainRuController extends Controller
     public function alanya(): View
     {
         $city = \App\Models\City::where('id', 5)->first();
+
+        $city = (new \App\Services\CityDateString($city))->ru();
         
         return view('alanya', compact('city'));
     }
@@ -106,6 +131,8 @@ class MainRuController extends Controller
     public function northern_cyprus(): View
     {
         $city = \App\Models\City::where('id', 6)->first();
+
+        $city = (new \App\Services\CityDateString($city))->ru();
         
         return view('northern-cyprus', compact('city'));
     }
@@ -113,6 +140,8 @@ class MainRuController extends Controller
     public function baku(): View
     {
         $city = \App\Models\City::where('id', 7)->first();
+
+        $city = (new \App\Services\CityDateString($city))->ru();
         
         return view('baku', compact('city'));
     }
