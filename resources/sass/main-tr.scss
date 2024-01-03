@@ -529,6 +529,8 @@ p {
 
   .participants-section {
     position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
     .section-title {
       margin: 0 0 95px 0;
     }
@@ -1621,6 +1623,8 @@ p {
 // Главная секция
 .main-section {
   height: 700px;
+  max-width: 1920px;
+  margin: 0 auto;
   .main-title {
     padding: 266px 0 30px 0;
     font-family: "opensans-bold";
@@ -1706,6 +1710,8 @@ p {
 // cities section секция города
 .cities-section {
   position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
   .cities-section-content {
     position: relative;
     z-index: 1;
